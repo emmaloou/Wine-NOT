@@ -1,0 +1,501 @@
+id,reference,color,country,region,appellation,vintage,grapes,alcohol_percent,bottle_size_l,sweetness,tannin,acidity,rating,price_eur,producer,stock_quantity
+1,WN-1997-RHO-0001-1CB,white,France,Rhone,Crozes-Hermitage,1997,"Sauvignon Blanc, Semillon",12.8,0.75,off-dry,1,3,92.1,20.52,Maison Bonnet,111
+2,WN-2008-BOR-0002-NVG,red,France,Bordeaux,Saint-Emilion,2008,Sangiovese,13.7,0.75,dry,4,2,91.3,6.0,Bodegas Lafitte,43
+3,WN-1993-KAK-0003-OSF,red,Georgia,Kakheti,Kakheti PDO,1993,Merlot,12.1,0.75,dry,3,3,94.3,21.22,Estate da Costa,150
+4,WN-2003-LOI-0004-YR9,red,France,Loire,Vouvray,2003,Syrah,14.3,0.75,dry,4,2,90.6,25.14,Cantina da Costa,92
+5,WN-2001-TUS-0005-IP9,red,Italy,Tuscany,Brunello di Montalcino,2001,Nebbiolo,13.1,1.5,dry,3,3,84.4,43.39,Domaine Ferreira,133
+6,WN-2017-RHO-0006-YY3,white,France,Rhone,Hermitage,2017,Viognier,12.1,0.75,off-dry,1,3,80.8,19.85,Winery Garcia,69
+7,WN-2024-RHO-0007-L6G,red,France,Rhone,Hermitage,2024,Grenache,12.9,0.75,dry,3,2,92.0,21.89,Cantina da Costa,54
+8,WN-2006-BOR-0008-FF5,red,France,Bordeaux,Pomerol,2006,"Grenache, Syrah, Pinot Noir",12.0,0.75,dry,3,3,93.9,56.41,Cantina Torres,143
+9,WN-2024-ALS-0009-X27,red,France,Alsace,Alsace AOC,2024,Tempranillo,13.7,0.75,dry,4,3,87.5,39.49,Domaine Marchesi,84
+10,WN-2005-LOI-0010-I4P,red,France,Loire,Muscadet,2005,"Grenache, Nebbiolo",12.0,0.75,dry,4,3,91.4,12.85,Winery Fontaine,99
+11,WN-2007-RHO-0011-M82,white,France,Rhone,Crozes-Hermitage,2007,Sauvignon Blanc,12.9,0.75,dry,1,3,91.4,33.18,Winery Mukuzani,58
+12,WN-2023-BOR-0012-KYA,orange,France,Bordeaux,Saint-Emilion,2023,"Pinot Gris, Chardonnay, Gewurztraminer",12.9,1.5,dry,3,2,92.7,77.18,Winery Imeretian,77
+13,WN-2020-PRO-0013-DUD,white,France,Provence,Coteaux d'Aix,2020,Muscadet,12.8,0.75,dry,2,3,93.8,24.9,Domaine Fontaine,61
+14,WN-2017-JUR-0014-07U,red,France,Jura,Arbois,2017,Pinot Noir,13.3,0.75,dry,3,2,92.2,26.67,Domaine Dubois,129
+15,WN-2000-RIO-0015-WEP,red,Spain,Rioja,Rioja DOCa,2000,"Malbec, Grenache",13.9,1.5,dry,4,2,88.6,40.2,Cantina Rossi,73
+16,WN-2020-RHO-0016-JRS,red,France,Rhone,Hermitage,2020,Merlot,12.6,0.75,dry,4,4,85.6,67.91,Domaine Fontaine,14
+17,WN-2020-SIC-0017-919,red,Italy,Sicily,Etna,2020,"Grenache, Cabernet Sauvignon",13.5,0.75,dry,5,2,91.4,23.82,Chateau Dubois,63
+18,WN-2019-CHA-0018-GW9,white,France,Champagne,Champagne AOC,2019,Chenin Blanc,12.0,0.75,off-dry,1,3,92.7,85.52,Bodegas Dubois,63
+19,WN-2021-LAN-0019-PRK,red,France,Languedoc,Corbieres,2021,Tempranillo,13.1,0.75,dry,5,2,90.4,19.85,Chateau Marchesi,92
+20,WN-2024-BOR-0020-RW6,red,France,Bordeaux,Pomerol,2024,Merlot,15.0,1.5,dry,2,2,82.0,43.51,Maison Dubois,218
+21,WN-2014-RHO-0021-6HY,red,France,Rhone,Crozes-Hermitage,2014,Sangiovese,13.2,0.75,dry,4,3,91.8,27.67,Winery Fontaine,0
+22,WN-2018-ALS-0022-HT6,white,France,Alsace,Alsace AOC,2018,Albarino,13.3,0.75,dry,1,3,88.7,29.62,Chateau Nikoladze,46
+23,WN-2013-CHA-0023-U32,white,France,Champagne,Champagne AOC,2013,Chenin Blanc,12.7,0.75,off-dry,1,3,87.7,61.4,Winery Nikoladze,116
+24,WN-2021-TUS-0024-JBC,white,Italy,Tuscany,Chianti Classico,2021,Chenin Blanc,13.4,0.75,dry,1,3,90.1,36.9,Bodegas Torres,167
+25,WN-2020-JUR-0025-OL7,white,France,Jura,Arbois,2020,Sauvignon Blanc,12.7,0.75,dry,2,3,85.6,10.05,Maison Bonnet,65
+26,WN-2014-RIO-0026-K42,red,Spain,Rioja,Rioja DOCa,2014,Malbec,14.2,0.75,dry,3,2,89.8,41.87,Maison Marchesi,103
+27,WN-2019-BEA-0027-NE0,red,France,Beaujolais,Fleurie,2019,"Syrah, Tempranillo",14.1,0.75,dry,3,3,86.3,13.07,Cantina Torres,33
+28,WN-2022-RIB-0028-088,white,Spain,Ribera del Duero,Ribera del Duero DO,2022,Viognier,11.0,0.75,dry,1,3,92.3,20.0,Winery Moreau,0
+29,WN-2016-RIO-0029-BF1,red,Spain,Rioja,Rioja DOCa,2016,Zinfandel,14.3,0.75,dry,4,3,92.6,47.58,Bodegas Rossi,21
+30,WN-2006-LOI-0030-ECB,white,France,Loire,Sancerre,2006,Albarino,12.3,0.75,dry,2,3,92.2,17.1,Winery Rossi,63
+31,WN-2020-PIE-0031-KTG,red,Italy,Piedmont,Langhe,2020,Merlot,12.5,0.75,dry,2,2,82.9,39.79,Winery Marchesi,156
+32,WN-2021-RHO-0032-CW8,red,France,Rhone,Crozes-Hermitage,2021,Zinfandel,13.9,0.75,dry,3,3,87.0,59.76,Winery da Costa,174
+33,WN-2015-RIO-0033-RUP,red,Spain,Rioja,Rioja DOCa,2015,"Zinfandel, Malbec, Nebbiolo",13.2,0.75,dry,4,2,90.7,41.28,Maison Moreau,89
+34,WN-2019-RIB-0034-R9A,red,Spain,Ribera del Duero,Ribera del Duero DO,2019,Zinfandel,13.4,0.75,dry,4,3,87.7,15.15,Bodegas Bonnet,94
+35,WN-2009-BOR-0035-X49,red,France,Bordeaux,Saint-Emilion,2009,Syrah,13.3,0.75,dry,3,2,86.4,47.85,Chateau Garcia,110
+36,WN-2024-RHO-0036-MSO,red,France,Rhone,Hermitage,2024,"Grenache, Malbec, Zinfandel",14.1,0.75,dry,3,2,88.1,36.92,Winery Ferreira,219
+37,WN-2015-RIB-0037-VLD,red,Spain,Ribera del Duero,Ribera del Duero DO,2015,Nebbiolo,15.3,0.75,dry,4,3,89.9,32.98,Cantina Rossi,48
+38,WN-2017-LOI-0038-O7Y,orange,France,Loire,Sancerre,2017,Pinot Gris,13.3,0.75,dry,4,1,86.4,12.54,Chateau Fontaine,17
+39,WN-2002-ALS-0039-024,white,France,Alsace,Alsace AOC,2002,"Semillon, Sauvignon Blanc",13.1,0.75,dry,1,2,89.3,31.34,Winery Nikoladze,31
+40,WN-2021-ALS-0040-EDK,white,France,Alsace,Alsace AOC,2021,Pinot Gris,11.5,0.75,dry,2,2,91.2,18.92,Maison Mukuzani,137
+41,WN-2020-KAK-0041-QBF,red,Georgia,Kakheti,Kakheti PDO,2020,Tempranillo,14.8,0.75,dry,4,2,90.7,33.8,Domaine Imeretian,9
+42,WN-2010-RIA-0042-VUG,white,Spain,Rias Baixas,Rias Baixas DO,2010,"Gewurztraminer, Sauvignon Blanc, Muscadet",11.9,0.75,off-dry,1,3,92.0,13.91,Maison Rossi,59
+43,WN-2018-TUS-0043-830,red,Italy,Tuscany,Brunello di Montalcino,2018,Pinot Noir,13.9,0.75,dry,3,2,94.0,45.52,Maison Imeretian,111
+44,WN-2016-RIB-0044-90F,red,Spain,Ribera del Duero,Ribera del Duero DO,2016,Grenache,15.2,0.75,dry,5,4,91.1,46.91,Winery Rossi,59
+45,WN-2023-SIC-0045-6IE,red,Italy,Sicily,Nero d'Avola IGT,2023,"Tempranillo, Syrah",15.1,0.75,dry,2,4,89.0,25.14,Cantina Nikoladze,129
+46,WN-2010-RIB-0046-8Y3,red,Spain,Ribera del Duero,Ribera del Duero DO,2010,Sangiovese,12.8,0.75,dry,4,3,96.4,31.75,Bodegas Durand,107
+47,WN-2015-VEN-0047-CI6,white,Italy,Veneto,Prosecco,2015,Riesling,12.3,0.75,dry,2,4,93.1,27.06,Winery Moreau,83
+48,WN-2018-LOI-0048-V8Y,white,France,Loire,Muscadet,2018,Viognier,12.2,0.75,dry,2,3,94.7,24.86,Maison Marchesi,170
+49,WN-2014-LOI-0049-TBC,white,France,Loire,Sancerre,2014,Sauvignon Blanc,12.7,0.75,dry,1,4,89.5,18.52,Chateau Lafitte,45
+50,WN-2001-VEN-0050-3Q3,red,Italy,Veneto,Valpolicella,2001,Zinfandel,13.6,0.75,dry,4,1,90.0,19.29,Cantina Rossi,99
+51,WN-2024-SIC-0051-4GP,red,Italy,Sicily,Nero d'Avola IGT,2024,Syrah,14.1,0.75,dry,3,4,87.6,24.68,Winery Bonnet,84
+52,WN-2020-BUR-0052-OWO,red,France,Burgundy,Maconnais,2020,Grenache,12.6,0.75,dry,3,2,86.8,20.16,Winery Dubois,0
+53,WN-1997-CHA-0053-SU0,white,France,Champagne,Champagne AOC,1997,Riesling,12.9,0.75,dry,1,3,90.8,56.1,Bodegas Bonnet,39
+54,WN-2024-CHA-0054-JOZ,white,France,Champagne,Champagne AOC,2024,Gewurztraminer,12.2,0.75,dry,1,4,96.2,28.66,Winery Rossi,105
+55,WN-2017-VEN-0055-9UO,red,Italy,Veneto,Soave,2017,"Nebbiolo, Pinot Noir",12.5,0.75,dry,2,3,87.0,27.4,Bodegas Lafitte,84
+56,WN-2018-RHO-0056-80J,red,France,Rhone,Hermitage,2018,Sangiovese,12.6,0.75,off-dry,4,2,93.8,51.01,Bodegas Marchesi,40
+57,WN-1995-PIE-0057-RMH,white,Italy,Piedmont,Langhe,1995,Albarino,12.0,1.5,dry,2,3,96.2,51.16,Chateau Bonnet,96
+58,WN-2010-ALS-0058-JAR,white,France,Alsace,Alsace AOC,2010,Chenin Blanc,12.2,0.75,dry,2,3,91.2,22.74,Chateau Nikoladze,81
+59,WN-2015-TUS-0059-X6G,white,Italy,Tuscany,Brunello di Montalcino,2015,"Semillon, Sauvignon Blanc, Muscadet",12.7,0.75,off-dry,1,2,87.6,24.17,Domaine Dubois,161
+60,WN-2019-RIB-0060-2EF,red,Spain,Ribera del Duero,Ribera del Duero DO,2019,Nebbiolo,14.0,0.75,dry,4,3,89.1,22.82,Maison Imeretian,135
+61,WN-2022-RIA-0061-9N1,white,Spain,Rias Baixas,Rias Baixas DO,2022,Sauvignon Blanc,12.7,0.75,dry,1,4,87.6,10.29,Maison Moreau,119
+62,WN-2016-RIB-0062-99V,red,Spain,Ribera del Duero,Ribera del Duero DO,2016,"Sangiovese, Cabernet Sauvignon",12.7,0.75,dry,5,2,88.3,43.32,Maison Garcia,95
+63,WN-2022-RHO-0063-XHR,red,France,Rhone,Hermitage,2022,"Syrah, Merlot, Sangiovese",12.8,0.75,dry,5,1,84.3,39.43,Winery Ferreira,69
+64,WN-2023-BEA-0064-WAL,white,France,Beaujolais,Moulin-a-Vent,2023,Pinot Gris,11.7,0.375,dry,1,3,93.1,22.52,Bodegas Imeretian,38
+65,WN-2017-TUS-0065-DJK,red,Italy,Tuscany,Brunello di Montalcino,2017,Zinfandel,13.2,0.75,dry,4,3,90.0,32.74,Cantina Lafitte,101
+66,WN-2015-PIE-0066-TCO,red,Italy,Piedmont,Barbaresco,2015,Zinfandel,14.2,0.75,dry,4,3,86.3,50.39,Domaine Imeretian,133
+67,WN-2015-SIC-0067-WEZ,white,Italy,Sicily,Nero d'Avola IGT,2015,Chenin Blanc,12.3,0.75,off-dry,3,3,90.7,10.72,Bodegas Rossi,38
+68,WN-2022-RHO-0068-P1Z,red,France,Rhone,Crozes-Hermitage,2022,"Sangiovese, Merlot, Tempranillo",13.4,0.75,dry,3,3,86.5,28.59,Cantina Marchesi,78
+69,WN-1998-PIE-0069-QML,red,Italy,Piedmont,Langhe,1998,Syrah,12.6,0.75,dry,3,2,85.3,38.47,Bodegas Fontaine,0
+70,WN-1996-TUS-0070-2TR,red,Italy,Tuscany,Bolgheri,1996,Nebbiolo,13.0,0.75,dry,4,3,87.3,33.58,Domaine Nikoladze,163
+71,WN-2018-RIA-0071-U46,white,Spain,Rias Baixas,Rias Baixas DO,2018,Muscadet,12.7,0.75,dry,2,4,90.7,16.59,Chateau Durand,78
+72,WN-2012-RIO-0072-VDV,orange,Spain,Rioja,Rioja DOCa,2012,Sauvignon Blanc,13.1,0.75,dry,2,2,91.4,65.5,Maison Lafitte,12
+73,WN-2018-PRO-0073-IFT,orange,France,Provence,Cotes de Provence,2018,Gewurztraminer,12.6,0.75,dry,3,3,85.3,38.43,Domaine Fontaine,77
+74,WN-2024-SIC-0074-V5M,red,Italy,Sicily,Etna,2024,Cabernet Sauvignon,14.0,0.75,dry,5,3,90.3,38.16,Domaine Fontaine,0
+75,WN-2021-TUS-0075-K2C,red,Italy,Tuscany,Bolgheri,2021,"Cabernet Sauvignon, Zinfandel, Malbec",14.2,0.75,dry,4,3,85.5,21.06,Maison Bonnet,103
+76,WN-2024-RIB-0076-3SY,red,Spain,Ribera del Duero,Ribera del Duero DO,2024,Zinfandel,13.5,0.75,dry,4,3,86.4,44.07,Maison Mukuzani,102
+77,WN-2008-RHO-0077-6J1,red,France,Rhone,Cote-Rotie,2008,Cabernet Sauvignon,14.6,0.75,off-dry,4,1,96.4,43.84,Bodegas Lafitte,115
+78,WN-2021-PIE-0078-ICS,red,Italy,Piedmont,Barbaresco,2021,Sangiovese,13.0,0.75,dry,4,2,93.4,66.95,Chateau Ferreira,73
+79,WN-1993-PRO-0079-03E,red,France,Provence,Cotes de Provence,1993,"Syrah, Grenache, Merlot",14.8,0.75,dry,3,3,95.8,39.93,Cantina Garcia,129
+80,WN-2016-JUR-0080-XE7,red,France,Jura,Arbois,2016,Merlot,13.1,0.375,dry,3,3,84.1,16.84,Winery Dubois,117
+81,WN-2000-PIE-0081-W8V,red,Italy,Piedmont,Barbaresco,2000,"Zinfandel, Sangiovese",13.0,0.75,dry,4,2,90.8,61.61,Bodegas Dubois,59
+82,WN-2023-CHA-0082-6Z8,white,France,Champagne,Champagne AOC,2023,Albarino,12.5,0.375,off-dry,1,3,89.1,39.76,Maison Torres,40
+83,WN-2015-VEN-0083-5X7,red,Italy,Veneto,Soave,2015,Cabernet Sauvignon,13.9,0.75,off-dry,3,3,89.8,26.22,Maison Fontaine,106
+84,WN-2019-CHA-0084-W1R,white,France,Champagne,Champagne AOC,2019,"Albarino, Gewurztraminer, Chardonnay",11.4,0.75,dry,2,3,86.0,42.54,Domaine Moreau,44
+85,WN-2017-RIO-0085-2XX,white,Spain,Rioja,Rioja DOCa,2017,"Albarino, Viognier, Chardonnay",12.6,0.75,dry,2,4,88.7,33.43,Chateau Imeretian,76
+86,WN-2019-RIA-0086-NS5,white,Spain,Rias Baixas,Rias Baixas DO,2019,Pinot Gris,12.9,1.5,off-dry,2,3,90.6,28.25,Maison Fontaine,0
+87,WN-2022-PIE-0087-LX6,red,Italy,Piedmont,Langhe,2022,Grenache,16.0,0.75,dry,4,2,91.6,29.96,Cantina Moreau,50
+88,WN-2016-LOI-0088-0EI,white,France,Loire,Chinon,2016,Gewurztraminer,12.3,0.75,dry,1,3,94.9,26.04,Chateau Bonnet,0
+89,WN-2002-PRO-0089-KKU,white,France,Provence,Coteaux d'Aix,2002,Semillon,12.3,0.75,dry,2,3,92.3,28.57,Maison Moreau,221
+90,WN-2017-CHA-0090-JKV,white,France,Champagne,Champagne AOC,2017,Riesling,11.6,0.75,dry,1,3,92.5,28.67,Cantina Torres,39
+91,WN-2015-BOR-0091-ZT3,red,France,Bordeaux,Graves,2015,Grenache,13.6,0.75,dry,3,3,91.1,33.65,Winery Ferreira,168
+92,WN-2016-PIE-0092-UP3,orange,Italy,Piedmont,Barolo,2016,Chenin Blanc,13.6,0.75,off-dry,3,3,92.7,12.45,Chateau Ferreira,155
+93,WN-2015-TUS-0093-635,red,Italy,Tuscany,Bolgheri,2015,Cabernet Sauvignon,12.8,0.75,dry,4,3,93.0,40.85,Maison Imeretian,70
+94,WN-2000-RIB-0094-QXZ,red,Spain,Ribera del Duero,Ribera del Duero DO,2000,Tempranillo,14.2,0.75,dry,3,3,87.6,13.47,Maison Ferreira,77
+95,WN-2016-RHO-0095-XJM,white,France,Rhone,Cote-Rotie,2016,Albarino,12.0,0.75,off-dry,1,3,87.2,27.66,Cantina Moreau,75
+96,WN-2019-TUS-0096-T4B,red,Italy,Tuscany,Brunello di Montalcino,2019,"Zinfandel, Sangiovese, Nebbiolo",14.5,0.75,dry,5,3,86.5,35.85,Bodegas Rossi,67
+97,WN-2017-JUR-0097-HMB,red,France,Jura,Cotes du Jura,2017,"Cabernet Sauvignon, Syrah, Pinot Noir",13.8,0.75,dry,3,3,86.6,8.19,Winery Dubois,100
+98,WN-2016-PRO-0098-UL3,red,France,Provence,Cotes de Provence,2016,Nebbiolo,13.1,0.75,dry,3,4,92.7,24.87,Chateau Marchesi,2
+99,WN-2020-BEA-0099-N5U,red,France,Beaujolais,Beaujolais-Villages,2020,Grenache,13.6,0.75,dry,5,2,85.5,6.74,Bodegas Ferreira,45
+100,WN-2024-PIE-0100-FW2,orange,Italy,Piedmont,Barolo,2024,Sauvignon Blanc,11.9,0.75,dry,3,4,86.8,46.42,Winery Nikoladze,108
+101,WN-1998-JUR-0101-V4G,white,France,Jura,Arbois,1998,Chardonnay,12.1,0.75,dry,3,3,89.2,26.07,Winery Marchesi,33
+102,WN-2018-CHA-0102-O8C,white,France,Champagne,Champagne AOC,2018,Sauvignon Blanc,12.2,1.5,off-dry,2,3,91.9,34.51,Winery Ferreira,122
+103,WN-1998-CHA-0103-VS3,white,France,Champagne,Champagne AOC,1998,Muscadet,12.4,0.75,off-dry,1,3,94.4,58.23,Chateau Durand,107
+104,WN-2017-RIO-0104-Z16,red,Spain,Rioja,Rioja DOCa,2017,"Grenache, Syrah, Cabernet Sauvignon",14.3,0.75,dry,5,4,88.3,54.87,Bodegas Bonnet,82
+105,WN-1987-BEA-0105-XPD,orange,France,Beaujolais,Moulin-a-Vent,1987,Chenin Blanc,12.2,0.75,off-dry,3,4,88.1,25.43,Winery da Costa,0
+106,WN-2014-CHA-0106-X09,white,France,Champagne,Champagne AOC,2014,"Gewurztraminer, Riesling",11.8,0.75,off-dry,2,2,95.0,27.48,Cantina Imeretian,20
+107,WN-1995-RIA-0107-96M,white,Spain,Rias Baixas,Rias Baixas DO,1995,Sauvignon Blanc,12.3,0.75,dry,1,4,88.2,16.97,Cantina Imeretian,66
+108,WN-2016-BUR-0108-TBZ,red,France,Burgundy,Maconnais,2016,Pinot Noir,13.6,0.75,dry,4,3,90.0,41.32,Domaine da Costa,74
+109,WN-2024-RIB-0109-Y2Y,white,Spain,Ribera del Duero,Ribera del Duero DO,2024,"Viognier, Albarino",13.4,0.75,dry,1,2,86.2,28.29,Cantina Moreau,147
+110,WN-2018-JUR-0110-818,orange,France,Jura,Arbois,2018,Pinot Gris,13.4,0.75,dry,2,3,88.2,24.12,Winery Torres,64
+111,WN-2007-BOR-0111-CZ2,red,France,Bordeaux,Medoc,2007,"Nebbiolo, Pinot Noir",14.1,0.75,dry,4,3,90.2,51.15,Maison Nikoladze,0
+112,WN-2006-TUS-0112-TRD,red,Italy,Tuscany,Chianti Classico,2006,Malbec,13.1,0.75,dry,3,2,85.6,46.89,Winery Fontaine,96
+113,WN-2002-VEN-0113-YL8,red,Italy,Veneto,Soave,2002,Tempranillo,13.8,0.75,dry,3,4,83.3,6.0,Cantina Mukuzani,19
+114,WN-1997-PRO-0114-MDR,white,France,Provence,Cotes de Provence,1997,"Gewurztraminer, Albarino",13.3,0.75,off-dry,2,3,86.6,16.41,Chateau Ferreira,43
+115,WN-2023-TUS-0115-NZP,red,Italy,Tuscany,Chianti Classico,2023,"Merlot, Nebbiolo",13.0,0.75,dry,3,3,84.3,20.22,Domaine Bonnet,74
+116,WN-2009-RIB-0116-COJ,red,Spain,Ribera del Duero,Ribera del Duero DO,2009,Sangiovese,13.6,0.75,dry,2,2,94.4,43.0,Chateau Imeretian,157
+117,WN-2024-KAK-0117-53K,orange,Georgia,Kakheti,Kakheti PDO,2024,Pinot Gris,12.3,0.75,dry,3,3,89.6,46.91,Estate Dubois,70
+118,WN-2001-LOI-0118-OEJ,red,France,Loire,Sancerre,2001,Tempranillo,13.6,0.75,dry,3,3,94.1,18.54,Domaine Mukuzani,87
+119,WN-2016-KAK-0119-SB6,red,Georgia,Kakheti,Kakheti PDO,2016,Grenache,12.3,0.75,dry,4,1,92.0,33.25,Estate Rossi,111
+120,WN-2009-PIE-0120-FCF,red,Italy,Piedmont,Barbaresco,2009,"Nebbiolo, Syrah, Malbec",14.0,0.75,dry,2,3,87.2,67.43,Maison Nikoladze,8
+121,WN-2019-RHO-0121-R8C,red,France,Rhone,Cote-Rotie,2019,"Grenache, Pinot Noir, Merlot",15.1,0.75,dry,4,3,92.9,73.62,Maison Moreau,0
+122,WN-2010-JUR-0122-IF6,red,France,Jura,Cotes du Jura,2010,Malbec,12.7,0.75,dry,4,3,89.9,17.73,Maison Dubois,27
+123,WN-2016-BEA-0123-Y1L,red,France,Beaujolais,Moulin-a-Vent,2016,Sangiovese,12.3,0.75,dry,4,3,87.8,30.29,Winery Bonnet,97
+124,WN-1985-PRO-0124-T2X,red,France,Provence,Cotes de Provence,1985,Merlot,13.1,0.75,dry,4,3,90.1,31.03,Cantina Lafitte,95
+125,WN-2020-TUS-0125-9P7,red,Italy,Tuscany,Chianti Classico,2020,Tempranillo,14.3,0.75,dry,4,3,91.7,28.93,Bodegas Bonnet,105
+126,WN-2017-LOI-0126-M3G,white,France,Loire,Vouvray,2017,Gewurztraminer,12.6,0.75,dry,1,4,90.3,13.67,Winery Nikoladze,103
+127,WN-2024-PRO-0127-US5,white,France,Provence,Coteaux d'Aix,2024,Riesling,12.2,0.75,off-dry,1,4,96.0,29.69,Cantina Moreau,63
+128,WN-2014-KAK-0128-SE0,white,Georgia,Kakheti,Kakheti PDO,2014,Chenin Blanc,12.1,0.75,dry,1,4,89.1,14.62,Estate Imeretian,125
+129,WN-2021-VEN-0129-X8F,red,Italy,Veneto,Prosecco,2021,Pinot Noir,13.9,0.75,dry,3,2,92.0,20.22,Maison Bonnet,11
+130,WN-2020-SIC-0130-9O2,white,Italy,Sicily,Etna,2020,Semillon,13.1,1.5,dry,1,2,87.3,13.47,Domaine Lafitte,85
+131,WN-2016-PRO-0131-W4G,white,France,Provence,Cotes de Provence,2016,Chenin Blanc,13.0,0.75,off-dry,1,4,85.0,22.73,Winery Bonnet,9
+132,WN-2010-LAN-0132-13O,red,France,Languedoc,Faugeres,2010,"Malbec, Cabernet Sauvignon",12.3,0.75,dry,4,4,91.5,37.05,Bodegas Torres,36
+133,WN-2017-BOR-0133-8LX,red,France,Bordeaux,Saint-Emilion,2017,Merlot,14.4,0.75,dry,3,4,88.2,30.8,Cantina Lafitte,32
+134,WN-2023-PIE-0134-FIU,red,Italy,Piedmont,Barbaresco,2023,Grenache,14.0,0.75,dry,4,4,92.2,74.91,Chateau Imeretian,124
+135,WN-2008-KAK-0135-LU2,orange,Georgia,Kakheti,Kakheti PDO,2008,Pinot Gris,11.9,0.75,dry,3,3,84.9,11.29,Marani Fontaine,47
+136,WN-2016-RIB-0136-OSC,red,Spain,Ribera del Duero,Ribera del Duero DO,2016,Merlot,14.6,0.75,dry,4,3,89.3,29.38,Domaine Rossi,70
+137,WN-2020-KAK-0137-28N,orange,Georgia,Kakheti,Kakheti PDO,2020,Rkatsiteli,13.0,1.5,dry,3,2,91.6,18.36,Domaine Imeretian,97
+138,WN-2017-RHO-0138-NND,red,France,Rhone,Hermitage,2017,"Zinfandel, Tempranillo, Cabernet Sauvignon",13.0,0.75,off-dry,3,2,86.1,9.96,Cantina da Costa,14
+139,WN-2022-RHO-0139-IIP,white,France,Rhone,Chateauneuf-du-Pape,2022,Pinot Gris,13.1,0.75,dry,1,4,91.9,26.65,Bodegas Imeretian,17
+140,WN-2019-LOI-0140-X35,red,France,Loire,Sancerre,2019,Grenache,13.6,0.75,dry,4,2,89.9,22.86,Domaine Bonnet,31
+141,WN-2007-KAK-0141-SV9,red,Georgia,Kakheti,Kakheti PDO,2007,Nebbiolo,13.0,0.375,dry,3,3,86.0,36.28,Marani Dubois,141
+142,WN-2024-RHO-0142-1MI,red,France,Rhone,Hermitage,2024,Pinot Noir,13.0,0.75,dry,5,2,92.2,77.68,Winery Moreau,123
+143,WN-2013-BUR-0143-FGA,red,France,Burgundy,Cote de Beaune,2013,Syrah,13.9,0.375,dry,3,2,90.3,42.69,Bodegas Durand,105
+144,WN-1998-PRO-0144-XTI,white,France,Provence,Coteaux d'Aix,1998,Sauvignon Blanc,13.5,0.75,dry,2,2,85.3,9.88,Chateau Imeretian,48
+145,WN-2017-PIE-0145-2NF,red,Italy,Piedmont,Langhe,2017,Tempranillo,13.2,0.75,dry,4,3,91.5,49.29,Winery Lafitte,36
+146,WN-2022-JUR-0146-TN7,red,France,Jura,Cotes du Jura,2022,Pinot Noir,13.1,0.75,dry,3,3,88.2,26.69,Chateau Imeretian,139
+147,WN-2000-LOI-0147-0X8,white,France,Loire,Sancerre,2000,Albarino,11.3,0.75,dry,2,3,87.6,19.04,Domaine Bonnet,97
+148,WN-2013-VEN-0148-ZF8,red,Italy,Veneto,Prosecco,2013,Tempranillo,13.4,1.5,off-dry,4,3,88.0,30.44,Cantina Fontaine,124
+149,WN-1995-LOI-0149-F1H,white,France,Loire,Chinon,1995,Chenin Blanc,12.8,0.75,off-dry,1,4,85.4,15.27,Chateau Imeretian,0
+150,WN-2000-PIE-0150-RHB,red,Italy,Piedmont,Langhe,2000,Sangiovese,14.3,0.75,off-dry,3,3,88.1,24.2,Domaine Imeretian,81
+151,WN-2018-LAN-0151-HO6,white,France,Languedoc,Corbieres,2018,Muscadet,12.5,0.75,dry,1,3,96.9,34.66,Domaine Mukuzani,217
+152,WN-2008-SIC-0152-EXH,white,Italy,Sicily,Etna,2008,Albarino,12.5,1.5,sweet,2,4,82.5,21.65,Maison Bonnet,108
+153,WN-2020-CHA-0153-P3X,white,France,Champagne,Champagne AOC,2020,"Pinot Gris, Muscadet",12.0,0.75,off-dry,1,3,86.6,43.48,Bodegas Dubois,86
+154,WN-2020-JUR-0154-YTG,red,France,Jura,Arbois,2020,Pinot Noir,16.0,0.75,off-dry,2,4,92.8,29.37,Chateau da Costa,97
+155,WN-2017-RIA-0155-6IZ,white,Spain,Rias Baixas,Rias Baixas DO,2017,Sauvignon Blanc,13.0,0.75,dry,1,4,94.0,17.42,Winery Ferreira,178
+156,WN-2002-TUS-0156-K23,red,Italy,Tuscany,Brunello di Montalcino,2002,"Cabernet Sauvignon, Merlot",13.9,0.75,dry,3,4,89.3,44.22,Winery Rossi,59
+157,WN-2015-BUR-0157-TQL,white,France,Burgundy,Cote de Beaune,2015,"Albarino, Viognier",12.7,0.75,dry,1,3,93.5,41.42,Domaine Dubois,48
+158,WN-2017-JUR-0158-QEB,white,France,Jura,Cotes du Jura,2017,Sauvignon Blanc,12.5,0.75,dry,1,2,92.3,23.58,Bodegas Dubois,51
+159,WN-2015-LAN-0159-Y1L,red,France,Languedoc,Corbieres,2015,Tempranillo,15.1,0.75,dry,3,3,85.4,14.84,Bodegas Torres,21
+160,WN-2013-KAK-0160-7P8,red,Georgia,Kakheti,Kakheti PDO,2013,Cabernet Sauvignon,12.0,0.75,dry,4,2,92.9,40.63,Marani Rossi,43
+161,WN-2020-LAN-0161-OKG,white,France,Languedoc,Faugeres,2020,"Chardonnay, Gewurztraminer, Albarino",13.1,0.75,off-dry,1,3,90.0,29.68,Bodegas Garcia,54
+162,WN-2023-LAN-0162-BWJ,white,France,Languedoc,Faugeres,2023,Albarino,12.3,0.75,dry,3,3,87.9,16.43,Chateau Nikoladze,81
+163,WN-2019-JUR-0163-UDB,white,France,Jura,Cotes du Jura,2019,"Riesling, Albarino",13.5,0.75,dry,1,3,93.3,33.96,Winery Torres,121
+164,WN-2018-RHO-0164-L9W,red,France,Rhone,Crozes-Hermitage,2018,"Tempranillo, Nebbiolo",14.7,0.75,dry,4,3,90.8,35.1,Cantina Torres,0
+165,WN-2006-BUR-0165-G5J,white,France,Burgundy,Cote de Beaune,2006,Muscadet,12.8,1.5,dry,1,4,89.3,42.25,Winery da Costa,0
+166,WN-2021-TUS-0166-ADY,red,Italy,Tuscany,Brunello di Montalcino,2021,"Sangiovese, Grenache",13.9,0.75,dry,4,3,86.6,19.82,Cantina Fontaine,159
+167,WN-2008-JUR-0167-UQG,white,France,Jura,Arbois,2008,Chardonnay,12.7,0.75,dry,1,4,91.9,30.48,Cantina da Costa,124
+168,WN-2017-RIB-0168-1KD,red,Spain,Ribera del Duero,Ribera del Duero DO,2017,Cabernet Sauvignon,13.9,0.75,dry,4,4,91.9,36.92,Chateau Lafitte,128
+169,WN-2008-BUR-0169-4MG,red,France,Burgundy,Maconnais,2008,"Pinot Noir, Tempranillo, Merlot",13.6,0.75,dry,3,3,92.1,33.73,Winery Rossi,121
+170,WN-1993-LOI-0170-23Q,red,France,Loire,Chinon,1993,"Sangiovese, Cabernet Sauvignon, Nebbiolo",14.2,0.75,dry,5,3,90.4,21.15,Cantina Marchesi,142
+171,WN-2024-KAK-0171-4P4,white,Georgia,Kakheti,Kakheti PDO,2024,Viognier,13.3,0.75,dry,1,3,88.9,6.0,Domaine Lafitte,5
+172,WN-2000-RIO-0172-1F1,red,Spain,Rioja,Rioja DOCa,2000,Syrah,15.1,0.75,dry,4,3,91.9,47.94,Cantina Torres,56
+173,WN-2021-KAK-0173-70H,red,Georgia,Kakheti,Kakheti PDO,2021,Pinot Noir,13.8,0.75,off-dry,2,2,88.3,22.27,Marani Ferreira,69
+174,WN-2015-KAK-0174-4CL,orange,Georgia,Kakheti,Kakheti PDO,2015,Gewurztraminer,13.4,0.75,dry,2,2,89.7,21.9,Estate Imeretian,118
+175,WN-2009-BEA-0175-5GO,red,France,Beaujolais,Beaujolais-Villages,2009,Grenache,15.3,0.75,dry,2,3,96.3,28.36,Chateau da Costa,49
+176,WN-2021-SIC-0176-ET6,red,Italy,Sicily,Nero d'Avola IGT,2021,Malbec,14.4,0.75,dry,2,3,85.0,24.26,Domaine Imeretian,99
+177,WN-2015-BUR-0177-HBP,red,France,Burgundy,Cote de Nuits,2015,Nebbiolo,14.4,0.75,dry,4,4,86.7,58.41,Winery Ferreira,188
+178,WN-2019-LOI-0178-R06,white,France,Loire,Chinon,2019,"Chenin Blanc, Muscadet",12.7,0.75,off-dry,1,3,96.0,23.58,Maison Nikoladze,75
+179,WN-2022-CHA-0179-3QN,white,France,Champagne,Champagne AOC,2022,Viognier,12.7,0.75,dry,2,2,84.9,26.49,Maison Mukuzani,0
+180,WN-2024-CHA-0180-URQ,white,France,Champagne,Champagne AOC,2024,Albarino,11.0,0.75,dry,1,3,85.2,68.13,Cantina Torres,121
+181,WN-2012-TUS-0181-CMV,red,Italy,Tuscany,Bolgheri,2012,"Grenache, Zinfandel, Tempranillo",12.9,0.75,off-dry,2,2,89.6,13.27,Winery da Costa,74
+182,WN-2019-KAK-0182-9LV,white,Georgia,Kakheti,Kakheti PDO,2019,Pinot Gris,12.0,0.75,dry,2,4,88.6,13.45,Marani Ferreira,137
+183,WN-2015-RHO-0183-Y7T,red,France,Rhone,Cote-Rotie,2015,Syrah,14.4,1.5,dry,5,4,83.9,73.79,Chateau Garcia,0
+184,WN-2009-LAN-0184-DA2,red,France,Languedoc,Corbieres,2009,Cabernet Sauvignon,15.0,0.75,dry,4,4,89.1,37.88,Winery Torres,123
+185,WN-2016-VEN-0185-XAU,red,Italy,Veneto,Soave,2016,Pinot Noir,12.4,0.75,dry,4,3,90.2,33.79,Domaine Torres,43
+186,WN-2014-RIA-0186-77V,white,Spain,Rias Baixas,Rias Baixas DO,2014,"Pinot Gris, Muscadet",13.0,0.75,dry,3,5,85.1,24.46,Bodegas Dubois,192
+187,WN-2003-JUR-0187-XCY,white,France,Jura,Arbois,2003,"Muscadet, Semillon",12.1,0.75,sweet,1,3,91.9,21.03,Winery Lafitte,70
+188,WN-2019-SIC-0188-NAT,red,Italy,Sicily,Etna,2019,Nebbiolo,13.7,0.75,dry,2,3,88.6,35.32,Cantina Lafitte,37
+189,WN-2005-CHA-0189-Q7M,white,France,Champagne,Champagne AOC,2005,Muscadet,13.1,0.75,off-dry,2,4,87.7,33.61,Domaine Fontaine,85
+190,WN-2019-LOI-0190-GQO,red,France,Loire,Chinon,2019,"Malbec, Merlot",14.2,0.75,dry,3,3,80.7,23.71,Winery Garcia,34
+191,WN-1986-SIC-0191-IKV,red,Italy,Sicily,Etna,1986,Pinot Noir,14.3,0.75,dry,2,2,87.7,29.39,Bodegas Rossi,135
+192,WN-1999-VEN-0192-DKG,red,Italy,Veneto,Soave,1999,Cabernet Sauvignon,14.1,0.75,dry,4,2,86.0,22.95,Winery da Costa,91
+193,WN-2007-PRO-0193-UA7,white,France,Provence,Cotes de Provence,2007,"Gewurztraminer, Chardonnay, Sauvignon Blanc",11.5,0.75,dry,1,2,90.5,9.71,Domaine Torres,66
+194,WN-2015-JUR-0194-45K,red,France,Jura,Cotes du Jura,2015,"Pinot Noir, Cabernet Sauvignon",14.0,0.75,dry,4,5,93.6,23.86,Chateau Lafitte,32
+195,WN-2024-RIO-0195-BGZ,red,Spain,Rioja,Rioja DOCa,2024,"Nebbiolo, Sangiovese, Merlot",14.1,0.75,dry,4,3,86.2,32.73,Chateau Fontaine,147
+196,WN-2022-RIO-0196-V94,orange,Spain,Rioja,Rioja DOCa,2022,Chardonnay,12.3,0.375,dry,2,3,89.3,26.87,Maison Mukuzani,147
+197,WN-2021-RIA-0197-0GQ,white,Spain,Rias Baixas,Rias Baixas DO,2021,"Gewurztraminer, Riesling",12.2,0.75,dry,2,3,88.3,18.95,Bodegas Dubois,51
+198,WN-2024-RHO-0198-I5A,red,France,Rhone,Chateauneuf-du-Pape,2024,Zinfandel,13.4,0.75,dry,5,2,88.9,57.89,Cantina Moreau,62
+199,WN-2013-PRO-0199-PRZ,white,France,Provence,Cotes de Provence,2013,Viognier,12.0,0.75,dry,1,3,99.0,26.29,Winery Mukuzani,29
+200,WN-2005-TUS-0200-SWI,red,Italy,Tuscany,Bolgheri,2005,Syrah,13.3,0.75,dry,4,2,95.0,59.34,Bodegas Nikoladze,117
+201,WN-2021-SIC-0201-7GB,red,Italy,Sicily,Nero d'Avola IGT,2021,Tempranillo,13.7,1.5,dry,4,3,89.2,24.77,Domaine Durand,49
+202,WN-1998-CHA-0202-9O9,white,France,Champagne,Champagne AOC,1998,Gewurztraminer,13.1,0.375,dry,2,2,86.8,32.03,Winery Garcia,122
+203,WN-2020-KAK-0203-MS2,white,Georgia,Kakheti,Kakheti PDO,2020,"Chenin Blanc, Albarino, Muscadet",13.6,0.75,dry,1,3,92.3,13.24,Domaine Moreau,113
+204,WN-1992-BEA-0204-UDT,white,France,Beaujolais,Moulin-a-Vent,1992,Riesling,12.6,0.75,dry,1,4,85.4,18.75,Cantina Moreau,100
+205,WN-2010-SIC-0205-SN7,red,Italy,Sicily,Nero d'Avola IGT,2010,"Syrah, Sangiovese",13.7,0.75,dry,4,2,85.6,24.63,Cantina Marchesi,165
+206,WN-2012-BUR-0206-8SB,red,France,Burgundy,Cote de Beaune,2012,Merlot,12.6,0.375,dry,2,4,95.5,64.84,Cantina Lafitte,56
+207,WN-2018-RHO-0207-N1G,white,France,Rhone,Cote-Rotie,2018,Chenin Blanc,13.9,0.75,dry,2,2,91.8,58.77,Domaine Imeretian,119
+208,WN-2023-TUS-0208-0Y2,white,Italy,Tuscany,Chianti Classico,2023,"Semillon, Sauvignon Blanc, Chenin Blanc",11.9,0.75,dry,2,3,87.5,16.28,Cantina Dubois,11
+209,WN-2017-LOI-0209-S2Y,white,France,Loire,Sancerre,2017,Pinot Gris,13.2,0.75,dry,1,3,85.9,20.46,Winery Moreau,7
+210,WN-2016-CHA-0210-9JH,white,France,Champagne,Champagne AOC,2016,Chardonnay,12.8,0.75,dry,1,4,94.4,53.26,Chateau Torres,0
+211,WN-2018-RIA-0211-D93,white,Spain,Rias Baixas,Rias Baixas DO,2018,"Chenin Blanc, Sauvignon Blanc, Riesling",12.3,0.75,dry,1,3,89.2,26.54,Winery Fontaine,63
+212,WN-2015-JUR-0212-VTJ,white,France,Jura,Arbois,2015,Albarino,12.2,0.75,dry,1,4,86.9,20.66,Bodegas Rossi,176
+213,WN-2015-PIE-0213-WT5,white,Italy,Piedmont,Langhe,2015,Gewurztraminer,12.3,0.75,off-dry,1,2,87.9,22.77,Winery Lafitte,68
+214,WN-2012-LOI-0214-NC9,red,France,Loire,Sancerre,2012,Zinfandel,15.4,0.75,dry,2,2,89.5,37.04,Maison Moreau,29
+215,WN-1986-RIO-0215-PK6,red,Spain,Rioja,Rioja DOCa,1986,Malbec,13.9,0.75,dry,3,2,91.3,40.58,Domaine Marchesi,0
+216,WN-2018-RIB-0216-7XY,red,Spain,Ribera del Duero,Ribera del Duero DO,2018,Pinot Noir,13.7,0.75,dry,5,3,86.2,11.02,Winery Rossi,64
+217,WN-2017-KAK-0217-E7Q,orange,Georgia,Kakheti,Kakheti PDO,2017,Sauvignon Blanc,14.2,0.75,off-dry,2,3,84.6,11.13,Estate da Costa,89
+218,WN-2002-PRO-0218-HO0,white,France,Provence,Coteaux d'Aix,2002,"Chenin Blanc, Riesling, Semillon",11.3,0.75,dry,1,3,92.1,22.84,Domaine Moreau,68
+219,WN-2007-LAN-0219-L7Z,white,France,Languedoc,Faugeres,2007,"Chardonnay, Riesling",11.9,0.75,dry,2,3,86.3,24.4,Bodegas Ferreira,113
+220,WN-2021-RIB-0220-L6Q,red,Spain,Ribera del Duero,Ribera del Duero DO,2021,Zinfandel,14.7,0.75,dry,4,2,92.6,40.39,Cantina Ferreira,88
+221,WN-2015-RIA-0221-C86,white,Spain,Rias Baixas,Rias Baixas DO,2015,Riesling,12.1,0.375,dry,1,2,90.0,30.79,Bodegas Mukuzani,45
+222,WN-2006-SIC-0222-4YW,white,Italy,Sicily,Etna,2006,Viognier,11.8,0.75,dry,1,2,85.1,13.17,Domaine Rossi,86
+223,WN-1999-KAK-0223-AYN,red,Georgia,Kakheti,Kakheti PDO,1999,"Zinfandel, Malbec",12.8,0.75,dry,3,3,88.8,32.58,Marani Nikoladze,30
+224,WN-2016-BEA-0224-94L,orange,France,Beaujolais,Moulin-a-Vent,2016,Pinot Gris,13.7,0.75,dry,3,3,86.9,21.51,Winery Lafitte,0
+225,WN-2002-JUR-0225-AFJ,red,France,Jura,Arbois,2002,"Sangiovese, Malbec, Pinot Noir",13.7,0.75,dry,4,3,85.3,20.6,Bodegas Nikoladze,0
+226,WN-2018-RIA-0226-2AM,white,Spain,Rias Baixas,Rias Baixas DO,2018,Riesling,11.0,0.75,off-dry,1,3,94.8,20.07,Winery Dubois,1
+227,WN-2024-PIE-0227-ZWZ,red,Italy,Piedmont,Barolo,2024,Merlot,13.8,0.75,off-dry,5,3,88.1,50.47,Cantina Garcia,4
+228,WN-2017-PIE-0228-QL0,orange,Italy,Piedmont,Barbaresco,2017,"Pinot Gris, Gewurztraminer",13.0,0.75,dry,2,3,85.5,44.46,Cantina Rossi,154
+229,WN-2024-RIO-0229-33B,orange,Spain,Rioja,Rioja DOCa,2024,Sauvignon Blanc,13.1,0.75,dry,2,4,87.3,40.28,Maison Mukuzani,21
+230,WN-1996-KAK-0230-L4U,white,Georgia,Kakheti,Kakheti PDO,1996,"Viognier, Albarino",13.8,0.75,dry,1,5,85.5,13.69,Estate Marchesi,80
+231,WN-2011-BEA-0231-GHF,red,France,Beaujolais,Beaujolais-Villages,2011,Zinfandel,12.3,0.375,dry,2,2,87.7,13.24,Bodegas da Costa,89
+232,WN-2020-BEA-0232-ID7,red,France,Beaujolais,Fleurie,2020,Syrah,12.5,0.75,dry,3,2,91.2,41.09,Winery Mukuzani,226
+233,WN-2010-RIO-0233-QL9,red,Spain,Rioja,Rioja DOCa,2010,"Tempranillo, Merlot",14.2,0.75,dry,4,3,89.8,20.94,Maison Ferreira,128
+234,WN-2019-VEN-0234-GRP,white,Italy,Veneto,Valpolicella,2019,Muscadet,12.0,0.75,off-dry,2,4,83.5,22.67,Chateau da Costa,83
+235,WN-2007-RIA-0235-DZG,white,Spain,Rias Baixas,Rias Baixas DO,2007,Pinot Gris,12.2,0.75,dry,2,2,89.6,17.01,Cantina Mukuzani,128
+236,WN-2003-BEA-0236-SWU,red,France,Beaujolais,Moulin-a-Vent,2003,"Zinfandel, Malbec",12.6,0.75,dry,3,1,88.1,22.56,Chateau Fontaine,55
+237,WN-1996-TUS-0237-VOU,red,Italy,Tuscany,Bolgheri,1996,Merlot,14.2,0.75,dry,3,4,88.8,48.52,Cantina Mukuzani,36
+238,WN-2019-RIO-0238-QFN,red,Spain,Rioja,Rioja DOCa,2019,Cabernet Sauvignon,13.9,0.375,dry,5,3,90.8,23.14,Domaine Lafitte,141
+239,WN-2009-BEA-0239-PS2,red,France,Beaujolais,Beaujolais-Villages,2009,Tempranillo,13.2,0.75,dry,4,3,88.7,21.71,Cantina da Costa,140
+240,WN-2004-BEA-0240-317,red,France,Beaujolais,Beaujolais-Villages,2004,Malbec,12.6,0.75,dry,4,2,87.2,22.01,Chateau Rossi,137
+241,WN-2016-BOR-0241-54T,white,France,Bordeaux,Saint-Emilion,2016,Gewurztraminer,12.5,0.75,dry,1,4,93.7,27.77,Bodegas Marchesi,120
+242,WN-2006-LAN-0242-F1P,red,France,Languedoc,Faugeres,2006,Tempranillo,13.3,0.75,dry,3,2,83.8,16.31,Chateau Ferreira,70
+243,WN-2019-LOI-0243-5MU,white,France,Loire,Muscadet,2019,"Muscadet, Gewurztraminer, Pinot Gris",12.5,0.75,dry,1,3,91.1,18.78,Chateau Lafitte,0
+244,WN-2021-PRO-0244-5X3,white,France,Provence,Coteaux d'Aix,2021,Pinot Gris,12.3,0.75,dry,2,4,89.7,13.5,Chateau Marchesi,126
+245,WN-2007-BEA-0245-CM3,red,France,Beaujolais,Beaujolais-Villages,2007,"Tempranillo, Nebbiolo",13.1,1.5,dry,3,2,89.9,32.73,Winery Dubois,66
+246,WN-2005-KAK-0246-DNH,orange,Georgia,Kakheti,Kakheti PDO,2005,Sauvignon Blanc,13.9,0.75,dry,4,3,90.3,26.55,Estate Bonnet,237
+247,WN-2007-RIB-0247-5FV,red,Spain,Ribera del Duero,Ribera del Duero DO,2007,Merlot,12.2,0.75,dry,3,3,100.0,48.99,Chateau Garcia,49
+248,WN-2020-KAK-0248-BYW,orange,Georgia,Kakheti,Kakheti PDO,2020,Pinot Gris,12.4,0.75,dry,4,3,89.6,13.7,Estate Garcia,84
+249,WN-2023-TUS-0249-9KE,red,Italy,Tuscany,Brunello di Montalcino,2023,Zinfandel,13.3,0.75,dry,4,2,86.2,15.78,Domaine Nikoladze,76
+250,WN-2018-PIE-0250-8YM,red,Italy,Piedmont,Barolo,2018,Merlot,13.3,0.75,dry,2,2,85.9,66.7,Domaine Dubois,126
+251,WN-2017-PRO-0251-Y57,white,France,Provence,Coteaux d'Aix,2017,"Chenin Blanc, Sauvignon Blanc, Chardonnay",11.7,0.375,off-dry,2,3,86.7,26.99,Domaine Imeretian,38
+252,WN-2021-BUR-0252-R7C,red,France,Burgundy,Maconnais,2021,Pinot Noir,12.0,0.75,dry,4,3,89.3,47.81,Chateau Mukuzani,138
+253,WN-2013-JUR-0253-GW3,red,France,Jura,Arbois,2013,Malbec,12.6,0.75,dry,5,3,88.9,20.34,Cantina Imeretian,18
+254,WN-2022-PIE-0254-01U,red,Italy,Piedmont,Langhe,2022,Sangiovese,12.8,0.75,off-dry,4,4,86.5,54.06,Bodegas Dubois,64
+255,WN-1986-BUR-0255-ONU,orange,France,Burgundy,Chablis,1986,Sauvignon Blanc,13.2,0.75,dry,2,2,96.4,60.71,Domaine Imeretian,64
+256,WN-2007-PIE-0256-QTF,red,Italy,Piedmont,Barbaresco,2007,Zinfandel,13.0,0.75,dry,4,3,85.9,12.69,Winery Nikoladze,89
+257,WN-2010-RHO-0257-10H,red,France,Rhone,Crozes-Hermitage,2010,"Merlot, Pinot Noir, Sangiovese",13.0,0.75,dry,3,2,91.7,31.67,Domaine Garcia,114
+258,WN-2002-KAK-0258-Z26,orange,Georgia,Kakheti,Kakheti PDO,2002,Chardonnay,13.5,0.75,dry,3,3,93.1,27.33,Marani Lafitte,4
+259,WN-2005-VEN-0259-ZM9,red,Italy,Veneto,Prosecco,2005,"Nebbiolo, Malbec",12.5,0.75,dry,4,3,85.7,27.22,Winery Torres,68
+260,WN-2018-SIC-0260-TKW,white,Italy,Sicily,Etna,2018,Muscadet,11.0,0.75,dry,1,3,82.1,17.38,Winery Ferreira,135
+261,WN-2010-LOI-0261-HT2,white,France,Loire,Sancerre,2010,"Pinot Gris, Chardonnay",12.6,0.75,dry,1,3,86.9,10.01,Chateau Durand,54
+262,WN-2005-BOR-0262-RD3,red,France,Bordeaux,Graves,2005,"Pinot Noir, Grenache",13.4,0.75,dry,3,3,89.7,42.88,Winery Torres,71
+263,WN-2022-JUR-0263-8FL,orange,France,Jura,Arbois,2022,Pinot Gris,15.0,0.75,dry,2,3,92.9,23.75,Winery Moreau,145
+264,WN-2006-BOR-0264-6RD,red,France,Bordeaux,Pauillac,2006,Grenache,12.2,0.75,dry,5,2,84.9,43.74,Bodegas Fontaine,113
+265,WN-2022-PRO-0265-O0P,white,France,Provence,Cotes de Provence,2022,Muscadet,12.1,0.75,dry,1,4,86.7,13.68,Winery Bonnet,15
+266,WN-2023-ALS-0266-1JK,red,France,Alsace,Grand Cru,2023,Malbec,14.5,0.75,dry,4,3,88.2,23.86,Bodegas Torres,0
+267,WN-2004-CHA-0267-ROO,white,France,Champagne,Champagne AOC,2004,"Sauvignon Blanc, Riesling",12.7,0.75,dry,2,4,90.1,24.43,Chateau Ferreira,96
+268,WN-2020-VEN-0268-AR0,red,Italy,Veneto,Valpolicella,2020,"Pinot Noir, Tempranillo",14.8,1.5,dry,4,3,90.9,15.59,Winery Garcia,110
+269,WN-2017-RIO-0269-YUZ,red,Spain,Rioja,Rioja DOCa,2017,Pinot Noir,12.5,0.75,dry,3,2,85.6,23.1,Domaine da Costa,71
+270,WN-2016-JUR-0270-7DM,red,France,Jura,Cotes du Jura,2016,Pinot Noir,14.4,0.75,dry,3,4,89.1,24.46,Cantina da Costa,66
+271,WN-2001-PRO-0271-0U2,white,France,Provence,Cotes de Provence,2001,"Riesling, Semillon",12.6,0.75,off-dry,2,2,93.8,17.85,Winery Bonnet,157
+272,WN-2019-LAN-0272-6KY,red,France,Languedoc,Minervois,2019,"Sangiovese, Merlot, Tempranillo",13.4,0.75,dry,4,3,89.0,29.51,Winery Dubois,108
+273,WN-1999-SIC-0273-IMA,white,Italy,Sicily,Nero d'Avola IGT,1999,Riesling,12.1,0.375,dry,1,3,88.1,23.23,Cantina Fontaine,50
+274,WN-2008-RIB-0274-9ND,red,Spain,Ribera del Duero,Ribera del Duero DO,2008,"Syrah, Malbec",13.8,0.75,dry,3,3,90.5,27.32,Domaine Dubois,47
+275,WN-2024-RHO-0275-XCF,red,France,Rhone,Hermitage,2024,"Zinfandel, Malbec, Cabernet Sauvignon",12.7,0.75,dry,5,2,90.4,69.27,Domaine Durand,106
+276,WN-2017-BEA-0276-G7F,red,France,Beaujolais,Moulin-a-Vent,2017,Syrah,13.6,0.75,dry,5,2,84.7,19.13,Cantina Garcia,146
+277,WN-2015-PRO-0277-LOS,red,France,Provence,Cotes de Provence,2015,Nebbiolo,13.5,0.75,dry,5,3,90.2,38.83,Bodegas Dubois,0
+278,WN-2021-TUS-0278-TT6,red,Italy,Tuscany,Bolgheri,2021,"Grenache, Zinfandel",13.0,0.75,dry,4,3,84.3,56.13,Chateau Garcia,51
+279,WN-2018-TUS-0279-4J3,red,Italy,Tuscany,Brunello di Montalcino,2018,Pinot Noir,12.8,0.75,dry,3,4,93.4,52.56,Winery Fontaine,36
+280,WN-2008-TUS-0280-BVY,red,Italy,Tuscany,Chianti Classico,2008,"Sangiovese, Merlot, Cabernet Sauvignon",12.3,0.75,dry,3,2,85.3,35.67,Maison Durand,0
+281,WN-2011-BUR-0281-TN7,white,France,Burgundy,Chablis,2011,Chenin Blanc,12.9,0.75,off-dry,2,2,89.4,48.26,Cantina Moreau,90
+282,WN-2009-ALS-0282-UJG,white,France,Alsace,Grand Cru,2009,Semillon,11.0,0.75,off-dry,1,3,93.6,20.76,Domaine Rossi,8
+283,WN-1998-BUR-0283-TBT,red,France,Burgundy,Chablis,1998,Pinot Noir,13.0,0.75,dry,4,3,88.5,38.83,Chateau Rossi,37
+284,WN-2001-RHO-0284-SPK,white,France,Rhone,Cote-Rotie,2001,"Semillon, Albarino, Pinot Gris",13.0,0.75,dry,1,4,94.3,39.42,Domaine Lafitte,54
+285,WN-2010-SIC-0285-M8F,white,Italy,Sicily,Nero d'Avola IGT,2010,Pinot Gris,12.3,0.75,off-dry,1,3,95.8,15.14,Winery Fontaine,93
+286,WN-2019-RIO-0286-VU3,red,Spain,Rioja,Rioja DOCa,2019,"Sangiovese, Tempranillo, Cabernet Sauvignon",13.5,0.75,dry,4,3,88.7,30.36,Cantina Lafitte,143
+287,WN-2021-VEN-0287-83Z,red,Italy,Veneto,Valpolicella,2021,Merlot,13.1,0.75,dry,4,3,87.8,29.35,Bodegas Bonnet,169
+288,WN-2003-SIC-0288-E5H,red,Italy,Sicily,Nero d'Avola IGT,2003,Syrah,13.0,1.5,dry,2,2,86.7,28.61,Cantina Bonnet,92
+289,WN-2006-VEN-0289-IAJ,white,Italy,Veneto,Prosecco,2006,Sauvignon Blanc,11.8,0.75,dry,1,4,88.0,23.56,Winery Rossi,44
+290,WN-1986-SIC-0290-6ZI,red,Italy,Sicily,Nero d'Avola IGT,1986,Zinfandel,13.2,0.75,dry,5,2,90.8,33.0,Maison Ferreira,76
+291,WN-2019-BOR-0291-ZY1,red,France,Bordeaux,Graves,2019,Sangiovese,13.1,0.75,dry,3,3,85.0,38.91,Winery Moreau,50
+292,WN-2001-PRO-0292-031,white,France,Provence,Coteaux d'Aix,2001,"Viognier, Riesling, Sauvignon Blanc",11.9,0.75,dry,1,4,87.2,18.22,Bodegas Ferreira,83
+293,WN-2017-JUR-0293-CC4,red,France,Jura,Cotes du Jura,2017,Malbec,13.1,0.75,dry,2,3,89.5,54.32,Maison Imeretian,62
+294,WN-2017-RIA-0294-V8A,white,Spain,Rias Baixas,Rias Baixas DO,2017,"Semillon, Pinot Gris",12.7,1.5,dry,1,3,85.9,19.68,Domaine Durand,32
+295,WN-2018-CHA-0295-SBS,white,France,Champagne,Champagne AOC,2018,"Muscadet, Riesling, Chardonnay",12.5,0.75,dry,2,4,88.2,43.84,Winery Lafitte,125
+296,WN-2020-LAN-0296-P5L,red,France,Languedoc,Faugeres,2020,"Sangiovese, Cabernet Sauvignon, Grenache",12.0,0.75,dry,3,3,92.1,36.18,Bodegas Bonnet,137
+297,WN-2005-VEN-0297-WDQ,white,Italy,Veneto,Soave,2005,Riesling,12.1,0.75,dry,2,4,90.1,20.9,Bodegas Fontaine,6
+298,WN-1987-VEN-0298-2YU,red,Italy,Veneto,Valpolicella,1987,Tempranillo,13.2,1.5,dry,5,3,95.2,9.21,Maison Garcia,135
+299,WN-2012-BEA-0299-PM7,red,France,Beaujolais,Beaujolais-Villages,2012,Zinfandel,14.7,0.75,dry,4,3,87.2,29.24,Domaine Fontaine,82
+300,WN-1989-RIO-0300-FDN,red,Spain,Rioja,Rioja DOCa,1989,Pinot Noir,13.1,0.75,dry,3,2,94.8,28.79,Cantina Bonnet,0
+301,WN-2023-LAN-0301-R1U,red,France,Languedoc,Faugeres,2023,"Nebbiolo, Merlot, Zinfandel",15.1,1.5,dry,3,3,89.7,26.44,Chateau Imeretian,189
+302,WN-2018-LOI-0302-GJ8,white,France,Loire,Vouvray,2018,Riesling,11.9,0.75,off-dry,1,2,90.3,29.42,Maison Bonnet,114
+303,WN-2007-RIO-0303-VZA,white,Spain,Rioja,Rioja DOCa,2007,"Chardonnay, Viognier",12.3,0.75,off-dry,1,3,81.7,26.46,Domaine Torres,7
+304,WN-2012-RIB-0304-FX8,red,Spain,Ribera del Duero,Ribera del Duero DO,2012,Grenache,12.8,0.75,dry,4,2,91.9,6.0,Winery Marchesi,27
+305,WN-2015-CHA-0305-2MI,white,France,Champagne,Champagne AOC,2015,Albarino,12.5,0.75,dry,2,3,90.8,36.93,Bodegas Dubois,24
+306,WN-2013-BUR-0306-N73,white,France,Burgundy,Cote de Beaune,2013,Chardonnay,11.9,0.75,dry,1,3,96.6,40.7,Domaine Imeretian,10
+307,WN-2014-BUR-0307-KEG,white,France,Burgundy,Cote de Nuits,2014,"Pinot Gris, Sauvignon Blanc",13.2,0.75,dry,1,3,93.5,50.4,Bodegas Garcia,0
+308,WN-2020-RHO-0308-LVE,orange,France,Rhone,Hermitage,2020,Chardonnay,13.3,0.75,dry,2,3,91.4,52.33,Domaine Bonnet,72
+309,WN-1986-VEN-0309-LFS,red,Italy,Veneto,Valpolicella,1986,Merlot,14.3,0.75,dry,4,2,84.5,14.78,Chateau Nikoladze,71
+310,WN-2018-BUR-0310-TW0,red,France,Burgundy,Maconnais,2018,Merlot,13.5,0.75,dry,4,3,92.6,52.18,Chateau Imeretian,5
+311,WN-2004-ALS-0311-CDX,white,France,Alsace,Alsace AOC,2004,"Gewurztraminer, Muscadet",13.3,0.375,off-dry,1,4,89.2,19.23,Chateau Moreau,0
+312,WN-2013-BOR-0312-UOH,red,France,Bordeaux,Medoc,2013,"Nebbiolo, Sangiovese",13.9,0.75,dry,3,1,89.3,24.47,Bodegas Moreau,92
+313,WN-2018-ALS-0313-RMV,red,France,Alsace,Grand Cru,2018,"Cabernet Sauvignon, Nebbiolo, Syrah",14.5,0.75,dry,4,3,93.7,35.39,Maison Nikoladze,128
+314,WN-2017-LAN-0314-9OF,red,France,Languedoc,Faugeres,2017,Cabernet Sauvignon,14.1,0.75,dry,4,2,86.4,33.63,Chateau Marchesi,85
+315,WN-2024-TUS-0315-A0C,red,Italy,Tuscany,Chianti Classico,2024,Zinfandel,13.8,0.75,dry,4,3,93.8,55.1,Bodegas Imeretian,0
+316,WN-2024-JUR-0316-IWS,white,France,Jura,Arbois,2024,Viognier,14.5,0.75,dry,2,3,90.9,12.36,Bodegas Imeretian,46
+317,WN-2012-PRO-0317-V7C,red,France,Provence,Cotes de Provence,2012,"Nebbiolo, Pinot Noir, Merlot",14.9,0.75,dry,3,2,88.3,21.08,Maison Durand,3
+318,WN-2012-BUR-0318-3CX,red,France,Burgundy,Cote de Beaune,2012,Merlot,14.5,0.75,dry,3,2,86.6,32.74,Winery Imeretian,144
+319,WN-2015-ALS-0319-1RD,white,France,Alsace,Alsace AOC,2015,Pinot Gris,12.8,0.75,dry,1,3,93.0,18.34,Maison Imeretian,13
+320,WN-2004-PIE-0320-3FF,red,Italy,Piedmont,Langhe,2004,Merlot,13.9,0.75,dry,4,3,88.3,46.88,Chateau Mukuzani,107
+321,WN-2010-BOR-0321-2BS,red,France,Bordeaux,Graves,2010,Nebbiolo,13.7,0.75,dry,4,1,90.3,22.98,Maison Imeretian,38
+322,WN-2000-RIA-0322-TKQ,white,Spain,Rias Baixas,Rias Baixas DO,2000,Muscadet,13.3,0.75,dry,1,4,90.5,30.84,Chateau Durand,57
+323,WN-2002-KAK-0323-HCU,red,Georgia,Kakheti,Kakheti PDO,2002,Cabernet Sauvignon,13.1,0.75,dry,3,3,86.6,29.6,Marani Mukuzani,75
+324,WN-2023-LAN-0324-J3U,red,France,Languedoc,Minervois,2023,Tempranillo,15.5,0.75,dry,3,2,95.2,55.45,Cantina Fontaine,0
+325,WN-2020-PRO-0325-CI9,red,France,Provence,Cotes de Provence,2020,Merlot,13.6,0.75,dry,3,2,90.6,23.06,Cantina Marchesi,55
+326,WN-2019-BEA-0326-F6Z,red,France,Beaujolais,Beaujolais-Villages,2019,Nebbiolo,14.2,0.75,off-dry,2,2,91.0,40.12,Maison Torres,174
+327,WN-2022-PIE-0327-FN2,white,Italy,Piedmont,Barbaresco,2022,Gewurztraminer,11.7,0.75,off-dry,1,3,89.8,40.72,Cantina Nikoladze,18
+328,WN-2024-LOI-0328-EYF,white,France,Loire,Muscadet,2024,Semillon,12.5,0.75,dry,1,4,95.0,28.64,Bodegas Rossi,59
+329,WN-2015-KAK-0329-3OB,red,Georgia,Kakheti,Kakheti PDO,2015,Grenache,13.0,0.75,dry,3,4,90.5,23.95,Domaine Imeretian,37
+330,WN-2017-JUR-0330-X41,white,France,Jura,Cotes du Jura,2017,Sauvignon Blanc,11.7,0.75,dry,1,3,93.3,9.07,Chateau Nikoladze,27
+331,WN-2011-BUR-0331-DRX,white,France,Burgundy,Maconnais,2011,Riesling,13.4,0.75,dry,1,4,83.2,11.31,Chateau Bonnet,71
+332,WN-2021-RHO-0332-TRX,red,France,Rhone,Hermitage,2021,Sangiovese,14.2,0.75,dry,4,3,93.8,38.23,Chateau Lafitte,85
+333,WN-2017-ALS-0333-789,white,France,Alsace,Alsace AOC,2017,Semillon,11.1,0.75,dry,1,4,88.1,25.78,Winery Garcia,86
+334,WN-2000-PRO-0334-JOT,red,France,Provence,Cotes de Provence,2000,"Pinot Noir, Merlot, Syrah",13.8,0.75,dry,5,3,91.3,31.3,Domaine Marchesi,0
+335,WN-1993-RHO-0335-TAG,white,France,Rhone,Cote-Rotie,1993,Pinot Gris,11.0,0.75,dry,2,5,91.6,62.02,Maison Nikoladze,142
+336,WN-2006-PIE-0336-EGA,red,Italy,Piedmont,Langhe,2006,Zinfandel,13.2,0.375,dry,4,3,84.5,32.26,Cantina Ferreira,0
+337,WN-2004-RIB-0337-WY1,red,Spain,Ribera del Duero,Ribera del Duero DO,2004,Merlot,14.1,0.75,dry,5,4,90.6,50.78,Winery Rossi,156
+338,WN-2012-KAK-0338-3T2,orange,Georgia,Kakheti,Kakheti PDO,2012,Rkatsiteli,13.8,0.75,off-dry,3,3,90.5,32.57,Marani Moreau,0
+339,WN-2014-BOR-0339-FHJ,orange,France,Bordeaux,Pomerol,2014,Pinot Gris,13.8,0.75,off-dry,4,3,85.7,27.94,Chateau Nikoladze,110
+340,WN-2020-VEN-0340-RZW,white,Italy,Veneto,Soave,2020,Pinot Gris,12.7,0.75,dry,1,4,85.3,21.41,Bodegas Marchesi,108
+341,WN-2019-PRO-0341-LYU,white,France,Provence,Coteaux d'Aix,2019,Gewurztraminer,13.4,0.75,off-dry,1,3,92.8,23.86,Winery Imeretian,41
+342,WN-2016-RIB-0342-C1H,red,Spain,Ribera del Duero,Ribera del Duero DO,2016,Malbec,14.0,0.75,dry,3,3,87.7,39.71,Winery Moreau,40
+343,WN-2020-RIB-0343-598,red,Spain,Ribera del Duero,Ribera del Duero DO,2020,Nebbiolo,13.1,0.75,dry,4,2,86.4,47.18,Maison Bonnet,64
+344,WN-2021-CHA-0344-WBV,white,France,Champagne,Champagne AOC,2021,Riesling,13.1,0.75,dry,2,3,87.3,45.76,Domaine da Costa,131
+345,WN-2016-LOI-0345-C31,red,France,Loire,Sancerre,2016,Pinot Noir,12.7,1.5,dry,3,4,83.1,16.34,Cantina Lafitte,121
+346,WN-2021-RIB-0346-VKT,red,Spain,Ribera del Duero,Ribera del Duero DO,2021,Malbec,14.2,0.75,dry,2,3,87.6,23.92,Domaine Rossi,68
+347,WN-2019-VEN-0347-GVR,red,Italy,Veneto,Prosecco,2019,Merlot,14.2,0.75,dry,3,3,95.7,25.84,Bodegas Fontaine,182
+348,WN-2016-KAK-0348-9LB,red,Georgia,Kakheti,Kakheti PDO,2016,Zinfandel,12.7,0.75,dry,4,3,87.1,31.6,Estate Mukuzani,62
+349,WN-2015-SIC-0349-PJT,red,Italy,Sicily,Etna,2015,Sangiovese,12.7,0.75,dry,5,2,92.0,28.38,Chateau Rossi,129
+350,WN-2015-JUR-0350-911,red,France,Jura,Arbois,2015,"Syrah, Grenache",13.3,0.75,dry,4,3,89.4,23.89,Domaine Durand,48
+351,WN-2009-RIB-0351-TE0,red,Spain,Ribera del Duero,Ribera del Duero DO,2009,Merlot,12.7,0.75,dry,4,2,94.2,42.08,Cantina da Costa,157
+352,WN-2006-RHO-0352-HUV,red,France,Rhone,Crozes-Hermitage,2006,Merlot,12.2,0.75,off-dry,4,2,92.8,49.91,Maison Imeretian,105
+353,WN-2019-SIC-0353-HU8,white,Italy,Sicily,Etna,2019,Albarino,13.1,0.75,off-dry,3,3,85.3,15.27,Domaine Fontaine,0
+354,WN-2007-BUR-0354-YTX,red,France,Burgundy,Chablis,2007,Syrah,12.7,0.375,dry,3,3,94.4,94.57,Maison Rossi,46
+355,WN-2023-LOI-0355-U0C,red,France,Loire,Vouvray,2023,Cabernet Sauvignon,13.9,0.75,dry,4,2,89.8,22.44,Domaine Ferreira,134
+356,WN-2014-LAN-0356-BDL,red,France,Languedoc,Faugeres,2014,"Zinfandel, Malbec, Sangiovese",12.3,0.75,dry,4,3,85.8,28.37,Cantina Durand,97
+357,WN-2014-PRO-0357-IQL,red,France,Provence,Cotes de Provence,2014,Sangiovese,12.0,0.75,dry,4,2,87.5,40.82,Cantina Marchesi,0
+358,WN-2023-BOR-0358-3MQ,red,France,Bordeaux,Graves,2023,Syrah,13.0,0.75,dry,3,3,89.4,17.35,Domaine Dubois,187
+359,WN-1999-RIA-0359-NMR,white,Spain,Rias Baixas,Rias Baixas DO,1999,Gewurztraminer,13.4,1.5,dry,2,4,89.0,17.9,Bodegas Moreau,168
+360,WN-2006-SIC-0360-2PX,red,Italy,Sicily,Etna,2006,Grenache,12.9,1.5,dry,4,3,85.6,19.28,Bodegas Durand,104
+361,WN-2023-SIC-0361-4WC,red,Italy,Sicily,Nero d'Avola IGT,2023,"Pinot Noir, Sangiovese",13.5,0.75,dry,2,4,94.1,33.5,Chateau Rossi,69
+362,WN-1997-LAN-0362-71J,red,France,Languedoc,Corbieres,1997,Cabernet Sauvignon,14.3,0.75,off-dry,4,3,89.8,20.91,Maison Nikoladze,128
+363,WN-2020-BEA-0363-5J9,red,France,Beaujolais,Moulin-a-Vent,2020,Sangiovese,12.4,0.75,dry,4,2,93.1,38.2,Winery Imeretian,90
+364,WN-2015-SIC-0364-JHW,white,Italy,Sicily,Nero d'Avola IGT,2015,"Semillon, Gewurztraminer, Muscadet",13.4,0.75,dry,1,3,95.9,33.2,Cantina Dubois,29
+365,WN-2007-RIA-0365-5GV,white,Spain,Rias Baixas,Rias Baixas DO,2007,Sauvignon Blanc,12.7,1.5,dry,1,2,95.2,26.5,Domaine Imeretian,50
+366,WN-2010-RIB-0366-C2U,red,Spain,Ribera del Duero,Ribera del Duero DO,2010,Pinot Noir,12.3,0.75,dry,5,2,100.0,51.05,Domaine Durand,33
+367,WN-1997-LOI-0367-NKY,white,France,Loire,Chinon,1997,"Riesling, Chenin Blanc, Viognier",11.9,0.75,dry,1,2,90.5,8.87,Maison da Costa,124
+368,WN-2005-PRO-0368-2Y4,white,France,Provence,Coteaux d'Aix,2005,Semillon,13.6,0.75,dry,2,3,89.5,18.24,Cantina Garcia,60
+369,WN-2018-RIO-0369-7FS,red,Spain,Rioja,Rioja DOCa,2018,Malbec,13.6,0.75,off-dry,4,2,88.6,37.82,Bodegas Rossi,123
+370,WN-2013-BUR-0370-G3Q,red,France,Burgundy,Chablis,2013,Malbec,14.4,0.75,dry,4,3,87.1,49.27,Domaine Lafitte,0
+371,WN-2020-SIC-0371-2QV,red,Italy,Sicily,Nero d'Avola IGT,2020,Nebbiolo,13.1,0.75,dry,4,3,96.9,37.23,Cantina Dubois,59
+372,WN-2009-BOR-0372-XZT,red,France,Bordeaux,Medoc,2009,"Nebbiolo, Tempranillo, Zinfandel",13.8,0.75,dry,4,4,91.6,60.58,Chateau Fontaine,91
+373,WN-1989-JUR-0373-KJ2,red,France,Jura,Arbois,1989,"Cabernet Sauvignon, Nebbiolo, Tempranillo",13.3,0.75,dry,4,2,93.9,32.63,Domaine Lafitte,63
+374,WN-2020-SIC-0374-SC5,orange,Italy,Sicily,Nero d'Avola IGT,2020,Chenin Blanc,13.6,0.75,off-dry,2,2,86.6,23.0,Domaine Torres,101
+375,WN-2022-TUS-0375-H5W,red,Italy,Tuscany,Brunello di Montalcino,2022,Tempranillo,13.8,0.75,dry,4,4,86.4,19.71,Winery Garcia,76
+376,WN-2024-RIO-0376-X4K,red,Spain,Rioja,Rioja DOCa,2024,Tempranillo,13.0,0.75,dry,3,2,87.9,35.18,Bodegas Imeretian,62
+377,WN-2022-CHA-0377-WKL,white,France,Champagne,Champagne AOC,2022,Albarino,11.0,0.75,dry,2,3,93.5,63.3,Maison Garcia,109
+378,WN-2022-PIE-0378-6GD,red,Italy,Piedmont,Langhe,2022,Cabernet Sauvignon,13.1,0.75,dry,2,3,93.4,25.86,Domaine Ferreira,12
+379,WN-2002-KAK-0379-S26,white,Georgia,Kakheti,Kakheti PDO,2002,"Chenin Blanc, Albarino",12.5,0.75,off-dry,2,4,82.9,20.7,Domaine Marchesi,231
+380,WN-2002-RIB-0380-70O,red,Spain,Ribera del Duero,Ribera del Duero DO,2002,"Tempranillo, Sangiovese, Syrah",14.2,0.75,off-dry,5,2,92.4,25.14,Bodegas Moreau,0
+381,WN-2010-BOR-0381-ZK1,red,France,Bordeaux,Graves,2010,Merlot,14.1,0.75,off-dry,3,2,95.5,30.22,Winery da Costa,10
+382,WN-2019-RIA-0382-TUW,orange,Spain,Rias Baixas,Rias Baixas DO,2019,Gewurztraminer,13.0,0.75,dry,1,3,92.8,30.81,Cantina Fontaine,152
+383,WN-1997-RIO-0383-8VY,red,Spain,Rioja,Rioja DOCa,1997,Grenache,12.0,0.75,dry,5,4,89.1,25.02,Winery Moreau,56
+384,WN-2021-BOR-0384-T16,white,France,Bordeaux,Graves,2021,Chenin Blanc,12.7,0.375,dry,1,4,90.9,28.54,Maison Nikoladze,54
+385,WN-2016-BOR-0385-8OW,red,France,Bordeaux,Saint-Emilion,2016,Zinfandel,14.8,0.75,dry,4,2,88.4,50.54,Cantina Nikoladze,51
+386,WN-2019-ALS-0386-0FF,white,France,Alsace,Grand Cru,2019,Riesling,13.1,0.75,dry,1,3,96.8,15.99,Bodegas Ferreira,41
+387,WN-2019-BEA-0387-50K,red,France,Beaujolais,Fleurie,2019,Nebbiolo,13.9,0.75,dry,3,2,91.1,33.61,Bodegas Dubois,108
+388,WN-2017-LAN-0388-0HH,red,France,Languedoc,Corbieres,2017,Merlot,14.0,0.75,dry,3,3,88.0,25.33,Chateau Moreau,93
+389,WN-2004-SIC-0389-5AH,white,Italy,Sicily,Nero d'Avola IGT,2004,Chenin Blanc,12.4,0.75,dry,2,3,88.7,16.33,Winery Ferreira,129
+390,WN-2002-PRO-0390-UF0,red,France,Provence,Cotes de Provence,2002,Nebbiolo,14.8,0.75,dry,3,3,84.3,22.22,Chateau Durand,105
+391,WN-2018-BOR-0391-FM8,red,France,Bordeaux,Pauillac,2018,Merlot,13.4,0.75,dry,3,3,89.0,83.36,Chateau Dubois,176
+392,WN-2014-BEA-0392-8UZ,red,France,Beaujolais,Beaujolais-Villages,2014,Zinfandel,12.9,0.375,dry,4,2,86.5,16.32,Domaine Lafitte,69
+393,WN-2024-RHO-0393-KDU,red,France,Rhone,Crozes-Hermitage,2024,"Merlot, Cabernet Sauvignon, Grenache",14.8,0.75,dry,3,3,92.3,39.63,Domaine Dubois,222
+394,WN-2012-ALS-0394-HRD,white,France,Alsace,Alsace AOC,2012,Semillon,13.4,0.75,dry,1,3,88.2,28.21,Cantina Fontaine,88
+395,WN-2014-RHO-0395-6NJ,red,France,Rhone,Hermitage,2014,Tempranillo,15.4,0.75,dry,4,2,82.9,38.79,Bodegas Ferreira,80
+396,WN-2024-CHA-0396-N6S,white,France,Champagne,Champagne AOC,2024,"Pinot Gris, Muscadet, Viognier",12.9,0.75,dry,1,3,95.5,72.68,Maison da Costa,138
+397,WN-2018-SIC-0397-2RP,white,Italy,Sicily,Nero d'Avola IGT,2018,Albarino,11.9,0.75,dry,2,5,88.4,30.09,Cantina Imeretian,181
+398,WN-2020-BOR-0398-8FE,red,France,Bordeaux,Saint-Emilion,2020,Nebbiolo,13.0,1.5,dry,4,2,82.8,27.8,Bodegas Moreau,137
+399,WN-1986-BOR-0399-BRW,red,France,Bordeaux,Pauillac,1986,Nebbiolo,15.0,1.5,dry,2,2,92.3,62.99,Bodegas da Costa,76
+400,WN-2003-ALS-0400-MLE,white,France,Alsace,Grand Cru,2003,"Muscadet, Semillon, Gewurztraminer",11.8,0.75,off-dry,2,4,85.1,16.96,Winery Dubois,32
+401,WN-2014-KAK-0401-0RH,orange,Georgia,Kakheti,Kakheti PDO,2014,"Gewurztraminer, Rkatsiteli, Sauvignon Blanc",12.2,0.75,off-dry,2,4,88.3,22.46,Marani Garcia,141
+402,WN-2024-BOR-0402-PMK,red,France,Bordeaux,Pauillac,2024,"Syrah, Tempranillo",13.8,0.375,dry,3,3,89.4,65.48,Maison Marchesi,0
+403,WN-2016-RHO-0403-PE2,red,France,Rhone,Crozes-Hermitage,2016,Sangiovese,12.2,0.375,dry,3,3,90.4,28.83,Domaine Bonnet,187
+404,WN-2016-PRO-0404-SYZ,white,France,Provence,Cotes de Provence,2016,"Sauvignon Blanc, Muscadet, Chardonnay",13.3,0.375,dry,1,4,94.8,12.7,Cantina Nikoladze,151
+405,WN-2017-RHO-0405-GGA,red,France,Rhone,Cote-Rotie,2017,Sangiovese,13.3,0.75,dry,4,2,88.9,47.85,Winery Nikoladze,142
+406,WN-2000-RIO-0406-16W,red,Spain,Rioja,Rioja DOCa,2000,Pinot Noir,15.2,0.75,dry,4,2,87.3,38.32,Cantina Fontaine,85
+407,WN-2024-PRO-0407-MEV,white,France,Provence,Coteaux d'Aix,2024,Chenin Blanc,13.3,0.75,dry,1,2,91.5,15.38,Maison Torres,58
+408,WN-2015-TUS-0408-AOO,red,Italy,Tuscany,Brunello di Montalcino,2015,Pinot Noir,13.6,0.75,dry,2,3,87.6,28.72,Domaine Garcia,122
+409,WN-2008-BOR-0409-MXC,red,France,Bordeaux,Medoc,2008,Cabernet Sauvignon,13.4,0.75,dry,3,3,92.3,51.0,Chateau Dubois,43
+410,WN-2010-LAN-0410-NT3,red,France,Languedoc,Minervois,2010,"Tempranillo, Merlot",15.1,1.5,off-dry,2,1,90.4,42.71,Domaine Lafitte,0
+411,WN-2016-PRO-0411-XU1,red,France,Provence,Coteaux d'Aix,2016,Syrah,13.4,0.75,dry,5,3,92.6,32.07,Domaine Fontaine,28
+412,WN-2005-BEA-0412-F4E,red,France,Beaujolais,Fleurie,2005,Nebbiolo,14.3,0.75,dry,4,2,91.7,35.95,Cantina Durand,165
+413,WN-2012-RIB-0413-CNO,red,Spain,Ribera del Duero,Ribera del Duero DO,2012,Zinfandel,12.9,0.75,dry,4,3,93.0,53.66,Maison Mukuzani,176
+414,WN-2011-LOI-0414-C36,white,France,Loire,Sancerre,2011,Semillon,11.9,0.75,off-dry,1,3,87.3,15.91,Chateau Rossi,105
+415,WN-2015-LOI-0415-FRO,white,France,Loire,Sancerre,2015,Semillon,12.7,0.75,dry,2,3,91.1,16.92,Winery Ferreira,184
+416,WN-2023-BEA-0416-ATS,red,France,Beaujolais,Fleurie,2023,Malbec,12.1,0.75,dry,3,3,92.7,17.53,Chateau Ferreira,92
+417,WN-2006-VEN-0417-933,white,Italy,Veneto,Prosecco,2006,Gewurztraminer,12.8,0.75,off-dry,2,2,89.2,7.37,Domaine Garcia,124
+418,WN-2015-PRO-0418-WVO,red,France,Provence,Coteaux d'Aix,2015,Pinot Noir,14.2,0.75,dry,2,3,85.3,38.02,Chateau Moreau,95
+419,WN-2022-TUS-0419-YNZ,red,Italy,Tuscany,Bolgheri,2022,Zinfandel,13.8,0.75,off-dry,3,3,93.2,42.15,Winery Mukuzani,114
+420,WN-2004-LAN-0420-EYS,white,France,Languedoc,Faugeres,2004,Chardonnay,13.1,0.375,dry,1,3,90.8,13.65,Bodegas Moreau,196
+421,WN-2012-RHO-0421-NIN,white,France,Rhone,Chateauneuf-du-Pape,2012,Sauvignon Blanc,13.9,0.75,dry,1,3,87.6,40.58,Bodegas Rossi,171
+422,WN-2017-ALS-0422-P7V,white,France,Alsace,Alsace AOC,2017,Viognier,11.6,0.75,off-dry,1,3,96.1,31.5,Winery Ferreira,34
+423,WN-2023-CHA-0423-13Y,white,France,Champagne,Champagne AOC,2023,Riesling,12.2,0.75,off-dry,1,3,91.9,61.09,Winery Mukuzani,45
+424,WN-2023-CHA-0424-09H,white,France,Champagne,Champagne AOC,2023,Chenin Blanc,12.5,0.75,dry,2,4,91.4,50.14,Bodegas Dubois,151
+425,WN-2022-LOI-0425-ZCA,red,France,Loire,Chinon,2022,Tempranillo,14.9,0.75,dry,4,3,90.0,39.87,Winery Imeretian,123
+426,WN-2022-PRO-0426-GLS,white,France,Provence,Cotes de Provence,2022,Riesling,13.4,0.75,dry,2,4,94.1,18.53,Winery Dubois,93
+427,WN-2018-KAK-0427-GYT,red,Georgia,Kakheti,Kakheti PDO,2018,Malbec,13.9,0.75,dry,4,3,85.6,28.6,Domaine Torres,58
+428,WN-2018-BOR-0428-OGK,orange,France,Bordeaux,Pauillac,2018,Gewurztraminer,12.8,0.75,dry,1,3,89.8,20.66,Bodegas Torres,0
+429,WN-1987-RHO-0429-UAY,red,France,Rhone,Cote-Rotie,1987,Cabernet Sauvignon,14.1,0.375,dry,3,2,90.6,65.0,Cantina Imeretian,39
+430,WN-2017-RHO-0430-YIV,red,France,Rhone,Hermitage,2017,Merlot,14.9,0.75,dry,3,1,92.7,96.06,Bodegas Torres,94
+431,WN-2006-RIA-0431-HTP,white,Spain,Rias Baixas,Rias Baixas DO,2006,Chardonnay,11.2,0.75,dry,1,3,89.6,23.25,Domaine Marchesi,113
+432,WN-2018-RIO-0432-SBO,red,Spain,Rioja,Rioja DOCa,2018,"Pinot Noir, Malbec, Tempranillo",12.8,0.75,off-dry,4,4,91.8,45.67,Winery Marchesi,171
+433,WN-1995-VEN-0433-5EM,red,Italy,Veneto,Valpolicella,1995,Pinot Noir,14.4,0.75,dry,4,3,100.0,38.39,Cantina Lafitte,41
+434,WN-2004-SIC-0434-PTS,red,Italy,Sicily,Nero d'Avola IGT,2004,"Syrah, Tempranillo",12.4,1.5,dry,4,4,81.9,16.29,Bodegas Imeretian,125
+435,WN-1988-SIC-0435-Y1F,red,Italy,Sicily,Nero d'Avola IGT,1988,Nebbiolo,12.0,0.75,dry,3,2,90.4,17.47,Bodegas Mukuzani,94
+436,WN-2002-RIB-0436-MAA,red,Spain,Ribera del Duero,Ribera del Duero DO,2002,Syrah,12.4,0.75,dry,3,3,93.7,39.25,Maison Fontaine,21
+437,WN-2012-LOI-0437-KM1,white,France,Loire,Sancerre,2012,Sauvignon Blanc,12.1,0.75,off-dry,1,2,95.8,22.37,Bodegas da Costa,95
+438,WN-2018-SIC-0438-BJQ,red,Italy,Sicily,Etna,2018,Sangiovese,12.2,0.75,dry,4,3,83.4,24.09,Domaine Fontaine,105
+439,WN-2016-VEN-0439-M1K,white,Italy,Veneto,Prosecco,2016,Sauvignon Blanc,12.0,0.75,dry,1,5,91.3,18.76,Winery Ferreira,137
+440,WN-2020-LOI-0440-ZTA,white,France,Loire,Muscadet,2020,Pinot Gris,12.4,0.75,dry,2,3,96.4,16.79,Chateau Moreau,0
+441,WN-2014-PIE-0441-NLM,red,Italy,Piedmont,Barolo,2014,"Malbec, Merlot",13.7,0.75,off-dry,4,2,92.1,40.17,Winery Moreau,19
+442,WN-2017-LOI-0442-45G,white,France,Loire,Chinon,2017,"Albarino, Chardonnay",12.5,0.375,off-dry,2,3,92.7,25.76,Bodegas Nikoladze,183
+443,WN-2020-RIA-0443-1VX,orange,Spain,Rias Baixas,Rias Baixas DO,2020,Pinot Gris,12.3,0.75,dry,2,3,88.7,6.55,Maison Bonnet,0
+444,WN-1989-RHO-0444-H7R,white,France,Rhone,Chateauneuf-du-Pape,1989,Riesling,12.1,0.75,dry,1,4,95.6,21.52,Domaine Fontaine,71
+445,WN-2019-TUS-0445-O5Z,white,Italy,Tuscany,Brunello di Montalcino,2019,Albarino,11.1,0.75,off-dry,1,4,89.6,21.61,Domaine Durand,1
+446,WN-2022-VEN-0446-6CI,white,Italy,Veneto,Valpolicella,2022,Semillon,12.5,0.75,sweet,2,1,88.5,33.46,Bodegas Fontaine,0
+447,WN-2024-KAK-0447-BKU,red,Georgia,Kakheti,Kakheti PDO,2024,"Merlot, Tempranillo",12.6,0.75,dry,4,3,94.9,36.01,Estate Fontaine,102
+448,WN-2020-RIB-0448-EVY,red,Spain,Ribera del Duero,Ribera del Duero DO,2020,Zinfandel,12.7,1.5,dry,3,2,94.9,31.52,Maison Lafitte,96
+449,WN-2023-CHA-0449-HXI,white,France,Champagne,Champagne AOC,2023,Muscadet,11.0,0.75,dry,1,3,95.3,87.78,Maison Bonnet,0
+450,WN-2017-PIE-0450-GZA,red,Italy,Piedmont,Barolo,2017,Zinfandel,13.3,0.75,dry,5,4,86.2,27.59,Chateau Durand,102
+451,WN-2008-BUR-0451-4N5,red,France,Burgundy,Cote de Beaune,2008,Merlot,15.8,0.75,dry,5,3,87.6,64.03,Chateau Durand,0
+452,WN-2009-BUR-0452-KB9,red,France,Burgundy,Cote de Nuits,2009,Tempranillo,14.1,0.75,dry,3,3,87.1,41.0,Chateau Durand,31
+453,WN-2022-KAK-0453-DT3,red,Georgia,Kakheti,Kakheti PDO,2022,Zinfandel,12.5,0.75,dry,3,3,87.4,27.38,Estate Dubois,42
+454,WN-2019-PIE-0454-KDG,red,Italy,Piedmont,Langhe,2019,"Tempranillo, Zinfandel",14.3,0.75,dry,4,3,87.6,33.5,Winery Torres,93
+455,WN-2019-JUR-0455-LYF,white,France,Jura,Arbois,2019,Pinot Gris,11.0,0.75,dry,1,3,91.2,23.73,Bodegas Fontaine,97
+456,WN-2021-RIA-0456-LY4,white,Spain,Rias Baixas,Rias Baixas DO,2021,Sauvignon Blanc,12.5,0.75,dry,1,3,95.5,30.97,Bodegas Ferreira,23
+457,WN-2015-BOR-0457-78H,red,France,Bordeaux,Graves,2015,Malbec,12.9,0.75,dry,3,2,90.1,57.34,Maison Lafitte,82
+458,WN-2016-BUR-0458-CFH,white,France,Burgundy,Cote de Nuits,2016,Sauvignon Blanc,12.5,0.375,off-dry,1,3,86.7,23.28,Cantina da Costa,217
+459,WN-2017-CHA-0459-6NG,white,France,Champagne,Champagne AOC,2017,"Albarino, Semillon, Muscadet",12.3,0.75,off-dry,2,3,89.4,61.58,Cantina Garcia,136
+460,WN-2007-BEA-0460-YKZ,white,France,Beaujolais,Fleurie,2007,Semillon,13.0,0.75,dry,1,2,81.9,12.63,Winery Durand,45
+461,WN-2009-ALS-0461-1YB,white,France,Alsace,Alsace AOC,2009,Riesling,12.4,0.75,dry,1,4,92.6,20.72,Maison Bonnet,102
+462,WN-2011-BEA-0462-OYG,white,France,Beaujolais,Beaujolais-Villages,2011,Sauvignon Blanc,12.1,0.75,dry,1,3,90.4,26.56,Cantina Ferreira,111
+463,WN-2009-CHA-0463-YLW,white,France,Champagne,Champagne AOC,2009,Riesling,11.4,0.75,off-dry,1,2,91.8,39.51,Winery Mukuzani,54
+464,WN-1994-PRO-0464-XP0,red,France,Provence,Coteaux d'Aix,1994,Grenache,12.9,0.75,dry,5,3,89.4,6.78,Chateau Rossi,142
+465,WN-2018-LOI-0465-EPF,red,France,Loire,Chinon,2018,Merlot,13.8,0.75,dry,3,2,90.6,38.15,Cantina da Costa,65
+466,WN-2005-PRO-0466-A18,white,France,Provence,Coteaux d'Aix,2005,Muscadet,11.9,0.75,off-dry,1,1,90.0,10.92,Cantina Imeretian,65
+467,WN-1996-LAN-0467-I6W,red,France,Languedoc,Faugeres,1996,Cabernet Sauvignon,13.2,0.75,dry,3,3,93.5,30.56,Domaine Rossi,154
+468,WN-2023-CHA-0468-5DW,white,France,Champagne,Champagne AOC,2023,"Chenin Blanc, Pinot Gris, Chardonnay",12.5,0.75,dry,1,3,93.9,52.12,Bodegas Imeretian,84
+469,WN-1986-ALS-0469-QO4,white,France,Alsace,Alsace AOC,1986,Gewurztraminer,12.9,0.75,off-dry,1,3,87.7,7.31,Chateau Moreau,123
+470,WN-1999-PIE-0470-SCI,red,Italy,Piedmont,Barolo,1999,Syrah,14.4,0.75,dry,4,2,85.4,42.47,Bodegas Imeretian,39
+471,WN-2015-KAK-0471-YIH,red,Georgia,Kakheti,Kakheti PDO,2015,Tempranillo,13.1,0.75,dry,4,3,96.0,53.0,Marani Nikoladze,116
+472,WN-2020-BOR-0472-PJ6,red,France,Bordeaux,Pauillac,2020,Merlot,14.2,0.75,dry,4,3,91.1,35.71,Domaine Durand,109
+473,WN-2018-RIA-0473-JOH,white,Spain,Rias Baixas,Rias Baixas DO,2018,Muscadet,12.7,0.75,dry,3,3,90.7,23.15,Bodegas Mukuzani,90
+474,WN-2018-CHA-0474-THR,white,France,Champagne,Champagne AOC,2018,"Gewurztraminer, Chardonnay, Viognier",13.9,0.75,off-dry,1,3,84.5,61.08,Maison Marchesi,80
+475,WN-2024-CHA-0475-XVT,white,France,Champagne,Champagne AOC,2024,Pinot Gris,13.3,0.75,dry,1,2,94.0,65.88,Cantina Mukuzani,0
+476,WN-2018-PIE-0476-HCM,red,Italy,Piedmont,Barbaresco,2018,"Merlot, Zinfandel, Cabernet Sauvignon",14.4,0.75,dry,5,4,91.3,24.8,Cantina Durand,96
+477,WN-2022-PRO-0477-9WX,white,France,Provence,Coteaux d'Aix,2022,Pinot Gris,12.9,0.75,dry,1,3,84.7,16.08,Cantina Rossi,79
+478,WN-2020-PRO-0478-Z58,white,France,Provence,Coteaux d'Aix,2020,Chenin Blanc,11.0,0.75,dry,2,4,96.4,19.14,Chateau Dubois,107
+479,WN-2014-LAN-0479-7QT,red,France,Languedoc,Faugeres,2014,Malbec,12.9,0.75,dry,3,3,91.8,25.33,Maison da Costa,162
+480,WN-2024-PRO-0480-N8H,white,France,Provence,Coteaux d'Aix,2024,Chenin Blanc,12.5,0.75,dry,1,3,93.2,10.6,Bodegas da Costa,50
+481,WN-2021-CHA-0481-ORL,white,France,Champagne,Champagne AOC,2021,Chardonnay,12.6,0.75,off-dry,1,2,90.0,44.0,Winery Rossi,0
+482,WN-2014-KAK-0482-1XJ,red,Georgia,Kakheti,Kakheti PDO,2014,"Syrah, Tempranillo, Cabernet Sauvignon",13.3,0.75,dry,4,3,91.3,12.48,Estate Rossi,85
+483,WN-2004-BOR-0483-JE1,red,France,Bordeaux,Saint-Emilion,2004,Zinfandel,15.5,0.75,dry,4,3,90.2,63.33,Bodegas Torres,3
+484,WN-2000-BOR-0484-FRJ,red,France,Bordeaux,Medoc,2000,Pinot Noir,13.0,0.75,dry,4,3,94.4,60.32,Domaine Marchesi,0
+485,WN-2010-PRO-0485-JPD,white,France,Provence,Cotes de Provence,2010,Pinot Gris,12.3,0.75,dry,1,3,87.3,30.09,Bodegas Moreau,155
+486,WN-2006-BOR-0486-YH5,red,France,Bordeaux,Medoc,2006,"Cabernet Sauvignon, Sangiovese, Grenache",13.9,0.75,dry,5,4,90.8,67.17,Domaine da Costa,172
+487,WN-2017-BUR-0487-1JT,red,France,Burgundy,Cote de Nuits,2017,Sangiovese,13.0,0.75,dry,4,2,88.0,40.82,Domaine Bonnet,210
+488,WN-2009-BOR-0488-Y24,red,France,Bordeaux,Saint-Emilion,2009,Cabernet Sauvignon,13.1,0.75,dry,2,3,90.7,77.83,Maison Garcia,153
+489,WN-2001-RIB-0489-PY0,red,Spain,Ribera del Duero,Ribera del Duero DO,2001,Sangiovese,13.2,0.75,dry,3,3,85.9,28.46,Winery Bonnet,8
+490,WN-2024-JUR-0490-BX9,red,France,Jura,Arbois,2024,Syrah,13.6,0.75,dry,5,4,88.2,26.98,Bodegas Moreau,47
+491,WN-1999-KAK-0491-JYB,orange,Georgia,Kakheti,Kakheti PDO,1999,"Rkatsiteli, Chardonnay",12.2,0.75,dry,3,3,88.8,20.22,Domaine Garcia,60
+492,WN-2020-PRO-0492-7T4,white,France,Provence,Coteaux d'Aix,2020,"Riesling, Muscadet, Gewurztraminer",12.9,0.75,dry,1,2,87.3,20.25,Chateau Mukuzani,69
+493,WN-2016-LAN-0493-Q6T,white,France,Languedoc,Corbieres,2016,Gewurztraminer,11.7,1.5,dry,2,5,89.1,23.57,Cantina Dubois,109
+494,WN-2015-JUR-0494-ZYK,red,France,Jura,Arbois,2015,Nebbiolo,13.8,0.75,dry,3,3,93.2,32.01,Chateau Rossi,26
+495,WN-2016-LAN-0495-CPR,red,France,Languedoc,Minervois,2016,"Grenache, Syrah",14.1,0.375,dry,5,3,93.9,38.61,Maison Bonnet,108
+496,WN-2019-CHA-0496-IGV,orange,France,Champagne,Champagne AOC,2019,Pinot Gris,13.7,0.75,dry,4,4,85.2,33.2,Domaine Rossi,133
+497,WN-2021-LAN-0497-JK6,white,France,Languedoc,Corbieres,2021,"Chenin Blanc, Muscadet",12.4,0.75,dry,1,2,84.4,14.16,Bodegas Dubois,128
+498,WN-2016-VEN-0498-5GA,white,Italy,Veneto,Prosecco,2016,Riesling,13.8,0.75,off-dry,1,3,94.4,29.39,Maison Moreau,109
+499,WN-2004-LOI-0499-3Q4,white,France,Loire,Muscadet,2004,Sauvignon Blanc,12.3,1.5,off-dry,1,4,95.9,16.32,Maison Torres,84
+500,WN-2022-SIC-0500-UXF,red,Italy,Sicily,Etna,2022,Malbec,12.5,0.75,dry,3,4,88.3,16.86,Chateau Durand,2
