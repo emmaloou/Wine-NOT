@@ -1,16 +1,12 @@
-# Wine-NOT
-ETL &amp; Ware
-
-
 # WineNot - Wine Catalog Data Classification
 
-## 📋 Contexte du Projet
+## Contexte du Projet
 
 **WineNot** est une entreprise spécialisée dans la distribution de vins de qualité issus de différentes régions viticoles européennes et géorgiennes. 
 
 Notre base de données catalogue **500 références de vins** avec des informations détaillées (région, cépage, millésime, notes de dégustation, prix, stock). Pour améliorer notre stratégie commerciale et faciliter l'analyse de notre inventaire, nous avons restructuré notre catalogue en créant une table enrichie avec des classifications métier.
 
-## 🎯 Objectif
+## Objectif
 
 Créer une table de production (`WINENOT.PRD.MERGE`) à partir de notre catalogue brut (`WINENOT.UAT.WINE_CATALOG`) en ajoutant trois dimensions de classification :
 
@@ -18,14 +14,14 @@ Créer une table de production (`WINENOT.PRD.MERGE`) à partir de notre catalogu
 2. **Classification prix** : Segmentation en 4 gammes tarifaires
 3. **Classification qualité** : Évaluation basée sur les notes critiques (rating)
 
-## 🗄️ Architecture des Données
+## Architecture des Données
 
 ```
 WINENOT (Database)
 ├── UAT (Schema)
 │   └── WINE_CATALOG (Table source - 500 vins)
 └── PRD (Schema)
-    └── MERGE (Table enrichie avec classifications)
+    └── WINES (Table enrichie avec classifications)
 ```
 
 ## 📊 Structure de la Classification
@@ -63,7 +59,7 @@ WINENOT (Database)
 ### 1. Création de la table enrichie
 
 ```sql
-CREATE OR REPLACE TABLE WINENOT.PRD.MERGE AS
+CREATE OR REPLACE TABLE WINENOT.PRD.WINES AS
 SELECT 
     -- Colonnes originales
     id,
@@ -143,7 +139,7 @@ SELECT
     price_category,
     rating,
     quality_tier
-FROM WINENOT.PRD.MERGE 
+FROM WINENOT.PRD.WINES
 LIMIT 5;
 ```
 
@@ -158,7 +154,7 @@ SELECT
     COUNT(*) as wine_count,
     ROUND(AVG(price_eur), 2) as avg_price,
     ROUND(AVG(rating), 1) as avg_rating
-FROM WINENOT.PRD.MERGE
+FROM WINENOT.PRD.WINES
 GROUP BY region_classification, price_category, quality_tier
 ORDER BY wine_count DESC
 LIMIT 20;
@@ -176,7 +172,7 @@ SELECT
     rating,
     price_eur,
     quality_tier
-FROM WINENOT.PRD.MERGE
+FROM WINENOT.PRD.WINES
 ORDER BY rating DESC
 LIMIT 10;
 
@@ -188,12 +184,12 @@ SELECT
     rating,
     price_eur,
     quality_tier
-FROM WINENOT.PRD.MERGE
+FROM WINENOT.PRD.WINES
 ORDER BY rating ASC
 LIMIT 10;
 ```
 
-## 📈 Cas d'Usage
+## Cas d'Usage
 
 Cette classification permet de :
 - **Segmenter le catalogue** pour des campagnes marketing ciblées
@@ -202,13 +198,13 @@ Cette classification permet de :
 - **Créer des recommandations** basées sur qualité/prix
 - **Faciliter le reporting** pour la direction commerciale
 
-## 🛠️ Technologies
+## Technologies
 
 - **Snowflake** : Data Warehouse cloud
 - **SQL** : Langage de transformation des données
 - **Environment** : UAT → PRD pipeline
 
-## 📝 Notes Techniques
+## Notes Techniques
 
 - La table source contient 500 références de vins
 - Aucune donnée n'a été supprimée, seulement enrichie
@@ -217,6 +213,11 @@ Cette classification permet de :
 
 ---
 
-**Auteur** : Équipe Data WineNot  
+**Auteurs** : Équipe Data WineNot  
+ - Nolwenn Montillot
+- Hannah Zilezsch
+- Matthieu Dollfus
+- Emma Lou Villaret
+- Rayane Kryslak-Médioub
 **Date** : 30 septembre 2025  
 **Version** : 1.0
