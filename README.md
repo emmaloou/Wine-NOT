@@ -1,33 +1,33 @@
 # WineNot - Wine Catalog Data Classification
 
-## Contexte du Projet
+## Project Context
 
-**WineNot** est une entreprise spécialisée dans la distribution de vins de qualité issus de différentes régions viticoles européennes et géorgiennes. 
+**WineNot** is a company specializing in the distribution of quality wines from different European and Georgian wine regions. 
 
-Notre base de données catalogue **500 références de vins** avec des informations détaillées (région, cépage, millésime, notes de dégustation, prix, stock). Pour améliorer notre stratégie commerciale et faciliter l'analyse de notre inventaire, nous avons restructuré notre catalogue en créant une table enrichie avec des classifications métier.
+Our catalog database includes 500 wine references with detailed information (region, grape variety, vintage, tasting notes, price, stock). To improve our business strategy and facilitate inventory analysis, we restructured our catalog by creating an enriched table with business classifications.
 
-## Objectif
+## Objective
 
-Créer une table de production (`WINENOT.PRD.MERGE`) à partir de notre catalogue brut (`WINENOT.UAT.WINE_CATALOG`) en ajoutant trois dimensions de classification :
+Create a production table (`WINENOT.PRD.MERGE`) from our raw catalog (`WINENOT.UAT.WINE_CATALOG`) by adding three classification dimensions :
 
-1. **Classification régionale** : Catégorisation des vins par prestige et origine géographique
-2. **Classification prix** : Segmentation en 4 gammes tarifaires
-3. **Classification qualité** : Évaluation basée sur les notes critiques (rating)
+1. **Regional Classification**: Categorization of wines by prestige and geographic origin
+2. **Price Classification** : Segmentation into 4 price ranges
+3. **Quality Classification**: Evaluation based on critical ratings
 
-## Architecture des Données
+## Data Architecture
 
 ```
 WINENOT (Database)
 ├── UAT (Schema)
-│   └── WINE_CATALOG (Table source - 500 vins)
+│   └── WINE_CATALOG (Source table - 500 wines)
 └── PRD (Schema)
-    └── WINES (Table enrichie avec classifications)
+    └── WINES (Enriched table with classifications)
 ```
 
-## 📊 Structure de la Classification
+## 📊 Classification Structure
 
-### Classification Régionale
-| Catégorie | Régions |
+### Regional Classification
+| Category | Regions |
 |-----------|---------|
 | **Premium French - Rhone Valley** | Rhone |
 | **Premium French - Bordeaux** | Bordeaux |
@@ -41,27 +41,27 @@ WINENOT (Database)
 | **Regional Italian** | Sicily, Veneto |
 | **Georgian Heritage** | Kakheti |
 
-### Classification Prix
+### Price Classification
 - **Budget** : < 15€
 - **Mid-Range** : 15-30€
 - **Premium** : 30-50€
 - **Luxury** : ≥ 50€
 
-### Classification Qualité
+### Quality Classification
 - **Exceptional** : rating ≥ 95
 - **Excellent** : rating 90-94
 - **Very Good** : rating 85-89
 - **Good** : rating 80-84
 - **Average** : rating < 80
 
-## 🔧 Script SQL de Transformation
+## 🔧 Transformation SQL Script
 
-### 1. Création de la table enrichie
+### 1. Creation of the enriched table
 
 ```sql
 CREATE OR REPLACE TABLE WINENOT.PRD.WINES AS
 SELECT 
-    -- Colonnes originales
+    -- Original columns
     id,
     reference,
     color,
@@ -80,7 +80,7 @@ SELECT
     producer,
     stock_quantity,
     
-    -- CLASSIFICATION PAR RÉGION
+    -- REGIONAL CLASSIFICATION
     CASE 
         WHEN region = 'Rhone' THEN 'Premium French - Rhone Valley'
         WHEN region = 'Bordeaux' THEN 'Premium French - Bordeaux'
@@ -97,7 +97,7 @@ SELECT
         ELSE 'Other'
     END AS region_classification,
     
-    -- CLASSIFICATION PAR PRIX
+    -- PRICE CLASSIFICATION
     CASE 
         WHEN price_eur < 15 THEN 'Budget'
         WHEN price_eur BETWEEN 15 AND 30 THEN 'Mid-Range'
@@ -105,7 +105,7 @@ SELECT
         WHEN price_eur >= 50 THEN 'Luxury'
     END AS price_category,
     
-    -- CLASSIFICATION PAR QUALITÉ
+    -- QUALITY CLASSIFICATION
     CASE 
         WHEN rating >= 95 THEN 'Exceptional'
         WHEN rating >= 90 THEN 'Excellent'
@@ -118,18 +118,18 @@ FROM WINENOT.UAT.WINE_CATALOG
 ORDER BY region, price_eur DESC;
 ```
 
-### 2. Vérification du nombre d'enregistrements
+### 2. Record count check
 
 ```sql
--- Compte total des vins dans la nouvelle table
+-- Total amount of wines in the new table
 SELECT COUNT(*) as total_wines 
 FROM WINENOT.PRD.MERGE;
 ```
 
-### 3. Inspection des données transformées
+### 3. Inspect transformed data
 
 ```sql
--- Aperçu des 5 premiers enregistrements avec classifications
+-- Snapshot of the first 5 registered wines with classification
 SELECT 
     id,
     reference,
@@ -143,10 +143,10 @@ FROM WINENOT.PRD.WINES
 LIMIT 5;
 ```
 
-### 4. Analyse de la distribution par classification
+### 4. Distribution analysis by classification
 
 ```sql
--- Distribution des vins par région, prix et qualité
+-- Distribution of wines by region, price, and quality
 SELECT 
     region_classification,
     price_category,
@@ -160,10 +160,10 @@ ORDER BY wine_count DESC
 LIMIT 20;
 ```
 
-### 5. Exploration des vins par note
+### 5. Exploration by rating
 
 ```sql
--- Top 10 des vins les mieux notés
+-- Top 10 wines with the best ratings
 SELECT 
     reference,
     producer,
@@ -176,7 +176,7 @@ FROM WINENOT.PRD.WINES
 ORDER BY rating DESC
 LIMIT 10;
 
--- Vins avec les notes les plus faibles (analyse qualité)
+-- Wines with the lowest ratings (quality analysis)
 SELECT 
     reference,
     producer,
@@ -189,35 +189,35 @@ ORDER BY rating ASC
 LIMIT 10;
 ```
 
-## Cas d'Usage
+## Use Cases
 
-Cette classification permet de :
-- **Segmenter le catalogue** pour des campagnes marketing ciblées
-- **Analyser la performance** par gamme de prix et région
-- **Optimiser les stocks** en identifiant les vins Premium vs Budget
-- **Créer des recommandations** basées sur qualité/prix
-- **Faciliter le reporting** pour la direction commerciale
+This classification enables:
+- **Catalog segmentation** for targeted marketing campaigns
+- **Performance analysis** by price range and region
+- **Stock optimization** by identifying Premium vs. Budget wines
+- **Recommendations building** based on quality/price
+- **Simplified reporting** for sales management
 
 ## Technologies
 
-- **Snowflake** : Data Warehouse cloud
-- **SQL** : Langage de transformation des données
+- **Snowflake** : Cloud Data Warehouse
+- **SQL** : Data transformation language
 - **Environment** : UAT → PRD pipeline
 
-## Notes Techniques
+## Technical Notes
 
-- La table source contient 500 références de vins
-- Aucune donnée n'a été supprimée, seulement enrichie
-- Les classifications sont basées sur des règles métier définies avec l'équipe commerciale
-- La table PRD.MERGE est recréée à chaque exécution (CREATE OR REPLACE)
+- Source table contains 500 wine references
+- No data was deleted, only enriched
+- Classifications are based on business rules defined with the sales team
+- The PRD.MERGE table is recreated on each execution (CREATE OR REPLACE)
 
 ---
 
-**Auteurs** : Équipe Data WineNot  
+**Authors** : Équipe Data WineNot  
  - Nolwenn Montillot
 - Hannah Zilezsch
 - Matthieu Dollfus
 - Emma Lou Villaret
 - Rayane Kryslak-Médioub
-**Date** : 30 septembre 2025  
+**Date** : Septembre, 30th 2025  
 **Version** : 1.0
