@@ -211,6 +211,8 @@ This classification enables:
 - Classifications are based on business rules defined with the sales team
 - The PRD.MERGE table is recreated on each execution (CREATE OR REPLACE)
 
+- For data visualization, we recommend Looker Studio because it is a free solution, easy to integrate, and compatible with many SQL connectors. However, other tools like Power BI could be used for more advanced business needs.
+
 ---
 
 **Authors** : Équipe Data WineNot  
