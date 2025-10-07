@@ -223,3 +223,101 @@ This classification enables:
 - Rayane Kryslak-Médioub
 **Date** : Septembre, 30th 2025  
 **Version** : 1.0
+
+
+PIPELINE BUILD
+# Don't take into account the scheduled time
+
+🗓️ Gantt des étapes du pipeline (Vue synthétique)
+
+Phase 1 — Setup & Fondations (Semaine 1 à 3)
+
+Étape	Durée estimée	Peut démarrer en parallèle ?	Dépend de
+Website & Design System – Rayane	3 sem.	✅ Oui	Aucune (front statique possible)
+API Gateway scaffold – Nolwenn	3 sem.	✅ Oui	Aucune
+Data Layer DDL – Matthieu	2 sem.	✅ Oui	Aucune
+Airflow infra (docker, connexions) – Mory	1 sem.	✅ Oui	Aucune
+Observability stack (Prometheus/Grafana setup) – Emma Lou	1 sem.	✅ Oui	Aucune
+
+➡️ Tout peut être démarré en parallèle ici (aucune dépendance forte).
+Chacun peut travailler dans son périmètre sans attendre les autres.
+Seule exigence : s’accorder tôt sur les schemas de données et endpoints API.
+
+⸻
+
+Phase 2 — Intégration & Flux de Données (Semaine 4 à 6)
+
+Étape	Durée	Parallèle ?	Dépend de
+API business logic (Auth, Cart, Checkout, Stripe)	2-3 sem.	⚠️ Partiellement	OLTP schema stable
+Website connexion API (/products, /cart, /checkout)	2 sem.	⚠️ Partielle	API endpoints mockés ou stables
+dbt init + DW schema	2 sem.	✅ Oui	Postgres DDL validé
+Airflow DAGs RAW dumps (Postgres → MinIO)	1 sem.	✅ Oui	Postgres opérationnel
+MinIO lifecycle & encryption	1 sem.	✅ Oui	Airflow base en place
+QA initiale (lint, smoke test CI)	1 sem.	✅ Oui	Builds dispo
+
+➡️ Dépendances principales :
+	•	Website dépend de l’API (au moins des mocks pour tests).
+	•	API dépend du schéma OLTP défini par Matthieu.
+	•	Airflow dépend du Postgres prêt et accessible.
+	•	dbt peut se développer en parallèle, dès que les sources sont connues.
+
+⸻
+
+Phase 3 — Orchestration & Dataflows complets (Semaine 7 à 9)
+
+Étape	Durée	Parallèle ?	Dépend de
+Airflow DAG: lake_to_dw_curated (dbt run)	2 sem.	✅ Oui	dbt models disponibles
+DAG purchase workflow (order.confirmed → invoice PDF → MinIO)	2 sem.	⚠️ Non	API doit émettre l’événement
+Grafana dashboards (ETL health, stock)	1 sem.	✅ Oui	Airflow metrics disponibles
+Alerting rules & notifications	1 sem.	✅ Oui	Prometheus data
+QA E2E tests (signup → KYC → achat)	2 sem.	⚠️ Non	Website + API + Stripe en test
+
+➡️ Critiques ici :
+	•	Airflow → dépend de la bonne émission d’order.confirmed.
+	•	Les tests E2E nécessitent le site, l’API et la base prêts en environnement intégré.
+
+⸻
+
+Phase 4 — Finalisation & Documentation (Semaine 10 à 11)
+
+Étape	Durée	Parallèle ?	Dépend de
+Compliance (GDPR, DPIA, retention)	1 sem.	✅ Oui	MinIO + Airflow stable
+SECURITY.md, env.example	1 sem.	✅ Oui	Config finalisée
+Docs (Swagger, dbt, Contrib Guide)	1 sem.	✅ Oui	Tout livrable validé
+Lighthouse & Performance audits	1 sem.	✅ Oui	Website déployé
+
+
+⸻
+
+🧠 Synthèse stratégique (vue projet / dépendances fortes)
+
+Dépendance clé	Sens	Risque si décalé
+API ↔ Data schema	Matthieu définit avant Nolwenn	⚠️ API en blocage fonctionnel
+Website ↔ API	Rayane dépend de /products + /cart	⚠️ Mock requis sinon freeze front
+API ↔ Airflow	order.confirmed attendu	⚠️ Pas d’automatisation downstream
+Airflow ↔ dbt	Mory dépend du DW de Matthieu	⚠️ Retard de reporting
+Observability ↔ Tout le monde	Emma Lou observe Airflow/API	⛔ Manque de visibilité et alerting
+
+
+⸻
+
+🪜 Priorisation recommandée
+
+1️⃣ Semaine 1–3 : Fondations
+	•	DDL PostgreSQL, API skeleton, Next.js scaffold, Airflow & MinIO infra.
+	•	Décision sur CMS et hosting.
+
+2️⃣ Semaine 4–6 : Connexions
+	•	API fonctionnelle (Auth, Cart, Checkout) + mock events.
+	•	Front intégré à l’API.
+	•	dbt prêt et testé sur premiers dumps.
+
+3️⃣ Semaine 7–9 : Automatisation
+	•	Airflow complet (RAW→CURATED, fact tables).
+	•	Observabilité active.
+	•	E2E tests sur toute la chaîne.
+
+4️⃣ Semaine 10–11 : Stabilisation
+	•	Compliance, docs, CI/CD propre.
+	•	Lighthouse, QA finale, release candidate.
+
