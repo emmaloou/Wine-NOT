@@ -1,323 +1,228 @@
-# WineNot - Wine Catalog Data Classification
+# 🍷 Wine-NOT — Omnichannel Retail Data Platform
 
-## Project Context
-
-**WineNot** is a company specializing in the distribution of quality wines from different European and Georgian wine regions. 
-
-Our catalog database includes 500 wine references with detailed information (region, grape variety, vintage, tasting notes, price, stock). To improve our business strategy and facilitate inventory analysis, we restructured our catalog by creating an enriched table with business classifications.
-
-## Objective
-
-Create a production table (`WINENOT.PRD.MERGE`) from our raw catalog (`WINENOT.UAT.WINE_CATALOG`) by adding three classification dimensions :
-
-1. **Regional Classification**: Categorization of wines by prestige and geographic origin
-2. **Price Classification** : Segmentation into 4 price ranges
-3. **Quality Classification**: Evaluation based on critical ratings
-
-## Data Architecture
-
-```
-WINENOT (Database)
-├── UAT (Schema)
-│   └── WINE_CATALOG (Source table - 500 wines)
-└── PRD (Schema)
-    └── WINES (Enriched table with classifications)
-```
-
-## 📊 Classification Structure
-
-### Regional Classification
-| Category | Regions |
-|-----------|---------|
-| **Premium French - Rhone Valley** | Rhone |
-| **Premium French - Bordeaux** | Bordeaux |
-| **Premium French - Burgundy** | Burgundy |
-| **Prestige French - Champagne** | Champagne |
-| **Regional French** | Loire, Alsace, Provence, Jura, Beaujolais, Languedoc |
-| **Premium Spanish - Rioja** | Rioja |
-| **Premium Spanish - Ribera** | Ribera del Duero |
-| **Regional Spanish - Atlantic** | Rias Baixas |
-| **Premium Italian - North** | Tuscany, Piedmont |
-| **Regional Italian** | Sicily, Veneto |
-| **Georgian Heritage** | Kakheti |
-
-### Price Classification
-- **Budget** : < 15€
-- **Mid-Range** : 15-30€
-- **Premium** : 30-50€
-- **Luxury** : ≥ 50€
-
-### Quality Classification
-- **Exceptional** : rating ≥ 95
-- **Excellent** : rating 90-94
-- **Very Good** : rating 85-89
-- **Good** : rating 80-84
-- **Average** : rating < 80
-
-## 🔧 Transformation SQL Script
-
-### 1. Creation of the enriched table
-
-```sql
-CREATE OR REPLACE TABLE WINENOT.PRD.WINES AS
-SELECT 
-    -- Original columns
-    id,
-    reference,
-    color,
-    country,
-    region,
-    appellation,
-    vintage,
-    grapes,
-    alcohol_percent,
-    bottle_size_l,
-    sweetness,
-    tannin,
-    acidity,
-    rating,
-    price_eur,
-    producer,
-    stock_quantity,
-    
-    -- REGIONAL CLASSIFICATION
-    CASE 
-        WHEN region = 'Rhone' THEN 'Premium French - Rhone Valley'
-        WHEN region = 'Bordeaux' THEN 'Premium French - Bordeaux'
-        WHEN region = 'Burgundy' THEN 'Premium French - Burgundy'
-        WHEN region = 'Champagne' THEN 'Prestige French - Champagne'
-        WHEN region IN ('Loire', 'Alsace', 'Provence', 'Jura', 'Beaujolais', 'Languedoc') 
-            THEN 'Regional French'
-        WHEN region = 'Rioja' THEN 'Premium Spanish - Rioja'
-        WHEN region = 'Ribera del Duero' THEN 'Premium Spanish - Ribera'
-        WHEN region = 'Rias Baixas' THEN 'Regional Spanish - Atlantic'
-        WHEN region IN ('Tuscany', 'Piedmont') THEN 'Premium Italian - North'
-        WHEN region IN ('Sicily', 'Veneto') THEN 'Regional Italian'
-        WHEN region = 'Kakheti' THEN 'Georgian Heritage'
-        ELSE 'Other'
-    END AS region_classification,
-    
-    -- PRICE CLASSIFICATION
-    CASE 
-        WHEN price_eur < 15 THEN 'Budget'
-        WHEN price_eur BETWEEN 15 AND 30 THEN 'Mid-Range'
-        WHEN price_eur BETWEEN 30 AND 50 THEN 'Premium'
-        WHEN price_eur >= 50 THEN 'Luxury'
-    END AS price_category,
-    
-    -- QUALITY CLASSIFICATION
-    CASE 
-        WHEN rating >= 95 THEN 'Exceptional'
-        WHEN rating >= 90 THEN 'Excellent'
-        WHEN rating >= 85 THEN 'Very Good'
-        WHEN rating >= 80 THEN 'Good'
-        ELSE 'Average'
-    END AS quality_tier
-
-FROM WINENOT.UAT.WINE_CATALOG
-ORDER BY region, price_eur DESC;
-```
-
-### 2. Record count check
-
-```sql
--- Total amount of wines in the new table
-SELECT COUNT(*) as total_wines 
-FROM WINENOT.PRD.MERGE;
-```
-
-### 3. Inspect transformed data
-
-```sql
--- Snapshot of the first 5 registered wines with classification
-SELECT 
-    id,
-    reference,
-    region,
-    region_classification,
-    price_eur,
-    price_category,
-    rating,
-    quality_tier
-FROM WINENOT.PRD.WINES
-LIMIT 5;
-```
-
-### 4. Distribution analysis by classification
-
-```sql
--- Distribution of wines by region, price, and quality
-SELECT 
-    region_classification,
-    price_category,
-    quality_tier,
-    COUNT(*) as wine_count,
-    ROUND(AVG(price_eur), 2) as avg_price,
-    ROUND(AVG(rating), 1) as avg_rating
-FROM WINENOT.PRD.WINES
-GROUP BY region_classification, price_category, quality_tier
-ORDER BY wine_count DESC
-LIMIT 20;
-```
-
-### 5. Exploration by rating
-
-```sql
--- Top 10 wines with the best ratings
-SELECT 
-    reference,
-    producer,
-    region_classification,
-    vintage,
-    rating,
-    price_eur,
-    quality_tier
-FROM WINENOT.PRD.WINES
-ORDER BY rating DESC
-LIMIT 10;
-
--- Wines with the lowest ratings (quality analysis)
-SELECT 
-    reference,
-    producer,
-    region_classification,
-    rating,
-    price_eur,
-    quality_tier
-FROM WINENOT.PRD.WINES
-ORDER BY rating ASC
-LIMIT 10;
-```
-
-## Use Cases
-
-This classification enables:
-- **Catalog segmentation** for targeted marketing campaigns
-- **Performance analysis** by price range and region
-- **Stock optimization** by identifying Premium vs. Budget wines
-- **Recommendations building** based on quality/price
-- **Simplified reporting** for sales management
-
-## Technologies
-
-- **Snowflake** : Cloud Data Warehouse
-- **SQL** : Data transformation language
-- **Environment** : UAT → PRD pipeline
-
-## Technical Notes
-
-- Source table contains 500 wine references
-- No data was deleted, only enriched
-- Classifications are based on business rules defined with the sales team
-- The PRD.MERGE table is recreated on each execution (CREATE OR REPLACE)
-
-- For data visualization, we recommend Looker Studio because it is a free solution, easy to integrate, and compatible with many SQL connectors. However, other tools like Power BI could be used for more advanced business needs.
+**Wine-NOT** is a simulated e-commerce and data warehousing project developed as part of the *ETL & Warehousing* course at **Albert School**.  
+The project demonstrates an end-to-end modern data architecture: from raw data generation and ingestion to Snowflake transformation and analytics.
 
 ---
 
-**Authors** : Équipe Data WineNot  
- - Nolwenn Montillot
-- Hannah Zilezsch
+## 🧭 Project Overview
+
+| Layer | Description | Technologies |
+|--------|--------------|---------------|
+| **Layer 1** | Data Generation — simulate raw customer, wine, and order data | Python, Faker, Docker |
+| **Layer 2** | Ingestion & Streaming — batch and real-time data flows | Kafka (Redpanda), PostgreSQL |
+| **Layer 3** | Warehousing & Transformation — clean, dedupe, enrich | Snowflake, SQL, dbt-core |
+| **Layer 4** | Visualization & Monitoring — reporting & observability | Grafana, Looker Studio, Power BI |
+
+---
+
+## 🗂️ Repository Structure
+
+```
+Wine-NOT/
+├─ data/                        # Generated raw data
+│   ├─ wines.csv
+│   ├─ customers.csv
+│   ├─ orders_events.csv
+│   └─ orders_events.jsonl
+│
+├─ src/
+│   ├─ generate/                # Layer 1 – Data generation scripts
+│   │   ├─ wine_data_generator.py
+│   │   ├─ customer_generator.py
+│   │   ├─ order_event_generator.py
+│   │   └─ requirements.txt
+│   │
+│   ├─ ingest/                  # Layer 2 – Batch/stream ingestion (Kafka, DB)
+│   └─ transform/               # Layer 3 – SQL transformation scripts
+│
+├─ snowflake/                   # Snowflake DDL & staging SQLs
+│   └─ ddl_bootstrap.sql
+│
+├─ observability/               # Grafana dashboards (Layer 4)
+│
+├─ docker-compose.yml
+├─ README.md
+└─ .env.example
+```
+
+---
+
+## 🧱 LAYER 1 — Data Generation
+
+### 🎯 Objective
+Produce realistic *“dirty”* datasets that mimic production data:
+- 5% duplicate records
+- Mixed price formats (€12.5, `12,50`, `12.50 EUR`)
+- Mixed date formats (ISO, EU, US)
+
+### 📜 Scripts
+
+| Script | Output | Description |
+|---------|---------|-------------|
+| `wine_data_generator.py` | `data/wines.csv` | 500+ wine records (country, grape, price, stock, rating). |
+| `customer_generator.py` | `data/customers.csv` | 150+ customers with multiple date formats. |
+| `order_event_generator.py` | `data/orders_events.jsonl` / `.csv` | 60+ customer orders for streaming demo. |
+
+### ▶️ Run Locally
+
+```bash
+# Local virtual env
+cd src/generate
+pip install -r requirements.txt
+python wine_data_generator.py --out ../../data/wines.csv --n 500
+python customer_generator.py --out ../../data/customers.csv --n 150
+python order_event_generator.py --out ../../data/orders_events.jsonl --count 60
+```
+
+Or via Docker:
+```bash
+docker compose run --rm generator
+```
+
+✅ Output → `/data`  
+Contains mixed formats and duplicates as required by the course rubric.
+
+---
+
+## ⚙️ LAYER 2 — Ingestion & Streaming
+
+### 🎯 Objective
+Simulate **data ingestion** in batch and streaming modes.
+
+### 🧰 Components
+| Tool | Purpose |
+|------|----------|
+| **Redpanda (Kafka)** | Streams real-time order events |
+| **PostgreSQL** | Local raw data store |
+| **Python Kafka producer** | Reads `orders_events.jsonl` and publishes events |
+
+### ▶️ Run
+```bash
+docker compose up -d redpanda
+python src/ingest/kafka_producer.py
+```
+
+(Optional consumer to monitor messages)
+```bash
+python src/ingest/kafka_consumer.py
+```
+
+✅ *Simulates orders flowing live into the warehouse.*
+
+---
+
+## 🧮 LAYER 3 — Data Warehousing & Transformation
+
+### 🎯 Objective
+Load, clean, and enrich data to make it analysis-ready.
+
+### 🧱 Schemas
+
+| Schema | Purpose |
+|---------|----------|
+| **RAW** | Original data from CSVs |
+| **STAGING** | Parsed, cleaned, deduplicated data |
+| **DEV** | Dimensional models (`DIM_WINE`, `DIM_CUSTOMER`, `FACT_ORDER`) |
+| **PRD** | Business-ready datasets (classified & enriched) |
+
+### 🧰 Setup
+
+In **Snowsight (Snowflake Web UI)**:
+
+1. Run `snowflake/ddl_bootstrap.sql`  
+   → creates database `WINENOT` with schemas `RAW`, `STAGING`, `DEV`, `PRD`.
+
+2. Upload CSVs from `data/` into RAW tables.
+
+3. Run transformation SQLs (from README or DDL script):
+   - Parse mixed formats (`TRY_TO_TIMESTAMP`, `REGEXP_REPLACE`)
+   - Deduplicate (`ROW_NUMBER()` partitioned by ID)
+   - Enrich final table (`region_classification`, `price_category`, `quality_tier`)
+
+---
+
+## 🍇 Business Classification Logic (PRD Layer)
+
+| Dimension | Categories | Example |
+|------------|-------------|----------|
+| **Regional Classification** | Premium French, Prestige Spanish, Georgian Heritage, etc. | Bordeaux → “Premium French - Bordeaux” |
+| **Price Classification** | Budget (<15 €), Mid-Range (15–30 €), Premium (30–50 €), Luxury (≥50 €) | 42 € → “Premium” |
+| **Quality Classification** | Exceptional (≥95), Excellent (90–94), Very Good (85–89), Good (80–84), Average (<80) | Rating 91 → “Excellent” |
+
+**SQL example (simplified):**
+```sql
+CREATE OR REPLACE TABLE WINENOT.PRD.WINES AS
+SELECT *,
+  CASE 
+    WHEN region ILIKE 'Bordeaux' THEN 'Premium French - Bordeaux'
+    WHEN region ILIKE 'Champagne' THEN 'Prestige French - Champagne'
+    WHEN region IN ('Rioja','Ribera del Duero') THEN 'Premium Spanish'
+    WHEN region ILIKE 'Kakheti' THEN 'Georgian Heritage'
+    ELSE 'Other'
+  END AS region_classification,
+  CASE 
+    WHEN price_eur < 15 THEN 'Budget'
+    WHEN price_eur BETWEEN 15 AND 30 THEN 'Mid-Range'
+    WHEN price_eur BETWEEN 30 AND 50 THEN 'Premium'
+    ELSE 'Luxury'
+  END AS price_category,
+  CASE 
+    WHEN rating >= 95 THEN 'Exceptional'
+    WHEN rating >= 90 THEN 'Excellent'
+    WHEN rating >= 85 THEN 'Very Good'
+    WHEN rating >= 80 THEN 'Good'
+    ELSE 'Average'
+  END AS quality_tier
+FROM WINENOT.DEV.DIM_WINE;
+```
+
+✅ Output: `WINENOT.PRD.WINES` — final enriched table.
+
+---
+
+## 📊 LAYER 4 — Visualization & Monitoring
+
+### 🎯 Objective
+Empower analytics, monitoring, and data observability.
+
+| Tool | Purpose |
+|------|----------|
+| **Grafana** | ETL health & database metrics |
+| **Looker Studio / Power BI** | Business dashboards (sales, stock, quality) |
+| **Sifflet / Atlan (conceptual)** | Data governance, lineage & observability |
+
+### Example Dashboards
+- **Top Wines by Revenue**  
+- **Stock Levels & Replenishment Rate**  
+- **Orders Over Time (Kafka stream)**  
+- **Average Price & Rating by Region**
+
+---
+
+## 🧩 Technologies Used
+
+| Category | Tools |
+|-----------|-------|
+| **Data Generation** | Python, Faker |
+| **Ingestion** | Kafka (Redpanda), PostgreSQL |
+| **Warehouse** | Snowflake |
+| **Transformation** | SQL, dbt-core |
+| **Visualization** | Grafana, Looker Studio, Power BI |
+| **Observability** | Sifflet, Atlan |
+
+---
+
+## 👩‍💻 Authors
+
+**Team Data Wine-NOT**  
 - Matthieu Dollfus
-- Emma Lou Villaret
-- Rayane Kryslak-Médioub
-**Date** : Septembre, 30th 2025  
-**Version** : 1.0
+- Rayane Kryslak  
+- Nolwenn Montillot
+- Emma Lou Villaret  
+- Hannah Zilezsch    
 
+📅 *Version 1.1 — October 2025*  
+📚 *ETL & Warehousing — Albert School*
 
-PIPELINE BUILD
-# Don't take into account the scheduled time
-
-🗓️ Gantt des étapes du pipeline (Vue synthétique)
-
-Phase 1 — Setup & Fondations (Semaine 1 à 3)
-
-Étape	Durée estimée	Peut démarrer en parallèle ?	Dépend de
-Website & Design System – Rayane	3 sem.	✅ Oui	Aucune (front statique possible)
-API Gateway scaffold – Nolwenn	3 sem.	✅ Oui	Aucune
-Data Layer DDL – Matthieu	2 sem.	✅ Oui	Aucune
-Airflow infra (docker, connexions) – Mory	1 sem.	✅ Oui	Aucune
-Observability stack (Prometheus/Grafana setup) – Emma Lou	1 sem.	✅ Oui	Aucune
-
-➡️ Tout peut être démarré en parallèle ici (aucune dépendance forte).
-Chacun peut travailler dans son périmètre sans attendre les autres.
-Seule exigence : s’accorder tôt sur les schemas de données et endpoints API.
-
-⸻
-
-Phase 2 — Intégration & Flux de Données (Semaine 4 à 6)
-
-Étape	Durée	Parallèle ?	Dépend de
-API business logic (Auth, Cart, Checkout, Stripe)	2-3 sem.	⚠️ Partiellement	OLTP schema stable
-Website connexion API (/products, /cart, /checkout)	2 sem.	⚠️ Partielle	API endpoints mockés ou stables
-dbt init + DW schema	2 sem.	✅ Oui	Postgres DDL validé
-Airflow DAGs RAW dumps (Postgres → MinIO)	1 sem.	✅ Oui	Postgres opérationnel
-MinIO lifecycle & encryption	1 sem.	✅ Oui	Airflow base en place
-QA initiale (lint, smoke test CI)	1 sem.	✅ Oui	Builds dispo
-
-➡️ Dépendances principales :
-	•	Website dépend de l’API (au moins des mocks pour tests).
-	•	API dépend du schéma OLTP défini par Matthieu.
-	•	Airflow dépend du Postgres prêt et accessible.
-	•	dbt peut se développer en parallèle, dès que les sources sont connues.
-
-⸻
-
-Phase 3 — Orchestration & Dataflows complets (Semaine 7 à 9)
-
-Étape	Durée	Parallèle ?	Dépend de
-Airflow DAG: lake_to_dw_curated (dbt run)	2 sem.	✅ Oui	dbt models disponibles
-DAG purchase workflow (order.confirmed → invoice PDF → MinIO)	2 sem.	⚠️ Non	API doit émettre l’événement
-Grafana dashboards (ETL health, stock)	1 sem.	✅ Oui	Airflow metrics disponibles
-Alerting rules & notifications	1 sem.	✅ Oui	Prometheus data
-QA E2E tests (signup → KYC → achat)	2 sem.	⚠️ Non	Website + API + Stripe en test
-
-➡️ Critiques ici :
-	•	Airflow → dépend de la bonne émission d’order.confirmed.
-	•	Les tests E2E nécessitent le site, l’API et la base prêts en environnement intégré.
-
-⸻
-
-Phase 4 — Finalisation & Documentation (Semaine 10 à 11)
-
-Étape	Durée	Parallèle ?	Dépend de
-Compliance (GDPR, DPIA, retention)	1 sem.	✅ Oui	MinIO + Airflow stable
-SECURITY.md, env.example	1 sem.	✅ Oui	Config finalisée
-Docs (Swagger, dbt, Contrib Guide)	1 sem.	✅ Oui	Tout livrable validé
-Lighthouse & Performance audits	1 sem.	✅ Oui	Website déployé
-
-
-⸻
-
-🧠 Synthèse stratégique (vue projet / dépendances fortes)
-
-Dépendance clé	Sens	Risque si décalé
-API ↔ Data schema	Matthieu définit avant Nolwenn	⚠️ API en blocage fonctionnel
-Website ↔ API	Rayane dépend de /products + /cart	⚠️ Mock requis sinon freeze front
-API ↔ Airflow	order.confirmed attendu	⚠️ Pas d’automatisation downstream
-Airflow ↔ dbt	Mory dépend du DW de Matthieu	⚠️ Retard de reporting
-Observability ↔ Tout le monde	Emma Lou observe Airflow/API	⛔ Manque de visibilité et alerting
-
-
-⸻
-
-🪜 Priorisation recommandée
-
-1️⃣ Semaine 1–3 : Fondations
-	•	DDL PostgreSQL, API skeleton, Next.js scaffold, Airflow & MinIO infra.
-	•	Décision sur CMS et hosting.
-
-2️⃣ Semaine 4–6 : Connexions
-	•	API fonctionnelle (Auth, Cart, Checkout) + mock events.
-	•	Front intégré à l’API.
-	•	dbt prêt et testé sur premiers dumps.
-
-3️⃣ Semaine 7–9 : Automatisation
-	•	Airflow complet (RAW→CURATED, fact tables).
-	•	Observabilité active.
-	•	E2E tests sur toute la chaîne.
-
-4️⃣ Semaine 10–11 : Stabilisation
-	•	Compliance, docs, CI/CD propre.
-	•	Lighthouse, QA finale, release candidate.
-
+---

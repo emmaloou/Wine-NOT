@@ -1,0 +1,63 @@
+{"order_id": "ORD-2025-000035", "wine_id": 496, "customer_id": 15, "quantity": 2, "order_date": "10-18-2025 00:06:31", "total_price": "€78.24", "status": "shipped", "payment_method": "card"}
+{"order_id": "ORD-2025-000060", "wine_id": 342, "customer_id": 105, "quantity": 3, "order_date": "18/10/2025 00:06", "total_price": "189.96", "status": "shipped", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000057", "wine_id": 262, "customer_id": 30, "quantity": 3, "order_date": "18/10/2025 00:06", "total_price": "165.56 EUR", "status": "shipped", "payment_method": "card"}
+{"order_id": "ORD-2025-000047", "wine_id": 227, "customer_id": 142, "quantity": 3, "order_date": "10-18-2025 00:06:43", "total_price": "70.75", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000049", "wine_id": 66, "customer_id": 11, "quantity": 5, "order_date": "18/10/2025 00:06", "total_price": "110,15", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000055", "wine_id": 205, "customer_id": 138, "quantity": 3, "order_date": "18/10/2025 00:06", "total_price": "€236.31", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000009", "wine_id": 187, "customer_id": 42, "quantity": 4, "order_date": "18/10/2025 00:06", "total_price": "312,41", "status": "confirmed", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000018", "wine_id": 2, "customer_id": 68, "quantity": 4, "order_date": "10-18-2025 00:06:14", "total_price": "92.75 EUR", "status": "pending", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000024", "wine_id": 225, "customer_id": 133, "quantity": 6, "order_date": "18/10/2025 00:06", "total_price": "€478.42", "status": "confirmed", "payment_method": "card"}
+{"order_id": "ORD-2025-000025", "wine_id": 302, "customer_id": 142, "quantity": 1, "order_date": "2025-10-18T00:06:21Z", "total_price": "43.88 EUR", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000026", "wine_id": 118, "customer_id": 18, "quantity": 6, "order_date": "2025-10-18T00:06:22Z", "total_price": "465,46", "status": "pending", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000045", "wine_id": 136, "customer_id": 130, "quantity": 6, "order_date": "18/10/2025 00:06", "total_price": "467,62", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000004", "wine_id": 415, "customer_id": 2, "quantity": 4, "order_date": "2025-10-18T00:06:00Z", "total_price": "291.06", "status": "shipped", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000017", "wine_id": 59, "customer_id": 138, "quantity": 1, "order_date": "18/10/2025 00:06", "total_price": "83,23", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000023", "wine_id": 109, "customer_id": 139, "quantity": 5, "order_date": "10-18-2025 00:06:19", "total_price": "268.30 EUR", "status": "shipped", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000013", "wine_id": 453, "customer_id": 118, "quantity": 6, "order_date": "2025-10-18T00:06:09Z", "total_price": "374,47", "status": "confirmed", "payment_method": "card"}
+{"order_id": "ORD-2025-000027", "wine_id": 249, "customer_id": 55, "quantity": 2, "order_date": "10-18-2025 00:06:23", "total_price": "74.05 EUR", "status": "delivered", "payment_method": "card"}
+{"order_id": "ORD-2025-000041", "wine_id": 136, "customer_id": 34, "quantity": 5, "order_date": "18/10/2025 00:06", "total_price": "€147.56", "status": "confirmed", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000015", "wine_id": 47, "customer_id": 13, "quantity": 2, "order_date": "2025-10-18T00:06:11Z", "total_price": "127.19 EUR", "status": "confirmed", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000003", "wine_id": 259, "customer_id": 7, "quantity": 1, "order_date": "10-18-2025 00:05:59", "total_price": "30.14 EUR", "status": "delivered", "payment_method": "card"}
+{"order_id": "ORD-2025-000052", "wine_id": 211, "customer_id": 64, "quantity": 3, "order_date": "18/10/2025 00:06", "total_price": "284.92 EUR", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000032", "wine_id": 334, "customer_id": 139, "quantity": 5, "order_date": "2025-10-18T00:06:28Z", "total_price": "€81.30", "status": "confirmed", "payment_method": "card"}
+{"order_id": "ORD-2025-000046", "wine_id": 142, "customer_id": 12, "quantity": 6, "order_date": "2025-10-18T00:06:42Z", "total_price": "322,27", "status": "confirmed", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000002", "wine_id": 457, "customer_id": 140, "quantity": 1, "order_date": "2025-10-18T00:05:58Z", "total_price": "82.82", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000053", "wine_id": 114, "customer_id": 52, "quantity": 1, "order_date": "18/10/2025 00:06", "total_price": "103,74", "status": "shipped", "payment_method": "card"}
+{"order_id": "ORD-2025-000005", "wine_id": 391, "customer_id": 87, "quantity": 2, "order_date": "2025-10-18T00:06:01Z", "total_price": "€59.52", "status": "delivered", "payment_method": "card"}
+{"order_id": "ORD-2025-000007", "wine_id": 425, "customer_id": 93, "quantity": 1, "order_date": "10-18-2025 00:06:03", "total_price": "68.48 EUR", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000056", "wine_id": 136, "customer_id": 10, "quantity": 2, "order_date": "2025-10-18T00:06:52Z", "total_price": "143.54", "status": "shipped", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000008", "wine_id": 149, "customer_id": 21, "quantity": 6, "order_date": "2025-10-18T00:06:04Z", "total_price": "€187.25", "status": "delivered", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000010", "wine_id": 350, "customer_id": 19, "quantity": 3, "order_date": "10-18-2025 00:06:06", "total_price": "257.13 EUR", "status": "confirmed", "payment_method": "card"}
+{"order_id": "ORD-2025-000034", "wine_id": 402, "customer_id": 117, "quantity": 4, "order_date": "18/10/2025 00:06", "total_price": "141.99", "status": "delivered", "payment_method": "card"}
+{"order_id": "ORD-2025-000016", "wine_id": 198, "customer_id": 98, "quantity": 4, "order_date": "10-18-2025 00:06:12", "total_price": "294.35", "status": "shipped", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000008", "wine_id": 149, "customer_id": 21, "quantity": 6, "order_date": "2025-10-18T00:06:04Z", "total_price": "€187.25", "status": "delivered", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000022", "wine_id": 66, "customer_id": 122, "quantity": 5, "order_date": "10-18-2025 00:06:18", "total_price": "465.35 EUR", "status": "shipped", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000059", "wine_id": 472, "customer_id": 85, "quantity": 1, "order_date": "10-18-2025 00:06:55", "total_price": "114,12", "status": "pending", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000051", "wine_id": 416, "customer_id": 46, "quantity": 2, "order_date": "18/10/2025 00:06", "total_price": "€234.53", "status": "confirmed", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000006", "wine_id": 310, "customer_id": 68, "quantity": 3, "order_date": "2025-10-18T00:06:02Z", "total_price": "307.39", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000011", "wine_id": 474, "customer_id": 143, "quantity": 4, "order_date": "2025-10-18T00:06:07Z", "total_price": "194,55", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000031", "wine_id": 94, "customer_id": 72, "quantity": 4, "order_date": "18/10/2025 00:06", "total_price": "84.48 EUR", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000033", "wine_id": 110, "customer_id": 103, "quantity": 4, "order_date": "2025-10-18T00:06:29Z", "total_price": "243.39 EUR", "status": "delivered", "payment_method": "card"}
+{"order_id": "ORD-2025-000050", "wine_id": 342, "customer_id": 27, "quantity": 2, "order_date": "18/10/2025 00:06", "total_price": "166.88", "status": "confirmed", "payment_method": "card"}
+{"order_id": "ORD-2025-000043", "wine_id": 340, "customer_id": 27, "quantity": 5, "order_date": "2025-10-18T00:06:39Z", "total_price": "197,14", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000029", "wine_id": 374, "customer_id": 14, "quantity": 4, "order_date": "10-18-2025 00:06:25", "total_price": "€234.83", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000030", "wine_id": 442, "customer_id": 28, "quantity": 6, "order_date": "2025-10-18T00:06:26Z", "total_price": "264.12 EUR", "status": "confirmed", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000021", "wine_id": 124, "customer_id": 146, "quantity": 3, "order_date": "2025-10-18T00:06:17Z", "total_price": "€97.61", "status": "delivered", "payment_method": "card"}
+{"order_id": "ORD-2025-000042", "wine_id": 427, "customer_id": 140, "quantity": 3, "order_date": "10-18-2025 00:06:38", "total_price": "69,42", "status": "pending", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000039", "wine_id": 123, "customer_id": 68, "quantity": 6, "order_date": "18/10/2025 00:06", "total_price": "524.17 EUR", "status": "shipped", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000038", "wine_id": 42, "customer_id": 108, "quantity": 5, "order_date": "10-18-2025 00:06:34", "total_price": "47,85", "status": "shipped", "payment_method": "card"}
+{"order_id": "ORD-2025-000028", "wine_id": 98, "customer_id": 25, "quantity": 4, "order_date": "2025-10-18T00:06:24Z", "total_price": "391.45", "status": "shipped", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000014", "wine_id": 135, "customer_id": 150, "quantity": 6, "order_date": "18/10/2025 00:06", "total_price": "417.34", "status": "shipped", "payment_method": "card"}
+{"order_id": "ORD-2025-000019", "wine_id": 260, "customer_id": 51, "quantity": 3, "order_date": "2025-10-18T00:06:15Z", "total_price": "305,38", "status": "confirmed", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000057", "wine_id": 262, "customer_id": 30, "quantity": 3, "order_date": "18/10/2025 00:06", "total_price": "165.56 EUR", "status": "shipped", "payment_method": "card"}
+{"order_id": "ORD-2025-000001", "wine_id": 380, "customer_id": 71, "quantity": 6, "order_date": "2025-10-18T00:05:57Z", "total_price": "106.82 EUR", "status": "confirmed", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000054", "wine_id": 99, "customer_id": 103, "quantity": 2, "order_date": "18/10/2025 00:06", "total_price": "15,44", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000036", "wine_id": 258, "customer_id": 136, "quantity": 1, "order_date": "2025-10-18T00:06:32Z", "total_price": "€72.18", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000026", "wine_id": 118, "customer_id": 18, "quantity": 6, "order_date": "2025-10-18T00:06:22Z", "total_price": "465,46", "status": "pending", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000020", "wine_id": 307, "customer_id": 83, "quantity": 5, "order_date": "18/10/2025 00:06", "total_price": "€553.13", "status": "pending", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000037", "wine_id": 346, "customer_id": 61, "quantity": 1, "order_date": "18/10/2025 00:06", "total_price": "€73.43", "status": "confirmed", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000040", "wine_id": 480, "customer_id": 19, "quantity": 3, "order_date": "2025-10-18T00:06:36Z", "total_price": "335.51", "status": "pending", "payment_method": "card"}
+{"order_id": "ORD-2025-000012", "wine_id": 206, "customer_id": 69, "quantity": 1, "order_date": "2025-10-18T00:06:08Z", "total_price": "97.58 EUR", "status": "shipped", "payment_method": "card"}
+{"order_id": "ORD-2025-000058", "wine_id": 267, "customer_id": 138, "quantity": 6, "order_date": "10-18-2025 00:06:54", "total_price": "330.88 EUR", "status": "shipped", "payment_method": "paypal"}
+{"order_id": "ORD-2025-000048", "wine_id": 354, "customer_id": 39, "quantity": 1, "order_date": "10-18-2025 00:06:44", "total_price": "€113.68", "status": "shipped", "payment_method": "bank_transfer"}
+{"order_id": "ORD-2025-000044", "wine_id": 140, "customer_id": 73, "quantity": 6, "order_date": "10-18-2025 00:06:40", "total_price": "411.72 EUR", "status": "shipped", "payment_method": "card"}

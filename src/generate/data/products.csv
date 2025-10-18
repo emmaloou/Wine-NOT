@@ -1,0 +1,501 @@
+id,reference,color,country,region,appellation,vintage,grapes,alcohol_percent,bottle_size_l,sweetness,tannin,acidity,rating,price_eur,producer,stock_quantity
+1,WINE-00001,sparkling,Spain,Ribera del Duero,AOC,1998,Sangiovese,12.6,0.375,off-dry,low,low,91,53.67,Buchanan-Gonzalez,246
+2,WINE-00002,sparkling,France,Jura,AOC,2015,Syrah,13.8,0.375,sweet,low,low,79,69.46,Mills-Wallace,136
+3,WINE-00003,white,Spain,Priorat,AVA,2004,Tempranillo,13.5,1.5,off-dry,low,high,96,78.84,"Washington, Lane and Morris",381
+4,WINE-00004,red,France,Jura,AVA,2001,Tempranillo,13.2,1.5,sweet,medium,medium,96,111.27,Steele and Sons,370
+5,WINE-00005,white,Spain,Ribera del Duero,DOC,2004,Tempranillo,13.4,0.75,sweet,medium,high,80,19.46,Hawkins-Martin,428
+6,WINE-00006,white,Italy,Veneto,IGP,2019,"Cabernet Sauvignon, Merlot",13.5,0.75,semi-sweet,high,medium,97,62.62,Nielsen PLC,467
+7,WINE-00007,rosé,France,Burgundy,IGP,2018,Cabernet Sauvignon,14.2,1.5,sweet,medium,high,90,107.12,Daniels-Lopez,355
+8,WINE-00008,rosé,France,Beaujolais,DOC,1996,Riesling,12.0,0.75,off-dry,high,low,90,50.57,Benton Group,508
+9,WINE-00009,sparkling,France,Rhone,IGP,2022,"Pinot Noir, Sauvignon Blanc",13.5,1.5,sweet,medium,high,90,115.18,"Beck, Mckinney and Rowe",154
+10,WINE-00010,white,France,Rhone,DOC,2010,Cabernet Sauvignon,14.7,0.375,semi-sweet,medium,low,82,53.76,Lopez-Gardner,378
+11,WINE-00011,white,Georgia,Kakheti,AVA,2023,Riesling,14.9,1.5,sweet,medium,medium,90,17.8,Romero-Stokes,649
+12,WINE-00012,white,USA,Napa,AOC,2000,Riesling,11.5,1.5,dry,low,low,96,23.24,Green-Sanchez,103
+13,WINE-00013,red,Spain,Rioja,DOC,2006,"Pinot Noir, Grenache",13.7,0.75,dry,low,medium,92,60.77,"Lester, Barber and Velasquez",319
+14,WINE-00014,red,France,Rhone,DOCG,2011,"Riesling, Pinot Noir",11.1,1.5,semi-sweet,low,high,95,110.21,Blair-Perez,776
+15,WINE-00015,red,Georgia,Kakheti,DOCG,2019,"Pinot Noir, Chardonnay",12.0,1.5,semi-sweet,high,low,97,98.51,"Dalton, Herman and Garcia",776
+16,WINE-00016,sparkling,Italy,Piedmont,DOC,2010,Sangiovese,12.6,0.375,dry,medium,medium,86,28.08,Carter and Sons,619
+17,WINE-00017,rosé,Spain,Priorat,DOCG,1998,Syrah,12.0,0.375,semi-sweet,low,medium,97,118.32,Alvarado PLC,624
+18,WINE-00018,rosé,France,Beaujolais,AOC,2020,Sauvignon Blanc,14.2,0.375,sweet,low,medium,98,43.91,Preston PLC,739
+19,WINE-00019,sparkling,USA,Sonoma,AOC,1999,Pinot Noir,11.1,1.5,sweet,high,low,97,100.22,Williams and Sons,485
+20,WINE-00020,white,Spain,Ribera del Duero,AOC,2011,Merlot,14.4,0.375,sweet,low,low,78,34.71,Alexander-Webster,299
+21,WINE-00021,rosé,Georgia,Kakheti,DOCG,2024,"Pinot Noir, Cabernet Sauvignon",14.3,0.75,sweet,high,low,95,23.31,Miller PLC,522
+22,WINE-00022,white,France,Beaujolais,AVA,2000,Pinot Noir,11.6,1.5,dry,high,low,88,83.79,"Luna, Lopez and Davis",543
+23,WINE-00023,red,Georgia,Kakheti,AVA,2001,Syrah,12.2,0.375,sweet,high,low,80,56.53,Glass-Downs,627
+24,WINE-00024,rosé,Georgia,Kakheti,IGP,2017,"Sangiovese, Syrah",13.4,0.75,off-dry,medium,low,91,19.86,Hamilton-Everett,452
+25,WINE-00025,white,Spain,Rioja,IGP,2016,Syrah,12.4,0.375,off-dry,high,high,99,47.74,Werner-Wright,259
+26,WINE-00026,white,Italy,Sicily,AOC,2016,"Riesling, Pinot Noir",14.7,0.375,sweet,high,medium,88,54.03,"Williams, Watts and Rodriguez",365
+27,WINE-00027,rosé,Spain,Rioja,AOC,2009,"Sangiovese, Riesling",14.2,0.75,semi-sweet,high,high,87,64.4,"Hogan, Odonnell and Peterson",65
+28,WINE-00028,red,France,Loire,AOC,2023,"Grenache, Cabernet Sauvignon",14.5,0.75,off-dry,medium,high,86,52.28,"Coleman, Jones and Caldwell",549
+29,WINE-00029,rosé,Georgia,Kakheti,AOC,2008,"Cabernet Sauvignon, Pinot Noir",15.0,0.75,dry,high,low,86,15.55,"Davis, Hartman and Valencia",227
+30,WINE-00030,red,France,Champagne,IGP,2012,Chardonnay,12.9,0.75,off-dry,low,high,85,112.95,Barajas-Smith,165
+31,WINE-00031,white,Spain,Rioja,DOC,2019,"Grenache, Sangiovese",11.9,0.75,off-dry,medium,medium,78,119.37,"Ward, Alexander and Vance",37
+32,WINE-00032,white,France,Bordeaux,AVA,1998,"Syrah, Riesling",14.0,1.5,sweet,high,medium,95,101.15,Soto Ltd,402
+33,WINE-00033,white,Georgia,Kakheti,DOC,2007,"Syrah, Pinot Noir",15.5,0.375,off-dry,low,low,98,90.46,Jenkins Inc,261
+34,WINE-00034,red,USA,Napa,AOC,2014,"Sangiovese, Grenache",12.1,0.75,dry,medium,low,83,36.67,"Carter, Howard and Kane",3
+35,WINE-00035,rosé,Spain,Rias Baixas,AVA,2023,"Syrah, Cabernet Sauvignon",12.4,0.75,off-dry,low,medium,90,15.56,"Montgomery, French and Gallagher",285
+36,WINE-00036,white,Georgia,Kakheti,AVA,2003,Merlot,14.7,0.375,sweet,high,low,90,8.56,Gray-Cook,311
+37,WINE-00037,white,Italy,Tuscany,AVA,1999,"Chardonnay, Riesling",12.3,1.5,off-dry,low,high,94,77.52,Brown Group,751
+38,WINE-00038,red,Georgia,Kakheti,AVA,1995,Merlot,11.2,1.5,semi-sweet,low,medium,92,69.67,Torres-Gordon,642
+39,WINE-00039,white,France,Jura,IGP,2020,"Cabernet Sauvignon, Riesling",11.3,1.5,dry,high,high,80,91.01,Walker and Sons,485
+40,WINE-00040,rosé,Spain,Rioja,DOC,2018,Syrah,13.9,0.75,sweet,medium,low,93,109.79,Daniel-Byrd,294
+41,WINE-00041,white,France,Languedoc,AOC,2003,Chardonnay,13.9,1.5,semi-sweet,high,high,82,7.42,Johnson Inc,62
+42,WINE-00042,red,USA,Sonoma,DOC,2004,"Grenache, Sangiovese",13.1,0.75,dry,high,low,87,117.51,Beck-Saunders,484
+43,WINE-00043,sparkling,France,Champagne,AOC,2001,"Grenache, Sauvignon Blanc",15.1,0.375,dry,high,low,82,91.21,Nelson Ltd,268
+44,WINE-00044,rosé,Spain,Ribera del Duero,AOC,2023,"Syrah, Riesling",14.9,0.75,dry,low,low,93,83.7,"Schwartz, Watson and Massey",415
+45,WINE-00045,sparkling,Spain,Ribera del Duero,DOCG,2021,"Chardonnay, Merlot",12.5,0.75,semi-sweet,medium,low,84,87.28,Rivera-Hester,757
+46,WINE-00046,rosé,Spain,Rias Baixas,AOC,2006,"Sauvignon Blanc, Merlot",15.2,0.75,dry,medium,low,79,101.15,"Smith, Smith and Vance",292
+47,WINE-00047,rosé,Italy,Piedmont,IGP,2020,"Syrah, Chardonnay",15.3,0.375,sweet,high,high,84,88.03,Sullivan Ltd,50
+48,WINE-00048,white,USA,Sonoma,DOCG,1999,"Cabernet Sauvignon, Sangiovese",11.8,0.75,semi-sweet,medium,medium,86,90.25,Carlson LLC,668
+49,WINE-00049,white,Spain,Priorat,DOCG,1998,"Sangiovese, Sauvignon Blanc",11.8,0.375,dry,low,high,93,68.74,Johnson-Logan,463
+50,WINE-00050,sparkling,Spain,Priorat,DOC,1997,Syrah,11.8,1.5,dry,medium,low,89,35.45,Anderson PLC,583
+51,WINE-00051,sparkling,Italy,Tuscany,IGP,2007,"Sangiovese, Syrah",12.2,0.375,sweet,medium,high,89,20.35,Mckenzie-Mendoza,515
+52,WINE-00052,red,Georgia,Kakheti,DOCG,2007,Sauvignon Blanc,13.9,0.75,semi-sweet,low,low,79,54.47,Baxter-Young,782
+53,WINE-00053,sparkling,USA,Willamette Valley,AOC,2024,Sauvignon Blanc,15.2,1.5,sweet,medium,low,81,31.51,"Baker, May and Gonzalez",155
+54,WINE-00054,sparkling,Georgia,Kakheti,AOC,2020,Cabernet Sauvignon,11.6,1.5,dry,high,high,87,115.72,Andrews-Gill,641
+55,WINE-00055,red,Spain,Priorat,AOC,2011,Grenache,15.2,0.375,sweet,medium,low,97,6.13,Francis LLC,550
+56,WINE-00056,rosé,Spain,Priorat,DOCG,2011,Riesling,12.1,0.375,dry,medium,high,98,41.04,"Ryan, Colon and Howard",22
+57,WINE-00057,sparkling,Italy,Sicily,AOC,2024,"Syrah, Sauvignon Blanc",12.7,0.75,dry,high,medium,91,47.3,Leblanc-Reid,405
+58,WINE-00058,rosé,Italy,Tuscany,AVA,2010,Syrah,15.4,0.75,off-dry,low,medium,85,36.21,Jenkins and Sons,302
+59,WINE-00059,sparkling,France,Languedoc,AVA,2010,Syrah,12.9,1.5,dry,high,low,90,12.2,"Good, Burch and Harris",24
+60,WINE-00060,sparkling,Georgia,Kakheti,AOC,2007,Pinot Noir,13.0,1.5,semi-sweet,high,low,80,112.2,Nelson-Munoz,337
+61,WINE-00061,sparkling,Italy,Piedmont,AOC,2005,"Sauvignon Blanc, Chardonnay",13.0,0.375,dry,low,medium,80,46.07,"Davis, Larson and Weber",126
+62,WINE-00062,sparkling,Georgia,Kakheti,DOCG,1996,"Sauvignon Blanc, Merlot",14.2,0.375,semi-sweet,high,medium,84,42.86,Rangel-Wilson,755
+63,WINE-00063,sparkling,USA,Napa,DOC,1996,"Cabernet Sauvignon, Sauvignon Blanc",13.1,0.375,semi-sweet,low,high,80,108.43,Torres PLC,347
+64,WINE-00064,rosé,Spain,Rias Baixas,AVA,2018,Grenache,14.2,0.75,semi-sweet,medium,low,97,110.48,Baker LLC,649
+65,WINE-00065,white,France,Bordeaux,AOC,2020,"Riesling, Sauvignon Blanc",12.1,0.75,sweet,low,medium,83,6.99,Bush LLC,756
+66,WINE-00066,white,Spain,Ribera del Duero,DOCG,2020,"Riesling, Chardonnay",14.5,0.375,off-dry,medium,low,85,52.48,Ortega Group,665
+67,WINE-00067,rosé,France,Beaujolais,DOC,2003,"Merlot, Tempranillo",13.8,0.375,dry,medium,medium,92,25.74,Church-Ray,136
+68,WINE-00068,white,USA,Sonoma,AVA,2004,Grenache,12.3,0.75,semi-sweet,medium,high,86,28.71,"Marquez, Poole and Cannon",253
+69,WINE-00069,white,Italy,Piedmont,DOC,2005,"Tempranillo, Syrah",11.3,0.75,off-dry,high,high,85,80.06,Navarro Ltd,102
+70,WINE-00070,red,USA,Napa,AOC,2024,"Syrah, Riesling",12.7,0.75,off-dry,low,low,84,74.46,"Crawford, Gomez and Harris",597
+71,WINE-00071,rosé,Italy,Tuscany,AVA,2014,Riesling,12.2,1.5,dry,low,high,97,86.91,"Sanders, Rodriguez and Mcgee",358
+72,WINE-00072,rosé,Italy,Tuscany,DOCG,2001,Cabernet Sauvignon,15.5,0.375,off-dry,low,medium,91,83.33,"Benson, Wilson and Gonzalez",189
+73,WINE-00073,red,Georgia,Kakheti,DOC,2012,Riesling,13.2,0.75,dry,medium,high,95,23.62,"Owen, Walker and Smith",546
+74,WINE-00074,sparkling,France,Rhone,DOCG,2008,"Grenache, Tempranillo",15.3,0.75,semi-sweet,medium,medium,78,104.52,Mendoza-Gray,372
+75,WINE-00075,sparkling,Italy,Sicily,DOC,2023,Sauvignon Blanc,11.7,0.375,dry,medium,high,89,58.54,Fisher Inc,166
+76,WINE-00076,red,Italy,Tuscany,AVA,1997,Sauvignon Blanc,13.6,0.75,off-dry,low,medium,87,24.45,Griffin LLC,175
+77,WINE-00077,sparkling,France,Burgundy,IGP,1999,Grenache,14.8,0.375,sweet,medium,low,97,111.58,Cooper Ltd,397
+78,WINE-00078,white,France,Languedoc,DOC,2021,"Tempranillo, Syrah",13.1,1.5,off-dry,low,medium,94,23.84,Martinez-Medina,367
+79,WINE-00079,white,France,Rhone,DOC,2021,Sangiovese,14.4,0.375,semi-sweet,low,medium,97,57.95,Perez Inc,642
+80,WINE-00080,rosé,Spain,Priorat,AVA,2007,Sauvignon Blanc,14.0,0.75,sweet,low,low,78,76.55,Jacobs-Buchanan,501
+81,WINE-00081,sparkling,USA,Napa,AVA,2007,"Pinot Noir, Riesling",11.5,0.375,semi-sweet,medium,medium,80,97.46,Pham Group,516
+82,WINE-00082,red,Georgia,Kakheti,DOC,2019,Chardonnay,14.2,0.375,dry,high,medium,98,114.4,Kirk-Rocha,139
+83,WINE-00083,red,France,Burgundy,DOC,2004,Riesling,15.3,0.375,off-dry,low,medium,97,92.2,Perkins-Moore,162
+84,WINE-00084,sparkling,Spain,Rias Baixas,DOC,2001,"Sangiovese, Riesling",13.7,1.5,off-dry,medium,medium,79,28.68,Spencer LLC,413
+85,WINE-00085,rosé,Italy,Veneto,IGP,1998,Grenache,14.5,0.375,semi-sweet,medium,high,94,72.12,"Giles, Perez and Aguilar",107
+86,WINE-00086,rosé,Spain,Priorat,DOCG,2006,"Chardonnay, Pinot Noir",12.5,0.375,sweet,low,low,97,90.77,"Moreno, Lucero and Mills",49
+87,WINE-00087,rosé,Spain,Rias Baixas,AVA,2002,"Cabernet Sauvignon, Tempranillo",11.7,1.5,sweet,medium,high,89,108.09,Ortiz-Bautista,135
+88,WINE-00088,red,USA,Napa,AOC,2013,Cabernet Sauvignon,12.6,0.375,semi-sweet,high,low,91,72.53,"White, Hampton and Welch",603
+89,WINE-00089,rosé,Italy,Piedmont,AVA,1995,"Pinot Noir, Tempranillo",15.2,0.375,off-dry,medium,low,80,78.76,Morales-Mcknight,681
+90,WINE-00090,rosé,Spain,Priorat,AOC,2023,Sangiovese,12.6,1.5,sweet,high,high,93,34.33,Brown Inc,0
+91,WINE-00091,red,France,Bordeaux,IGP,2000,Syrah,11.3,0.375,dry,high,high,99,113.26,"Reynolds, Stevens and Oliver",145
+92,WINE-00092,sparkling,USA,Napa,AVA,2004,Sangiovese,11.3,1.5,dry,high,medium,95,6.72,"Hurst, Green and Lopez",447
+93,WINE-00093,sparkling,USA,Napa,DOC,2003,Merlot,12.0,0.375,dry,medium,high,86,87.13,Cherry PLC,272
+94,WINE-00094,rosé,Georgia,Kakheti,DOCG,2023,Merlot,13.3,0.375,semi-sweet,low,high,84,113.7,"Thomas, Cox and Pineda",764
+95,WINE-00095,sparkling,Spain,Ribera del Duero,DOCG,2024,Sauvignon Blanc,14.8,1.5,sweet,medium,high,78,103.76,Sanders-Shea,447
+96,WINE-00096,rosé,Italy,Umbria,DOC,2013,"Tempranillo, Merlot",15.1,0.375,dry,low,low,81,76.9,"Oliver, Shelton and Martinez",165
+97,WINE-00097,red,Spain,Ribera del Duero,AOC,2017,Pinot Noir,13.9,0.375,dry,high,low,80,103.64,Kennedy-Price,780
+98,WINE-00098,red,Spain,Ribera del Duero,IGP,2001,Syrah,11.9,0.375,dry,high,low,98,78.08,"Gonzales, Aguilar and Donovan",488
+99,WINE-00099,red,France,Rhone,DOC,2008,"Chardonnay, Tempranillo",12.2,0.75,semi-sweet,medium,low,89,109.78,"Burns, Bennett and Davis",787
+100,WINE-00100,rosé,Georgia,Kakheti,AVA,1995,Sauvignon Blanc,13.0,0.375,semi-sweet,medium,high,79,67.32,Larson and Sons,221
+101,WINE-00101,rosé,France,Languedoc,DOC,2001,"Cabernet Sauvignon, Sangiovese",12.3,0.375,dry,medium,medium,81,62.03,"Mercer, Herrera and Henderson",188
+102,WINE-00102,rosé,USA,Willamette Valley,AVA,2004,"Tempranillo, Pinot Noir",14.7,1.5,off-dry,medium,low,81,113.01,Adams Inc,785
+103,WINE-00103,red,France,Beaujolais,DOCG,2024,"Merlot, Sauvignon Blanc",12.8,1.5,dry,medium,high,78,48.4,"Hughes, Ortiz and Alexander",310
+104,WINE-00104,white,Spain,Priorat,IGP,1999,Riesling,13.4,1.5,dry,medium,high,88,65.48,"Sweeney, Thomas and Hill",461
+105,WINE-00105,white,Georgia,Kakheti,IGP,1999,"Grenache, Syrah",12.5,1.5,off-dry,high,low,86,40.37,"Jordan, Osborne and Gonzalez",720
+106,WINE-00106,white,Georgia,Kakheti,DOC,2006,"Tempranillo, Sangiovese",11.7,0.75,off-dry,medium,high,81,24.76,Harrington-Stewart,673
+107,WINE-00107,sparkling,France,Loire,DOC,2018,Grenache,12.3,0.75,off-dry,low,high,81,38.01,"Allen, Abbott and Herrera",397
+108,WINE-00108,red,USA,Napa,IGP,2015,"Syrah, Sangiovese",12.3,0.375,off-dry,medium,high,90,6.63,"Valdez, Martin and Thomas",248
+109,WINE-00109,sparkling,USA,Willamette Valley,DOC,2015,Pinot Noir,11.6,0.75,semi-sweet,medium,high,81,108.0,Santiago Group,248
+110,WINE-00110,white,USA,Willamette Valley,DOCG,1995,"Riesling, Tempranillo",13.8,0.75,off-dry,high,medium,78,50.31,Johnson-Small,501
+111,WINE-00111,rosé,France,Bordeaux,AVA,2017,Pinot Noir,14.5,0.375,semi-sweet,low,high,92,67.68,"Ball, Higgins and Adams",734
+112,WINE-00112,red,USA,Willamette Valley,DOCG,2001,"Sauvignon Blanc, Riesling",15.5,0.375,sweet,high,low,97,46.52,"Kennedy, Everett and Landry",57
+113,WINE-00113,sparkling,Spain,Rias Baixas,IGP,1997,Cabernet Sauvignon,12.9,0.75,semi-sweet,high,medium,81,31.58,"Ayala, Adams and Day",759
+114,WINE-00114,white,USA,Willamette Valley,IGP,1999,"Syrah, Pinot Noir",15.2,0.375,off-dry,medium,high,95,88.16,Gonzalez Inc,149
+115,WINE-00115,sparkling,Spain,Priorat,DOCG,2006,Riesling,14.5,0.375,semi-sweet,high,medium,99,34.9,Taylor Inc,436
+116,WINE-00116,red,Italy,Sicily,DOCG,2005,"Syrah, Grenache",13.2,0.75,dry,high,medium,82,111.87,"Lee, Foster and Maldonado",394
+117,WINE-00117,rosé,France,Burgundy,DOC,2016,"Tempranillo, Cabernet Sauvignon",11.1,0.375,semi-sweet,medium,high,81,71.95,"Rivera, Cruz and Patel",239
+118,WINE-00118,rosé,Italy,Sicily,DOC,2020,Sauvignon Blanc,13.4,1.5,dry,high,high,98,101.62,Black and Sons,202
+119,WINE-00119,white,USA,Willamette Valley,AVA,2016,Riesling,15.0,1.5,dry,medium,medium,85,100.28,Bray-Stokes,484
+120,WINE-00120,red,USA,Willamette Valley,IGP,2002,"Pinot Noir, Riesling",13.2,1.5,dry,low,medium,92,85.33,Armstrong PLC,509
+121,WINE-00121,rosé,Spain,Priorat,IGP,2015,"Merlot, Pinot Noir",12.6,1.5,dry,low,high,79,83.82,"Cruz, Zhang and Cruz",338
+122,WINE-00122,sparkling,France,Jura,IGP,2001,Cabernet Sauvignon,14.2,1.5,off-dry,medium,low,99,47.74,Young LLC,485
+123,WINE-00123,rosé,Georgia,Kakheti,IGP,2012,"Sauvignon Blanc, Grenache",11.2,0.75,semi-sweet,medium,medium,90,44.04,"Levine, Lewis and Deleon",278
+124,WINE-00124,white,Georgia,Kakheti,IGP,2001,Chardonnay,12.4,0.75,off-dry,high,high,80,95.4,James and Sons,41
+125,WINE-00125,sparkling,USA,Willamette Valley,AVA,2004,Sauvignon Blanc,11.5,0.375,off-dry,medium,high,99,12.86,"Kaufman, Mathis and Romero",512
+126,WINE-00126,white,Georgia,Kakheti,AVA,1996,Syrah,14.0,0.75,off-dry,low,high,83,105.09,"Garcia, Graham and Manning",431
+127,WINE-00127,rosé,France,Bordeaux,DOC,2022,"Sangiovese, Grenache",12.4,0.75,dry,medium,low,91,70.56,Davis-Barber,592
+128,WINE-00128,red,France,Beaujolais,AOC,2009,"Tempranillo, Sauvignon Blanc",11.3,1.5,sweet,high,high,99,117.81,Brown-Smith,486
+129,WINE-00129,red,USA,Willamette Valley,AOC,2015,"Syrah, Pinot Noir",11.1,0.375,dry,high,high,81,118.48,Chaney PLC,90
+130,WINE-00130,white,Italy,Tuscany,IGP,2018,Grenache,13.6,0.75,off-dry,low,medium,82,89.19,"White, Patel and Lopez",86
+131,WINE-00131,sparkling,Spain,Priorat,DOCG,1995,Cabernet Sauvignon,11.3,1.5,dry,medium,medium,87,89.16,Mitchell-Knapp,169
+132,WINE-00132,red,USA,Willamette Valley,DOCG,2010,"Tempranillo, Riesling",14.0,0.375,dry,medium,high,83,77.79,Mercado LLC,427
+133,WINE-00133,sparkling,USA,Sonoma,DOCG,1996,"Grenache, Tempranillo",13.8,1.5,semi-sweet,high,high,78,100.77,Blair-Terry,615
+134,WINE-00134,white,Spain,Priorat,IGP,2020,"Sauvignon Blanc, Syrah",13.0,1.5,dry,medium,medium,86,54.17,"Green, Hill and Bradshaw",600
+135,WINE-00135,white,France,Champagne,AVA,2022,Grenache,14.6,1.5,sweet,medium,high,80,67.56,Mcmillan Group,496
+136,WINE-00136,white,USA,Napa,DOCG,2009,Sauvignon Blanc,14.2,0.75,dry,medium,medium,95,16.0,"Johnson, Irwin and Porter",363
+137,WINE-00137,sparkling,France,Loire,AVA,2010,"Sangiovese, Chardonnay",13.3,0.375,off-dry,low,low,80,26.6,Gonzalez and Sons,717
+138,WINE-00138,rosé,Spain,Rias Baixas,IGP,1996,Syrah,15.2,0.75,semi-sweet,low,medium,98,58.83,"Howell, Warren and Casey",83
+139,WINE-00139,red,Italy,Veneto,DOCG,1998,"Sangiovese, Cabernet Sauvignon",11.2,1.5,sweet,high,high,84,35.82,"Hamilton, Olson and Smith",797
+140,WINE-00140,red,Spain,Priorat,IGP,2021,Grenache,11.2,0.375,off-dry,medium,low,78,11.81,Spence Inc,570
+141,WINE-00141,sparkling,Spain,Priorat,AOC,2003,"Merlot, Tempranillo",12.4,0.375,dry,high,high,90,26.82,Jennings PLC,163
+142,WINE-00142,white,Spain,Ribera del Duero,DOC,2006,Grenache,11.3,1.5,dry,low,medium,94,86.9,Hampton-Thomas,662
+143,WINE-00143,red,USA,Napa,DOC,2016,"Cabernet Sauvignon, Syrah",14.4,1.5,sweet,high,low,93,42.93,"Beasley, Anderson and Ramos",263
+144,WINE-00144,rosé,USA,Napa,IGP,2002,"Pinot Noir, Riesling",14.6,1.5,dry,medium,high,84,97.07,"Thornton, Martin and Thomas",160
+145,WINE-00145,rosé,Italy,Tuscany,DOC,2021,"Merlot, Sauvignon Blanc",11.1,0.375,sweet,medium,medium,85,60.44,"Carroll, Duran and Alvarado",643
+146,WINE-00146,rosé,Spain,Ribera del Duero,DOC,2017,Pinot Noir,13.0,0.375,sweet,low,medium,91,52.94,"Hoover, Lee and Ingram",159
+147,WINE-00147,rosé,France,Champagne,DOCG,2010,Grenache,11.5,0.75,sweet,low,low,94,12.48,Ward and Sons,684
+148,WINE-00148,sparkling,Italy,Umbria,DOCG,2019,Grenache,11.9,0.75,sweet,medium,low,85,17.12,Church-Johnson,296
+149,WINE-00149,red,USA,Napa,DOCG,2009,Cabernet Sauvignon,14.6,0.75,off-dry,medium,low,94,38.65,Aguilar PLC,368
+150,WINE-00150,sparkling,USA,Napa,DOC,1999,"Tempranillo, Pinot Noir",14.8,1.5,off-dry,high,low,84,74.47,Dean Ltd,89
+151,WINE-00151,rosé,Georgia,Kakheti,DOC,2014,Pinot Noir,14.0,1.5,off-dry,high,medium,84,7.14,Sullivan-Cooper,708
+152,WINE-00152,red,Georgia,Kakheti,AVA,2021,"Chardonnay, Grenache",13.9,0.75,dry,low,medium,93,21.19,"Lyons, Chapman and Holland",681
+153,WINE-00153,white,Spain,Ribera del Duero,AVA,2017,"Cabernet Sauvignon, Pinot Noir",12.7,1.5,dry,medium,high,92,116.44,Davis LLC,73
+154,WINE-00154,white,France,Provence,DOCG,2004,"Tempranillo, Cabernet Sauvignon",14.9,1.5,sweet,medium,high,78,66.48,Huff-Bell,550
+155,WINE-00155,white,Italy,Tuscany,AOC,2000,Tempranillo,11.8,0.75,semi-sweet,high,low,78,17.0,Young-Fleming,715
+156,WINE-00156,red,Italy,Veneto,AVA,2017,"Sangiovese, Syrah",13.0,0.75,dry,high,low,79,37.12,Marsh Ltd,476
+157,WINE-00157,rosé,USA,Willamette Valley,AOC,2007,Merlot,15.0,1.5,off-dry,low,low,99,71.3,Martin PLC,764
+158,WINE-00158,red,USA,Napa,IGP,1996,"Tempranillo, Sangiovese",12.8,0.375,semi-sweet,medium,medium,85,101.6,Washington-Luna,732
+159,WINE-00159,rosé,USA,Willamette Valley,IGP,2011,Chardonnay,11.7,1.5,semi-sweet,low,medium,99,78.13,"Clayton, Banks and Buckley",373
+160,WINE-00160,white,France,Jura,AOC,2011,"Sauvignon Blanc, Syrah",14.0,0.375,off-dry,medium,medium,92,78.19,"Russo, King and Davis",41
+161,WINE-00161,rosé,France,Languedoc,AVA,2014,"Sangiovese, Cabernet Sauvignon",11.5,0.375,dry,medium,low,79,38.78,Thompson-Gardner,312
+162,WINE-00162,red,Spain,Ribera del Duero,AOC,2013,"Merlot, Riesling",13.4,0.375,sweet,low,high,82,106.91,Smith Ltd,416
+163,WINE-00163,rosé,Georgia,Kakheti,DOC,2004,Sangiovese,14.8,1.5,off-dry,high,medium,84,68.54,Ray-Johnston,375
+164,WINE-00164,rosé,USA,Willamette Valley,AVA,1995,"Riesling, Grenache",12.1,0.375,off-dry,high,high,90,116.54,"Hansen, Rosales and Morgan",405
+165,WINE-00165,white,France,Provence,DOC,2010,"Sangiovese, Chardonnay",12.2,0.375,semi-sweet,low,low,83,68.83,Brewer-Baxter,620
+166,WINE-00166,red,Spain,Priorat,AVA,2018,"Riesling, Chardonnay",14.4,1.5,off-dry,high,high,82,53.51,Anderson LLC,684
+167,WINE-00167,white,Spain,Ribera del Duero,AVA,2018,"Sangiovese, Merlot",14.9,0.75,semi-sweet,high,high,98,110.28,"Stout, Ross and Crawford",130
+168,WINE-00168,red,USA,Napa,IGP,2007,Riesling,15.3,1.5,off-dry,medium,medium,97,75.24,Harris Ltd,388
+169,WINE-00169,sparkling,USA,Willamette Valley,DOCG,2007,"Grenache, Chardonnay",13.4,1.5,sweet,high,medium,78,95.73,Rivera Group,511
+170,WINE-00170,rosé,USA,Sonoma,DOC,2013,"Pinot Noir, Sauvignon Blanc",12.7,0.375,dry,medium,medium,97,101.55,Knapp-Collins,333
+171,WINE-00171,red,Italy,Sicily,AOC,2013,Grenache,15.0,0.75,semi-sweet,high,high,91,64.99,"Freeman, Harris and Ayala",529
+172,WINE-00172,sparkling,USA,Sonoma,DOCG,2016,Tempranillo,12.6,0.375,dry,high,low,81,52.69,"Owen, Pope and Wright",512
+173,WINE-00173,white,USA,Willamette Valley,DOC,2009,"Riesling, Sauvignon Blanc",14.5,1.5,semi-sweet,high,high,80,25.46,Stein LLC,325
+174,WINE-00174,rosé,Spain,Rioja,AVA,2015,Merlot,15.0,1.5,semi-sweet,high,medium,98,23.83,Diaz-Taylor,296
+175,WINE-00175,white,Georgia,Kakheti,IGP,2015,Cabernet Sauvignon,13.5,0.375,semi-sweet,high,high,98,88.41,Conner PLC,708
+176,WINE-00176,red,USA,Napa,DOCG,2007,Grenache,14.8,1.5,dry,high,low,84,25.97,Larson-Noble,787
+177,WINE-00177,white,Georgia,Kakheti,AVA,2014,Sauvignon Blanc,11.5,0.375,dry,low,low,80,25.44,Garcia PLC,535
+178,WINE-00178,sparkling,USA,Sonoma,AOC,2005,Tempranillo,11.6,0.375,semi-sweet,medium,low,79,36.39,Mcdowell PLC,101
+179,WINE-00179,rosé,Georgia,Kakheti,DOC,1995,"Tempranillo, Sauvignon Blanc",11.2,0.75,dry,medium,low,97,33.17,West PLC,228
+180,WINE-00180,white,France,Rhone,DOCG,2004,Riesling,12.9,0.75,sweet,low,low,99,50.44,Campbell Inc,735
+181,WINE-00181,sparkling,Georgia,Kakheti,DOCG,2020,"Riesling, Cabernet Sauvignon",14.9,0.375,off-dry,low,medium,90,27.27,Walters-Burton,297
+182,WINE-00182,rosé,USA,Willamette Valley,AOC,2005,"Sangiovese, Sauvignon Blanc",12.8,0.375,dry,medium,medium,95,33.92,"Allen, Hunt and Lawson",195
+183,WINE-00183,rosé,USA,Sonoma,DOC,2016,"Cabernet Sauvignon, Grenache",11.1,0.375,off-dry,high,low,80,28.38,"Spears, Smith and Parker",557
+184,WINE-00184,sparkling,Italy,Umbria,IGP,2006,Pinot Noir,12.6,1.5,sweet,medium,high,96,29.72,"Wall, Smith and Bass",487
+185,WINE-00185,white,Georgia,Kakheti,IGP,2014,Grenache,15.0,1.5,semi-sweet,high,low,90,75.34,Gomez Group,217
+186,WINE-00186,red,Italy,Tuscany,AVA,2016,"Sauvignon Blanc, Cabernet Sauvignon",14.2,0.375,semi-sweet,low,medium,80,85.19,Bishop-Fernandez,794
+187,WINE-00187,white,Italy,Veneto,AOC,2024,Sangiovese,12.6,1.5,semi-sweet,low,low,87,16.03,Walker-Smith,295
+188,WINE-00188,rosé,Italy,Sicily,DOCG,2024,"Riesling, Pinot Noir",12.2,0.375,semi-sweet,high,high,89,108.25,Moore-Lucero,25
+189,WINE-00189,sparkling,USA,Napa,DOCG,2004,Pinot Noir,11.5,1.5,off-dry,high,high,79,52.13,"Rose, Brooks and Glenn",623
+190,WINE-00190,white,Italy,Sicily,DOCG,2018,Sauvignon Blanc,11.2,0.75,off-dry,high,low,96,62.76,"Sanchez, Ortega and Young",533
+191,WINE-00191,rosé,Spain,Priorat,AOC,2023,Grenache,11.2,1.5,dry,low,high,81,10.23,"Smith, Mitchell and Arellano",326
+192,WINE-00192,red,Italy,Veneto,IGP,2003,"Tempranillo, Syrah",13.4,0.75,sweet,medium,medium,94,90.2,Harris Ltd,643
+193,WINE-00193,red,USA,Willamette Valley,DOC,2010,"Sangiovese, Pinot Noir",14.4,0.375,semi-sweet,low,high,83,116.51,Henry and Sons,652
+194,WINE-00194,rosé,Italy,Umbria,DOC,2006,Pinot Noir,12.6,0.375,off-dry,high,medium,82,21.57,Tucker-Harris,723
+195,WINE-00195,sparkling,USA,Willamette Valley,DOC,2011,Cabernet Sauvignon,14.1,0.375,semi-sweet,high,medium,82,106.85,Tucker-Rhodes,145
+196,WINE-00196,rosé,Georgia,Kakheti,AOC,2014,"Pinot Noir, Tempranillo",15.4,0.75,off-dry,low,high,87,7.41,Haynes PLC,498
+197,WINE-00197,red,Italy,Tuscany,DOCG,2017,"Syrah, Merlot",12.4,0.375,off-dry,medium,medium,92,70.89,"Oconnell, Rice and Hansen",296
+198,WINE-00198,red,Italy,Umbria,AOC,2019,Riesling,13.2,1.5,semi-sweet,high,high,86,18.4,Lewis Ltd,500
+199,WINE-00199,white,USA,Sonoma,AVA,2024,"Cabernet Sauvignon, Chardonnay",11.4,0.75,semi-sweet,high,low,80,21.81,Dean Group,28
+200,WINE-00200,white,France,Alsace,DOCG,2022,"Pinot Noir, Sangiovese",15.0,1.5,off-dry,low,high,87,90.62,Perkins and Sons,334
+201,WINE-00201,rosé,USA,Napa,DOCG,1999,Chardonnay,13.5,0.75,semi-sweet,low,low,79,18.22,Hall Group,643
+202,WINE-00202,white,USA,Napa,IGP,2004,"Riesling, Pinot Noir",13.7,1.5,dry,low,high,85,24.65,"Vasquez, Greene and Woods",453
+203,WINE-00203,red,USA,Napa,IGP,2018,"Syrah, Tempranillo",12.7,0.375,sweet,low,medium,80,81.43,Holmes Ltd,526
+204,WINE-00204,red,USA,Sonoma,IGP,2023,Pinot Noir,14.3,0.75,semi-sweet,low,medium,96,82.98,Bradshaw Group,581
+205,WINE-00205,red,Italy,Sicily,AVA,2008,"Sangiovese, Riesling",15.4,1.5,off-dry,medium,high,97,15.28,Donaldson-Smith,61
+206,WINE-00206,sparkling,Spain,Rias Baixas,DOCG,2022,"Pinot Noir, Grenache",12.5,1.5,dry,low,low,99,90.33,Allen-Wells,707
+207,WINE-00207,rosé,France,Rhone,AVA,2002,"Chardonnay, Sangiovese",13.5,0.75,semi-sweet,low,low,83,116.41,Pierce-Johnson,207
+208,WINE-00208,white,Georgia,Kakheti,DOCG,2011,Syrah,14.0,1.5,sweet,low,high,92,31.83,Holt-Curry,586
+209,WINE-00209,red,France,Jura,IGP,1999,Riesling,14.9,1.5,dry,high,high,94,17.64,Bell-Cole,702
+210,WINE-00210,white,USA,Willamette Valley,DOC,2006,"Merlot, Pinot Noir",14.5,0.375,sweet,low,low,89,10.76,Ortiz Group,718
+211,WINE-00211,sparkling,Georgia,Kakheti,DOCG,2008,Pinot Noir,15.1,0.375,off-dry,high,low,89,25.15,Dudley-Luna,763
+212,WINE-00212,rosé,Spain,Rioja,AOC,2011,Chardonnay,14.3,0.75,sweet,low,high,89,17.36,Livingston PLC,562
+213,WINE-00213,red,Spain,Rioja,DOC,2017,"Chardonnay, Syrah",13.0,1.5,sweet,low,low,93,18.59,"Garcia, Odonnell and Bernard",264
+214,WINE-00214,rosé,Italy,Piedmont,IGP,2023,Tempranillo,12.1,1.5,semi-sweet,medium,low,78,45.03,"Cummings, Gibson and Tucker",154
+215,WINE-00215,sparkling,USA,Willamette Valley,AOC,2000,Merlot,13.8,1.5,sweet,medium,low,92,50.85,Moore-Hernandez,625
+216,WINE-00216,rosé,Georgia,Kakheti,DOCG,2023,Grenache,11.6,1.5,dry,low,low,89,88.91,Valenzuela Group,339
+217,WINE-00217,sparkling,Georgia,Kakheti,DOCG,2013,"Cabernet Sauvignon, Chardonnay",13.2,0.375,dry,low,medium,97,11.17,Vega Ltd,149
+218,WINE-00218,sparkling,Italy,Veneto,DOCG,2003,Sangiovese,12.6,1.5,off-dry,high,low,95,108.9,"Cole, Durham and Ryan",97
+219,WINE-00219,red,Italy,Sicily,DOCG,2016,"Syrah, Pinot Noir",11.3,0.75,semi-sweet,high,high,85,45.95,"Riley, Castro and Jacobson",563
+220,WINE-00220,red,USA,Sonoma,DOCG,2006,"Riesling, Sangiovese",15.0,0.375,semi-sweet,low,low,84,6.82,Deleon Inc,687
+221,WINE-00221,sparkling,USA,Sonoma,IGP,1999,"Pinot Noir, Merlot",12.4,0.75,semi-sweet,high,high,95,81.11,Vazquez and Sons,348
+222,WINE-00222,red,France,Loire,AVA,2013,Grenache,12.6,0.75,semi-sweet,high,medium,80,101.6,"Alexander, Miller and Allen",326
+223,WINE-00223,rosé,Italy,Veneto,AVA,2015,Pinot Noir,12.2,1.5,dry,low,low,90,57.06,Mejia LLC,617
+224,WINE-00224,white,Spain,Rioja,DOC,2014,Pinot Noir,11.2,0.375,semi-sweet,high,low,78,27.45,Williams and Sons,549
+225,WINE-00225,red,France,Provence,DOC,2015,"Chardonnay, Cabernet Sauvignon",13.2,1.5,semi-sweet,low,low,91,96.77,Becker and Sons,89
+226,WINE-00226,sparkling,Georgia,Kakheti,AVA,2022,"Grenache, Riesling",11.1,0.75,semi-sweet,low,medium,97,86.96,Coleman-Sloan,337
+227,WINE-00227,red,Italy,Tuscany,DOC,2011,Pinot Noir,14.5,0.375,semi-sweet,medium,medium,89,67.41,"Scott, Dalton and Ruiz",602
+228,WINE-00228,rosé,Georgia,Kakheti,DOC,2019,"Riesling, Cabernet Sauvignon",13.9,1.5,sweet,high,medium,89,65.66,"Graves, Strong and Lopez",280
+229,WINE-00229,red,Italy,Veneto,AVA,1999,"Merlot, Chardonnay",15.5,0.375,sweet,low,low,97,21.29,Watts-Vaughn,61
+230,WINE-00230,white,Georgia,Kakheti,DOCG,2022,"Pinot Noir, Tempranillo",14.3,0.375,dry,medium,high,85,56.34,"Suarez, Robinson and Williams",510
+231,WINE-00231,sparkling,Italy,Veneto,IGP,2020,Chardonnay,15.1,0.375,dry,low,high,90,82.86,"Cole, Stewart and Chambers",359
+232,WINE-00232,sparkling,France,Loire,IGP,2003,"Syrah, Cabernet Sauvignon",11.1,1.5,sweet,low,low,89,29.17,Parks Inc,777
+233,WINE-00233,rosé,USA,Willamette Valley,DOCG,2010,"Syrah, Pinot Noir",14.9,0.75,off-dry,medium,medium,80,43.79,Schultz-Spence,497
+234,WINE-00234,rosé,Italy,Piedmont,AVA,2023,"Syrah, Cabernet Sauvignon",14.5,1.5,semi-sweet,low,medium,83,55.57,"Lopez, Russell and Martinez",143
+235,WINE-00235,red,Spain,Rioja,DOC,2024,Pinot Noir,12.4,1.5,semi-sweet,low,low,92,83.84,Bryant Inc,92
+236,WINE-00236,sparkling,USA,Sonoma,DOCG,2002,Tempranillo,11.9,1.5,dry,low,low,94,73.85,Mcgee-Knight,588
+237,WINE-00237,red,USA,Willamette Valley,AOC,1997,Chardonnay,15.0,0.375,sweet,low,high,91,6.29,Hill Inc,229
+238,WINE-00238,red,Georgia,Kakheti,AVA,2006,"Riesling, Merlot",15.4,0.375,dry,medium,high,83,7.73,"Baker, Cabrera and Ray",275
+239,WINE-00239,white,France,Bordeaux,AVA,2020,Sauvignon Blanc,13.5,0.75,semi-sweet,low,medium,79,80.46,Cook-Russell,557
+240,WINE-00240,sparkling,Spain,Rias Baixas,DOCG,2012,"Sauvignon Blanc, Chardonnay",12.9,0.375,sweet,medium,medium,82,108.38,Norris and Sons,650
+241,WINE-00241,rosé,France,Loire,AVA,2016,"Syrah, Tempranillo",11.5,1.5,dry,high,low,90,85.14,"King, Marquez and Stone",332
+242,WINE-00242,rosé,USA,Willamette Valley,IGP,2018,Riesling,13.9,0.75,semi-sweet,high,high,90,32.73,Harris-Burgess,644
+243,WINE-00243,red,USA,Sonoma,IGP,1997,"Tempranillo, Chardonnay",13.8,1.5,off-dry,high,medium,86,109.6,Parsons Inc,484
+244,WINE-00244,white,Spain,Priorat,DOC,2006,Sangiovese,13.4,1.5,off-dry,medium,low,99,25.65,Manning PLC,677
+245,WINE-00245,red,USA,Napa,DOCG,1998,"Chardonnay, Sauvignon Blanc",12.8,1.5,semi-sweet,medium,low,89,46.66,"Nelson, Wright and Simpson",535
+246,WINE-00246,sparkling,Georgia,Kakheti,AOC,2009,"Sauvignon Blanc, Grenache",14.1,0.75,sweet,high,low,94,23.09,Caldwell-Young,696
+247,WINE-00247,sparkling,Italy,Veneto,AVA,2006,Tempranillo,13.4,0.75,semi-sweet,low,high,84,6.09,Lara LLC,265
+248,WINE-00248,white,France,Languedoc,DOCG,2002,"Chardonnay, Grenache",12.2,0.75,dry,high,high,93,103.91,"Mcguire, Johnson and Mcintyre",206
+249,WINE-00249,rosé,Italy,Sicily,AVA,2007,"Cabernet Sauvignon, Riesling",12.7,1.5,semi-sweet,medium,medium,98,75.25,"Gomez, Travis and Morgan",262
+250,WINE-00250,sparkling,Spain,Ribera del Duero,AVA,2001,Tempranillo,15.4,1.5,semi-sweet,low,high,84,43.56,Callahan-Miller,72
+251,WINE-00251,sparkling,France,Beaujolais,IGP,1998,"Riesling, Cabernet Sauvignon",13.7,0.75,sweet,high,medium,91,119.42,Anderson Ltd,180
+252,WINE-00252,sparkling,France,Beaujolais,IGP,2019,Sangiovese,14.7,1.5,off-dry,high,low,90,67.75,Hernandez LLC,696
+253,WINE-00253,sparkling,Spain,Rias Baixas,IGP,2002,Merlot,14.8,1.5,dry,low,medium,80,102.69,Hood-Chase,220
+254,WINE-00254,red,Georgia,Kakheti,DOC,2012,"Riesling, Cabernet Sauvignon",14.1,0.75,off-dry,medium,low,98,22.59,Short-Gonzalez,342
+255,WINE-00255,red,Italy,Umbria,DOC,1997,"Sangiovese, Grenache",12.4,0.75,semi-sweet,high,medium,94,106.98,"Williams, Brown and West",697
+256,WINE-00256,rosé,France,Champagne,DOC,2003,"Sauvignon Blanc, Sangiovese",12.4,0.375,dry,low,high,98,48.61,"Jordan, Chambers and Smith",475
+257,WINE-00257,white,USA,Willamette Valley,DOCG,2024,"Syrah, Riesling",14.2,1.5,dry,high,medium,78,66.77,"Ball, Snyder and Henry",418
+258,WINE-00258,red,Georgia,Kakheti,DOCG,2004,Riesling,11.9,0.375,sweet,medium,high,92,29.24,Mayo LLC,208
+259,WINE-00259,sparkling,France,Rhone,AOC,2022,Pinot Noir,15.0,1.5,sweet,low,low,95,90.04,Montgomery Inc,168
+260,WINE-00260,rosé,USA,Napa,DOC,2019,Pinot Noir,15.1,0.375,dry,medium,low,84,95.4,Bond PLC,51
+261,WINE-00261,rosé,USA,Napa,IGP,2024,"Pinot Noir, Cabernet Sauvignon",14.1,0.375,off-dry,medium,medium,85,105.72,Rasmussen Inc,326
+262,WINE-00262,rosé,Georgia,Kakheti,DOCG,1999,"Sangiovese, Syrah",15.3,1.5,off-dry,medium,low,88,49.32,Case-King,656
+263,WINE-00263,red,Spain,Ribera del Duero,DOC,2008,"Pinot Noir, Tempranillo",12.5,0.75,dry,low,medium,81,80.95,"Santiago, Price and Tucker",215
+264,WINE-00264,rosé,Georgia,Kakheti,IGP,2023,"Cabernet Sauvignon, Riesling",15.2,0.375,off-dry,medium,medium,87,74.15,Martinez-Brown,553
+265,WINE-00265,white,France,Loire,IGP,1996,"Syrah, Grenache",13.6,0.375,dry,medium,low,82,80.84,Martin-Patrick,51
+266,WINE-00266,rosé,Italy,Veneto,IGP,2018,"Syrah, Chardonnay",12.6,0.375,semi-sweet,low,high,95,57.87,"Frazier, Alvarado and Rivera",764
+267,WINE-00267,white,Georgia,Kakheti,AVA,1996,"Riesling, Cabernet Sauvignon",11.2,1.5,dry,medium,high,82,53.35,Wilson-Smith,361
+268,WINE-00268,white,France,Provence,DOCG,2005,Merlot,11.0,1.5,sweet,medium,low,86,16.72,King-Mckinney,244
+269,WINE-00269,sparkling,France,Rhone,DOCG,2009,Chardonnay,12.1,1.5,dry,high,medium,89,114.23,Contreras Ltd,290
+270,WINE-00270,white,USA,Willamette Valley,DOC,2011,Sangiovese,12.1,0.375,dry,low,low,93,96.25,Pruitt LLC,718
+271,WINE-00271,white,Georgia,Kakheti,AOC,2021,Pinot Noir,12.2,0.375,sweet,medium,high,94,18.5,Rose-Keith,583
+272,WINE-00272,white,France,Burgundy,DOC,2019,Tempranillo,14.5,1.5,dry,low,low,97,44.45,"Prince, Jones and Olsen",100
+273,WINE-00273,white,France,Loire,DOCG,2013,"Merlot, Riesling",15.1,0.375,semi-sweet,medium,medium,79,16.04,Davenport-Hunter,250
+274,WINE-00274,white,Italy,Umbria,DOC,2001,"Pinot Noir, Syrah",15.2,1.5,semi-sweet,high,low,78,96.24,"Cole, Fowler and Scott",491
+275,WINE-00275,rosé,France,Beaujolais,AOC,2022,Syrah,13.8,0.75,sweet,low,high,89,72.44,Thompson-Fernandez,504
+276,WINE-00276,rosé,USA,Napa,DOCG,2021,Riesling,14.5,1.5,off-dry,medium,medium,98,95.43,Brown-Smith,525
+277,WINE-00277,red,Spain,Rioja,DOCG,2001,Syrah,13.6,1.5,off-dry,medium,high,99,107.41,Singleton Ltd,51
+278,WINE-00278,sparkling,USA,Willamette Valley,DOCG,2002,"Sauvignon Blanc, Merlot",13.9,0.75,sweet,medium,low,87,61.75,Hughes-Robinson,16
+279,WINE-00279,sparkling,France,Beaujolais,IGP,2005,"Riesling, Pinot Noir",13.5,0.375,semi-sweet,medium,medium,97,9.71,"Campos, Williams and Lewis",343
+280,WINE-00280,white,France,Champagne,IGP,1998,"Sangiovese, Syrah",12.0,1.5,dry,medium,low,90,36.95,"Williams, Odonnell and West",154
+281,WINE-00281,white,Spain,Ribera del Duero,DOCG,2005,"Grenache, Riesling",15.3,1.5,off-dry,low,medium,94,7.03,"Collins, Klein and Walker",179
+282,WINE-00282,sparkling,France,Loire,AVA,2012,"Chardonnay, Merlot",14.3,1.5,sweet,low,medium,99,53.43,Jackson Group,526
+283,WINE-00283,sparkling,Georgia,Kakheti,DOCG,2016,"Chardonnay, Grenache",14.2,1.5,sweet,high,high,79,109.42,Dudley Ltd,510
+284,WINE-00284,red,USA,Sonoma,AOC,2007,Sangiovese,13.0,1.5,off-dry,high,high,92,10.0,"Lara, Gardner and Patterson",333
+285,WINE-00285,red,USA,Napa,DOCG,2013,Syrah,15.1,1.5,dry,medium,low,96,79.13,Baker-Blair,287
+286,WINE-00286,red,Italy,Veneto,IGP,2010,"Merlot, Sauvignon Blanc",15.3,1.5,semi-sweet,high,medium,88,24.45,Mcpherson-Day,588
+287,WINE-00287,rosé,USA,Napa,DOC,2020,Sangiovese,14.9,0.375,semi-sweet,high,high,83,83.68,Pratt Group,54
+288,WINE-00288,sparkling,Georgia,Kakheti,DOCG,2004,Grenache,15.0,0.75,off-dry,high,medium,92,51.95,Rich Group,697
+289,WINE-00289,sparkling,Spain,Rias Baixas,DOCG,1998,"Riesling, Grenache",11.9,1.5,sweet,high,medium,98,24.22,Cross-Horton,322
+290,WINE-00290,rosé,France,Rhone,AVA,2019,"Sangiovese, Sauvignon Blanc",11.3,0.75,semi-sweet,high,medium,94,98.45,"Escobar, Parker and Davis",645
+291,WINE-00291,sparkling,France,Champagne,AOC,2021,Sangiovese,14.1,0.75,semi-sweet,high,medium,86,117.78,Frey Inc,71
+292,WINE-00292,sparkling,Georgia,Kakheti,AOC,2018,"Pinot Noir, Tempranillo",13.9,1.5,dry,medium,medium,88,51.6,Hobbs-Byrd,511
+293,WINE-00293,white,Spain,Rias Baixas,DOC,2001,"Grenache, Pinot Noir",12.5,0.375,sweet,low,high,78,103.12,"Sawyer, Shaw and Moore",683
+294,WINE-00294,sparkling,Italy,Umbria,IGP,2018,Tempranillo,12.2,1.5,off-dry,low,low,99,102.86,Sexton PLC,244
+295,WINE-00295,rosé,Georgia,Kakheti,AOC,2015,"Grenache, Pinot Noir",14.2,1.5,sweet,high,medium,80,93.95,Harrison Group,619
+296,WINE-00296,white,Georgia,Kakheti,DOC,2016,"Merlot, Chardonnay",13.6,0.375,semi-sweet,low,high,94,14.23,Nelson PLC,332
+297,WINE-00297,sparkling,Italy,Tuscany,DOC,1996,"Grenache, Sangiovese",15.4,1.5,dry,low,high,92,18.6,"Hess, Gonzalez and Young",229
+298,WINE-00298,rosé,Spain,Rias Baixas,AVA,2012,Syrah,14.6,0.375,semi-sweet,high,high,78,31.42,Watts LLC,177
+299,WINE-00299,rosé,France,Jura,IGP,2018,"Merlot, Grenache",11.4,0.375,sweet,medium,high,96,52.63,Moore and Sons,682
+300,WINE-00300,rosé,France,Provence,DOCG,2013,Riesling,11.6,0.75,sweet,low,medium,97,27.65,Phillips-Smith,412
+301,WINE-00301,white,Italy,Veneto,AOC,2019,Riesling,11.9,1.5,off-dry,medium,low,95,92.13,Perez-Munoz,303
+302,WINE-00302,red,France,Languedoc,AOC,1995,"Syrah, Sauvignon Blanc",14.8,1.5,semi-sweet,high,medium,98,24.66,"Ellison, Jacobs and Good",647
+303,WINE-00303,rosé,Spain,Rias Baixas,AOC,2017,Pinot Noir,12.6,0.375,sweet,low,medium,81,103.83,"Farmer, Ochoa and Price",372
+304,WINE-00304,red,USA,Sonoma,DOCG,2022,"Riesling, Pinot Noir",11.5,1.5,semi-sweet,high,medium,84,46.34,Johnson-Perez,672
+305,WINE-00305,rosé,France,Loire,AVA,2020,"Sauvignon Blanc, Pinot Noir",15.0,0.75,off-dry,low,low,81,30.4,Bennett Ltd,599
+306,WINE-00306,red,Georgia,Kakheti,AOC,2019,Riesling,11.2,1.5,dry,medium,medium,97,69.79,Carter Group,472
+307,WINE-00307,white,USA,Willamette Valley,AOC,2023,Syrah,12.6,0.375,dry,high,low,84,56.16,"James, Bryant and Burke",585
+308,WINE-00308,red,Georgia,Kakheti,AVA,2000,Riesling,12.8,1.5,off-dry,high,high,93,84.89,Lee Group,483
+309,WINE-00309,red,Georgia,Kakheti,IGP,2020,"Merlot, Syrah",15.4,0.375,dry,medium,high,85,78.26,Pierce and Sons,759
+310,WINE-00310,red,France,Loire,DOC,2009,Cabernet Sauvignon,11.2,0.375,off-dry,high,low,95,78.8,Goodwin PLC,423
+311,WINE-00311,white,Spain,Rioja,IGP,2019,Riesling,15.3,1.5,dry,low,low,94,24.56,Williams-Jones,524
+312,WINE-00312,sparkling,Spain,Rioja,AOC,2012,Cabernet Sauvignon,13.9,0.375,dry,high,low,99,68.18,"Brooks, Jackson and Dunn",297
+313,WINE-00313,red,USA,Sonoma,AVA,2000,Cabernet Sauvignon,14.7,0.75,off-dry,low,high,98,89.85,"Briggs, Reyes and Pace",687
+314,WINE-00314,red,USA,Napa,AVA,2018,"Merlot, Tempranillo",12.1,0.375,dry,medium,medium,87,41.25,Williams PLC,302
+315,WINE-00315,rosé,Italy,Sicily,DOC,1997,Merlot,11.2,1.5,off-dry,high,medium,92,118.15,"Jackson, Bennett and Martinez",625
+316,WINE-00316,red,Georgia,Kakheti,AOC,2016,Cabernet Sauvignon,14.1,0.75,dry,low,high,87,56.36,Wood-Gonzalez,723
+317,WINE-00317,rosé,Italy,Veneto,DOCG,2007,Chardonnay,11.4,0.75,off-dry,high,high,93,92.91,Pierce PLC,771
+318,WINE-00318,white,Spain,Rias Baixas,AOC,2005,"Sangiovese, Cabernet Sauvignon",12.0,0.75,semi-sweet,low,low,88,96.58,Moore LLC,544
+319,WINE-00319,red,Italy,Tuscany,DOCG,1997,"Chardonnay, Tempranillo",13.4,0.75,off-dry,low,high,79,80.09,"Everett, Olson and Guzman",551
+320,WINE-00320,red,Italy,Sicily,DOC,2019,Grenache,15.1,0.375,semi-sweet,medium,high,81,118.83,Beard-Jacobs,180
+321,WINE-00321,white,Georgia,Kakheti,DOCG,2003,"Syrah, Chardonnay",15.3,0.375,off-dry,high,medium,97,115.93,Ruiz-Chaney,658
+322,WINE-00322,red,Georgia,Kakheti,AVA,2004,Sauvignon Blanc,11.4,1.5,dry,high,low,80,47.21,Guerra-Willis,145
+323,WINE-00323,sparkling,Georgia,Kakheti,AVA,2023,"Riesling, Pinot Noir",11.5,0.75,sweet,medium,high,83,56.72,"Callahan, Stevenson and Steele",745
+324,WINE-00324,rosé,France,Beaujolais,DOCG,2007,Cabernet Sauvignon,14.7,0.375,dry,low,medium,99,44.25,Meyers and Sons,639
+325,WINE-00325,red,France,Loire,AOC,2004,Tempranillo,14.0,0.375,dry,low,medium,81,101.4,Murray Inc,58
+326,WINE-00326,red,USA,Sonoma,AVA,1997,Cabernet Sauvignon,12.3,0.75,off-dry,medium,medium,95,88.38,"Torres, Gonzalez and Ellison",141
+327,WINE-00327,rosé,Spain,Rias Baixas,DOCG,2016,Sangiovese,11.5,0.375,off-dry,medium,medium,78,31.53,Rivas-Torres,198
+328,WINE-00328,rosé,Italy,Sicily,DOC,1996,"Grenache, Cabernet Sauvignon",11.4,0.75,semi-sweet,low,medium,78,59.88,"Rojas, Wilkinson and Cole",499
+329,WINE-00329,sparkling,France,Burgundy,AVA,1998,"Merlot, Sauvignon Blanc",13.2,0.375,off-dry,medium,medium,79,19.49,"Brown, Hamilton and Shields",69
+330,WINE-00330,sparkling,Spain,Rias Baixas,IGP,2012,Chardonnay,11.3,1.5,off-dry,medium,high,84,70.17,Ponce-Bailey,385
+331,WINE-00331,sparkling,France,Bordeaux,AVA,2011,Syrah,11.8,0.75,off-dry,low,low,93,36.24,"Trevino, Salinas and Torres",471
+332,WINE-00332,sparkling,Italy,Tuscany,DOCG,2003,Syrah,14.0,0.75,dry,low,high,93,60.9,"Mitchell, Miller and Harrison",184
+333,WINE-00333,red,Georgia,Kakheti,IGP,2015,Sangiovese,12.1,0.75,off-dry,high,medium,82,50.16,"Cline, Thompson and Wilkinson",329
+334,WINE-00334,white,France,Provence,DOC,2009,Tempranillo,15.1,0.375,sweet,low,low,87,56.05,"Smith, Hale and Gonzalez",143
+335,WINE-00335,rosé,Italy,Veneto,AVA,2007,Merlot,11.1,0.375,dry,medium,medium,85,13.5,"Ross, Ramsey and Robinson",382
+336,WINE-00336,white,Georgia,Kakheti,AVA,2021,Syrah,13.1,0.75,sweet,medium,low,88,9.62,"Bradley, Vincent and Perez",181
+337,WINE-00337,red,Spain,Priorat,AVA,2021,"Pinot Noir, Syrah",14.8,0.375,semi-sweet,high,medium,93,70.05,"Gutierrez, Allen and Smith",728
+338,WINE-00338,rosé,USA,Napa,DOC,2008,Grenache,11.7,0.375,off-dry,high,medium,79,25.12,Patterson-Fox,432
+339,WINE-00339,sparkling,Italy,Tuscany,IGP,2022,"Tempranillo, Syrah",11.7,1.5,semi-sweet,high,medium,81,11.88,Gould-Miller,106
+340,WINE-00340,red,France,Champagne,DOCG,2008,Pinot Noir,11.3,0.75,semi-sweet,high,high,94,72.47,Nelson Group,456
+341,WINE-00341,rosé,Italy,Sicily,AVA,1997,Sauvignon Blanc,13.7,0.75,sweet,low,high,86,79.36,Huff-Rodriguez,421
+342,WINE-00342,red,Spain,Rias Baixas,AOC,2020,"Syrah, Chardonnay",15.1,0.75,sweet,medium,high,98,107.43,Smith-Vazquez,476
+343,WINE-00343,sparkling,Spain,Ribera del Duero,AOC,2008,Sangiovese,12.8,0.375,off-dry,medium,high,89,49.33,"Miles, Huff and Smith",506
+344,WINE-00344,white,Spain,Ribera del Duero,DOC,2011,"Merlot, Cabernet Sauvignon",11.6,0.75,sweet,high,low,93,72.39,"Villa, Rivera and Smith",340
+345,WINE-00345,rosé,Georgia,Kakheti,IGP,2017,"Pinot Noir, Riesling",11.1,1.5,off-dry,medium,medium,81,115.72,"Martinez, Thompson and Patrick",785
+346,WINE-00346,white,Spain,Ribera del Duero,AVA,2019,Chardonnay,14.8,1.5,semi-sweet,low,low,97,57.86,"Jackson, Nguyen and Howard",681
+347,WINE-00347,white,Georgia,Kakheti,AOC,1995,"Sangiovese, Grenache",11.3,0.375,off-dry,low,high,85,6.45,"Moore, Schwartz and Espinoza",235
+348,WINE-00348,white,Italy,Veneto,AOC,1997,Merlot,15.2,0.375,off-dry,medium,medium,80,65.55,Stewart PLC,327
+349,WINE-00349,sparkling,Spain,Priorat,DOCG,2003,"Cabernet Sauvignon, Merlot",11.7,0.375,dry,high,low,86,21.02,"Yates, Green and Vincent",746
+350,WINE-00350,sparkling,Spain,Rias Baixas,DOC,2024,Tempranillo,15.5,0.375,off-dry,high,medium,90,39.65,Brown-Vang,17
+351,WINE-00351,red,Italy,Veneto,IGP,2013,Merlot,11.7,1.5,sweet,medium,low,97,16.64,Cobb-Gallagher,679
+352,WINE-00352,sparkling,USA,Willamette Valley,DOC,2024,Syrah,13.6,0.375,sweet,low,medium,94,54.28,Young and Sons,545
+353,WINE-00353,red,Spain,Rioja,DOC,2011,Syrah,12.3,1.5,sweet,high,low,83,29.33,Cunningham LLC,318
+354,WINE-00354,white,Spain,Ribera del Duero,AOC,2019,Riesling,12.5,1.5,semi-sweet,medium,medium,94,88.22,Rios PLC,56
+355,WINE-00355,red,Georgia,Kakheti,DOCG,2011,Chardonnay,12.1,0.375,off-dry,medium,low,84,42.55,Beasley-Wilson,518
+356,WINE-00356,sparkling,Georgia,Kakheti,AVA,2016,"Merlot, Tempranillo",11.3,0.75,sweet,medium,low,86,97.6,"Hansen, Johnson and Ayala",525
+357,WINE-00357,rosé,Italy,Sicily,IGP,2009,"Chardonnay, Sangiovese",14.5,1.5,semi-sweet,high,low,81,93.68,Leonard-Johnson,89
+358,WINE-00358,red,Spain,Ribera del Duero,AVA,2009,Merlot,14.1,0.375,semi-sweet,high,low,99,93.87,Guerra-Lopez,447
+359,WINE-00359,white,Georgia,Kakheti,IGP,1996,Cabernet Sauvignon,12.3,1.5,off-dry,high,low,80,42.02,"Clarke, Meyer and Riley",544
+360,WINE-00360,white,Georgia,Kakheti,DOC,2019,Sauvignon Blanc,14.6,1.5,semi-sweet,medium,low,85,58.22,"Robinson, Mason and Christensen",565
+361,WINE-00361,rosé,France,Burgundy,IGP,2014,"Syrah, Pinot Noir",14.6,0.75,sweet,high,low,82,91.39,"Fernandez, Christian and Hutchinson",502
+362,WINE-00362,rosé,France,Jura,DOC,2011,Grenache,13.1,1.5,off-dry,high,medium,88,25.7,Baker Group,762
+363,WINE-00363,sparkling,Spain,Ribera del Duero,AOC,2013,Syrah,12.5,0.75,dry,low,medium,85,102.73,"Sandoval, Chen and Mejia",272
+364,WINE-00364,rosé,Spain,Rias Baixas,AVA,2004,"Sauvignon Blanc, Tempranillo",11.5,0.375,dry,high,medium,98,93.75,Bray-Cameron,580
+365,WINE-00365,white,Italy,Tuscany,DOC,2015,"Grenache, Sangiovese",12.5,0.75,semi-sweet,low,low,95,87.31,Stokes-Garza,686
+366,WINE-00366,white,France,Provence,DOCG,2015,Sangiovese,15.1,1.5,sweet,medium,medium,92,95.17,Kelly-Sawyer,219
+367,WINE-00367,white,Spain,Rias Baixas,AOC,2005,Merlot,15.0,0.375,off-dry,medium,low,97,13.71,Ross-Robinson,758
+368,WINE-00368,sparkling,France,Loire,IGP,2004,"Riesling, Sauvignon Blanc",13.9,1.5,sweet,medium,medium,87,90.25,Rush-Robinson,360
+369,WINE-00369,red,Georgia,Kakheti,IGP,2023,"Sauvignon Blanc, Cabernet Sauvignon",15.3,0.375,off-dry,low,medium,95,47.41,Suarez-Ware,674
+370,WINE-00370,red,France,Languedoc,IGP,2008,"Cabernet Sauvignon, Pinot Noir",15.5,0.375,semi-sweet,high,high,89,17.58,Mitchell-Williams,762
+371,WINE-00371,white,Georgia,Kakheti,DOCG,2015,"Pinot Noir, Sauvignon Blanc",14.2,0.75,off-dry,medium,medium,88,64.77,Ford PLC,191
+372,WINE-00372,red,USA,Willamette Valley,DOC,2000,"Sangiovese, Pinot Noir",11.1,1.5,dry,high,medium,79,111.33,Smith Inc,212
+373,WINE-00373,white,Georgia,Kakheti,AVA,2001,"Pinot Noir, Sangiovese",11.6,1.5,sweet,low,medium,82,74.64,Jones-Chapman,265
+374,WINE-00374,white,Georgia,Kakheti,IGP,2015,Sangiovese,13.1,0.375,dry,medium,high,83,91.31,Smith-Nguyen,242
+375,WINE-00375,white,Georgia,Kakheti,AVA,2014,Syrah,11.8,0.375,dry,high,medium,97,87.01,"Valdez, Klein and Guerrero",279
+376,WINE-00376,red,USA,Willamette Valley,IGP,2022,Riesling,11.4,0.375,sweet,low,medium,92,25.56,Velazquez and Sons,221
+377,WINE-00377,sparkling,Georgia,Kakheti,DOC,2000,Syrah,14.9,0.75,sweet,medium,medium,83,78.39,"Mills, Osborn and Ward",456
+378,WINE-00378,white,France,Rhone,AVA,2004,"Merlot, Sangiovese",11.8,0.75,sweet,high,medium,93,113.71,Oneill-Lam,482
+379,WINE-00379,sparkling,Georgia,Kakheti,AVA,2000,Sangiovese,12.0,0.75,sweet,low,medium,81,46.37,"Henson, Villegas and Smith",435
+380,WINE-00380,sparkling,Spain,Rias Baixas,DOC,1995,"Tempranillo, Sangiovese",11.2,1.5,sweet,medium,high,98,87.2,Smith Ltd,694
+381,WINE-00381,rosé,USA,Sonoma,DOC,2015,Pinot Noir,12.6,0.75,semi-sweet,high,high,99,31.04,Scott LLC,160
+382,WINE-00382,white,Georgia,Kakheti,DOCG,2023,Pinot Noir,15.1,0.375,semi-sweet,medium,medium,93,37.31,"Larson, Rose and Stephens",533
+383,WINE-00383,rosé,France,Provence,IGP,2003,Chardonnay,12.7,1.5,semi-sweet,low,medium,90,13.66,Berry Inc,643
+384,WINE-00384,rosé,Georgia,Kakheti,DOCG,2017,"Riesling, Pinot Noir",12.7,0.375,off-dry,low,low,82,22.75,"Sullivan, Trujillo and Guzman",233
+385,WINE-00385,sparkling,Italy,Tuscany,DOCG,1999,Merlot,13.5,0.375,off-dry,medium,low,79,91.28,Cook-Clark,747
+386,WINE-00386,red,USA,Sonoma,DOC,1996,Grenache,11.4,0.375,dry,low,low,88,86.74,Burns-Stephenson,645
+387,WINE-00387,sparkling,Italy,Tuscany,DOC,2001,Pinot Noir,13.7,1.5,off-dry,medium,low,91,43.08,Johnson-Wood,418
+388,WINE-00388,white,Spain,Priorat,IGP,2000,Pinot Noir,11.8,0.375,semi-sweet,high,high,98,12.72,Porter and Sons,542
+389,WINE-00389,sparkling,Georgia,Kakheti,AVA,2009,Riesling,15.0,1.5,semi-sweet,high,medium,94,113.54,Smith-Garza,49
+390,WINE-00390,sparkling,Georgia,Kakheti,DOC,2011,"Pinot Noir, Cabernet Sauvignon",14.6,1.5,dry,medium,medium,99,27.55,Hickman-Jenkins,389
+391,WINE-00391,sparkling,USA,Sonoma,AVA,2023,Chardonnay,12.7,0.75,off-dry,high,high,78,118.95,Gonzalez-Kim,704
+392,WINE-00392,rosé,Spain,Rias Baixas,AVA,2010,"Pinot Noir, Sangiovese",15.3,0.375,sweet,low,low,91,92.76,Smith PLC,587
+393,WINE-00393,sparkling,USA,Sonoma,AOC,2019,Tempranillo,11.6,0.75,semi-sweet,low,high,91,56.36,"Snyder, Welch and Irwin",743
+394,WINE-00394,sparkling,Spain,Rioja,DOCG,2010,Cabernet Sauvignon,14.8,0.75,off-dry,low,high,86,37.68,Taylor and Sons,379
+395,WINE-00395,sparkling,Italy,Umbria,AVA,2007,"Riesling, Chardonnay",14.1,1.5,sweet,low,low,82,98.49,"Mcmahon, Mejia and Townsend",302
+396,WINE-00396,white,France,Languedoc,DOCG,2021,"Syrah, Grenache",13.3,0.75,sweet,low,low,80,103.06,Price-Franklin,35
+397,WINE-00397,sparkling,Italy,Sicily,AOC,1999,"Chardonnay, Pinot Noir",13.9,0.375,off-dry,high,medium,88,24.72,Price Inc,228
+398,WINE-00398,rosé,USA,Napa,DOCG,2000,Syrah,15.1,1.5,semi-sweet,low,high,90,66.76,Munoz-Douglas,454
+399,WINE-00399,sparkling,Italy,Tuscany,IGP,2002,"Cabernet Sauvignon, Sauvignon Blanc",13.9,0.75,off-dry,medium,low,94,83.96,Holt Group,567
+400,WINE-00400,white,Spain,Priorat,DOC,2024,"Riesling, Tempranillo",12.2,0.75,dry,high,medium,96,43.45,"Griffin, Jones and Webb",351
+401,WINE-00401,sparkling,France,Provence,AOC,2013,Riesling,12.3,0.75,sweet,high,high,83,41.78,Thompson-Murphy,29
+402,WINE-00402,sparkling,Spain,Ribera del Duero,AOC,2013,"Riesling, Chardonnay",14.5,1.5,semi-sweet,medium,high,84,67.93,Schmidt-Ponce,680
+403,WINE-00403,white,Italy,Veneto,AVA,2004,Grenache,15.4,0.375,dry,medium,low,84,69.06,Kerr PLC,210
+404,WINE-00404,white,Georgia,Kakheti,AOC,2016,"Merlot, Syrah",13.6,1.5,dry,medium,low,91,15.98,"Patel, Martinez and Reynolds",287
+405,WINE-00405,sparkling,Spain,Rioja,DOCG,2013,Cabernet Sauvignon,11.9,0.375,off-dry,low,low,81,36.49,"Santana, Brown and Flowers",757
+406,WINE-00406,sparkling,Georgia,Kakheti,IGP,2014,Merlot,14.7,0.75,dry,high,medium,94,22.86,Fisher Group,372
+407,WINE-00407,red,France,Bordeaux,IGP,2018,"Pinot Noir, Chardonnay",12.6,0.375,semi-sweet,medium,medium,95,22.15,Sosa and Sons,161
+408,WINE-00408,red,Italy,Piedmont,AVA,2004,Pinot Noir,13.3,1.5,dry,high,medium,91,58.82,"Dunn, Miller and Ortiz",768
+409,WINE-00409,white,France,Bordeaux,IGP,2024,Syrah,14.4,0.375,semi-sweet,low,low,93,73.14,Thompson-Poole,439
+410,WINE-00410,red,Spain,Priorat,DOC,2011,Riesling,12.1,0.375,off-dry,low,low,86,15.37,Williams Group,339
+411,WINE-00411,red,France,Provence,IGP,2019,"Merlot, Sangiovese",15.2,0.375,off-dry,low,medium,91,42.97,"Farley, Robinson and Solis",108
+412,WINE-00412,white,Georgia,Kakheti,AVA,1998,Riesling,15.5,1.5,off-dry,high,low,87,63.79,Holland-Pugh,343
+413,WINE-00413,white,France,Burgundy,AVA,2016,"Pinot Noir, Syrah",11.9,0.75,sweet,low,low,92,6.41,Calderon PLC,228
+414,WINE-00414,white,USA,Napa,IGP,2016,Sangiovese,12.3,0.75,semi-sweet,low,medium,99,82.46,Davis PLC,227
+415,WINE-00415,sparkling,France,Alsace,IGP,1997,Pinot Noir,11.3,1.5,off-dry,medium,high,81,49.6,Turner-Harris,696
+416,WINE-00416,white,USA,Sonoma,AOC,2004,"Tempranillo, Riesling",11.3,1.5,sweet,low,low,80,61.14,"Allen, Roberts and Rogers",130
+417,WINE-00417,red,France,Rhone,AOC,2002,Chardonnay,11.2,1.5,semi-sweet,medium,low,89,52.36,Turner-Walker,283
+418,WINE-00418,sparkling,Italy,Sicily,DOC,1997,Pinot Noir,13.4,0.75,off-dry,high,low,99,105.41,"Vasquez, Jenkins and Cole",734
+419,WINE-00419,sparkling,France,Burgundy,AOC,1999,Cabernet Sauvignon,11.2,0.75,dry,medium,high,88,102.53,Washington-Tucker,766
+420,WINE-00420,white,Georgia,Kakheti,DOCG,2018,Riesling,12.5,0.75,semi-sweet,high,high,96,118.84,Taylor-Chapman,634
+421,WINE-00421,red,Spain,Ribera del Duero,IGP,1996,"Tempranillo, Pinot Noir",13.4,0.75,dry,high,high,92,95.04,"Valencia, Jackson and Santos",529
+422,WINE-00422,sparkling,USA,Napa,AVA,2021,"Grenache, Sauvignon Blanc",14.2,0.75,sweet,medium,high,99,30.27,Robinson-Frazier,462
+423,WINE-00423,sparkling,Spain,Rias Baixas,DOCG,2018,Chardonnay,13.9,0.375,sweet,high,high,99,35.16,Haynes-King,375
+424,WINE-00424,red,France,Champagne,DOCG,2008,"Sauvignon Blanc, Cabernet Sauvignon",15.3,1.5,semi-sweet,low,medium,88,59.83,"Prince, Henderson and Rodriguez",736
+425,WINE-00425,red,Italy,Sicily,DOCG,2023,Grenache,13.2,1.5,off-dry,medium,medium,92,38.9,"Anderson, Dawson and May",159
+426,WINE-00426,white,Spain,Ribera del Duero,DOC,2024,"Grenache, Cabernet Sauvignon",14.0,0.375,semi-sweet,low,low,79,54.7,Black-Prince,196
+427,WINE-00427,red,Italy,Veneto,AOC,2007,"Riesling, Sangiovese",15.5,0.75,dry,medium,medium,83,49.24,Martinez-Hernandez,11
+428,WINE-00428,rosé,Spain,Rioja,DOCG,2014,Cabernet Sauvignon,14.2,0.375,dry,high,high,96,75.65,Becker-Ellis,300
+429,WINE-00429,white,France,Loire,DOC,1998,"Tempranillo, Chardonnay",11.2,0.75,dry,high,medium,81,33.06,Acevedo-Walter,451
+430,WINE-00430,rosé,Spain,Priorat,AOC,2005,Merlot,15.4,0.375,sweet,low,medium,96,33.42,Davis Inc,648
+431,WINE-00431,rosé,France,Jura,DOCG,1995,"Riesling, Tempranillo",11.2,0.75,sweet,low,high,97,25.97,"Carlson, Stewart and Moreno",613
+432,WINE-00432,sparkling,USA,Willamette Valley,DOC,2019,Grenache,14.4,0.75,dry,medium,medium,84,85.02,Richardson-Mitchell,69
+433,WINE-00433,white,France,Burgundy,DOCG,2008,Sauvignon Blanc,13.3,0.75,semi-sweet,high,medium,83,17.42,"Lewis, Carter and Ashley",540
+434,WINE-00434,rosé,USA,Napa,DOCG,2023,Syrah,12.7,0.75,semi-sweet,medium,low,97,114.9,Maynard Inc,378
+435,WINE-00435,rosé,France,Provence,DOC,2000,"Merlot, Chardonnay",12.9,0.75,off-dry,medium,low,83,119.82,"Smith, Mcdonald and Marquez",202
+436,WINE-00436,rosé,Georgia,Kakheti,IGP,2020,"Syrah, Pinot Noir",14.2,0.375,semi-sweet,high,low,78,48.94,Baker Group,328
+437,WINE-00437,red,USA,Willamette Valley,IGP,2000,"Syrah, Sangiovese",11.3,0.375,off-dry,medium,high,94,21.52,"Smith, Smith and Neal",627
+438,WINE-00438,rosé,Italy,Umbria,DOCG,2018,Riesling,13.8,0.375,semi-sweet,medium,medium,99,28.93,"Andrews, Andrade and Carter",631
+439,WINE-00439,sparkling,Georgia,Kakheti,DOCG,2010,Chardonnay,13.0,0.375,dry,high,low,80,75.75,Parker Inc,33
+440,WINE-00440,rosé,Georgia,Kakheti,AOC,1995,Sangiovese,11.1,0.375,sweet,low,high,92,66.73,"Tran, Carson and Hubbard",186
+441,WINE-00441,rosé,Italy,Veneto,AVA,2005,Pinot Noir,12.7,0.375,dry,high,high,81,11.77,Daniels-Wallace,718
+442,WINE-00442,rosé,Spain,Rias Baixas,AOC,2014,Riesling,14.6,0.75,dry,low,high,87,31.95,"Malone, Flores and Robinson",93
+443,WINE-00443,white,Georgia,Kakheti,IGP,2021,"Sauvignon Blanc, Riesling",11.9,0.375,semi-sweet,medium,high,94,34.25,Hester-Campbell,711
+444,WINE-00444,red,Spain,Priorat,DOC,2009,Syrah,15.3,0.75,sweet,high,medium,94,61.26,"Morrow, Colon and Kennedy",639
+445,WINE-00445,white,Spain,Priorat,DOC,2000,"Riesling, Sauvignon Blanc",13.4,0.375,sweet,low,medium,94,29.9,"Glass, Wolfe and Howard",202
+446,WINE-00446,red,Italy,Veneto,DOCG,2010,"Chardonnay, Merlot",12.3,1.5,off-dry,medium,medium,78,105.44,Walker LLC,309
+447,WINE-00447,white,Spain,Ribera del Duero,DOC,2021,"Merlot, Sauvignon Blanc",13.1,1.5,sweet,low,low,82,52.96,"Wallace, Willis and Mcconnell",521
+448,WINE-00448,white,Italy,Veneto,IGP,1998,"Grenache, Pinot Noir",11.8,1.5,off-dry,low,medium,96,67.3,Stone-Washington,450
+449,WINE-00449,red,Georgia,Kakheti,AOC,1996,Riesling,15.0,1.5,dry,high,medium,84,102.9,"Jones, Sullivan and Nixon",313
+450,WINE-00450,white,Georgia,Kakheti,DOCG,2020,"Merlot, Riesling",11.3,1.5,off-dry,high,medium,82,34.78,Johnston-Davis,750
+451,WINE-00451,red,France,Bordeaux,DOC,1997,Syrah,12.2,0.375,semi-sweet,medium,low,86,6.02,Smith and Sons,472
+452,WINE-00452,white,Italy,Veneto,IGP,2022,Syrah,11.0,0.75,dry,medium,high,93,94.96,Carney-Cain,230
+453,WINE-00453,red,Italy,Veneto,DOCG,2007,"Sauvignon Blanc, Sangiovese",12.0,0.75,dry,high,high,92,83.15,Miller-Richardson,598
+454,WINE-00454,rosé,Georgia,Kakheti,DOC,2016,"Sauvignon Blanc, Syrah",11.2,0.375,sweet,high,low,95,63.98,Decker LLC,121
+455,WINE-00455,sparkling,France,Provence,AOC,2015,Grenache,13.2,0.375,off-dry,medium,low,87,55.48,Donaldson Inc,650
+456,WINE-00456,sparkling,Italy,Piedmont,AOC,2009,"Cabernet Sauvignon, Sauvignon Blanc",14.2,1.5,off-dry,medium,low,82,11.53,Ray and Sons,80
+457,WINE-00457,rosé,Spain,Rioja,DOCG,1997,Merlot,14.3,0.375,semi-sweet,low,high,89,86.35,Kerr-Contreras,630
+458,WINE-00458,sparkling,USA,Willamette Valley,AOC,2009,Sangiovese,12.4,0.75,sweet,low,medium,85,49.33,Kidd-Harrell,204
+459,WINE-00459,sparkling,Spain,Priorat,IGP,2015,"Merlot, Cabernet Sauvignon",13.0,0.375,off-dry,medium,medium,97,37.48,"Peterson, Parker and Stewart",156
+460,WINE-00460,sparkling,Georgia,Kakheti,DOC,2012,"Syrah, Merlot",11.1,0.375,dry,high,medium,99,110.38,"Mckenzie, Wood and Horne",310
+461,WINE-00461,red,Georgia,Kakheti,AOC,2004,Sauvignon Blanc,13.3,0.375,sweet,medium,low,93,16.11,Long-Henderson,27
+462,WINE-00462,white,Italy,Umbria,AOC,2001,Sangiovese,13.7,0.375,off-dry,medium,medium,92,34.71,Patterson LLC,246
+463,WINE-00463,red,Spain,Rioja,AVA,2022,"Grenache, Cabernet Sauvignon",11.5,0.75,dry,high,high,84,72.99,"Jackson, Vargas and Solis",738
+464,WINE-00464,rosé,Spain,Priorat,DOC,2009,"Cabernet Sauvignon, Grenache",13.6,0.75,semi-sweet,high,high,94,15.75,Brown-Mullen,528
+465,WINE-00465,white,USA,Sonoma,DOCG,2011,Chardonnay,14.7,0.75,semi-sweet,medium,low,91,110.17,"Robbins, Collins and Conner",525
+466,WINE-00466,sparkling,Spain,Ribera del Duero,IGP,1999,"Tempranillo, Syrah",15.5,1.5,off-dry,high,low,80,35.34,"Joseph, Brown and Ramos",720
+467,WINE-00467,rosé,Italy,Veneto,AVA,2009,Sauvignon Blanc,11.8,1.5,dry,medium,high,81,27.03,"Whitehead, Benton and Turner",657
+468,WINE-00468,red,Georgia,Kakheti,DOC,2001,"Sauvignon Blanc, Tempranillo",12.7,1.5,semi-sweet,medium,high,96,51.58,"Delacruz, Perez and Bartlett",405
+469,WINE-00469,white,Italy,Sicily,AVA,1996,"Sangiovese, Riesling",14.8,0.375,dry,high,high,83,101.01,Terry Inc,800
+470,WINE-00470,sparkling,Spain,Priorat,DOCG,2020,"Tempranillo, Chardonnay",15.0,0.375,off-dry,low,low,82,107.7,Rush-Chapman,542
+471,WINE-00471,rosé,Italy,Sicily,AOC,2017,Pinot Noir,13.5,0.75,semi-sweet,medium,low,86,29.48,"Duran, Johnson and Simpson",12
+472,WINE-00472,sparkling,USA,Napa,IGP,2022,Riesling,13.8,0.375,dry,low,medium,86,33.42,"Moore, Friedman and Velez",607
+473,WINE-00473,sparkling,France,Beaujolais,AVA,2009,Syrah,12.3,0.375,semi-sweet,high,low,81,93.17,Brown-Woodard,605
+474,WINE-00474,sparkling,France,Languedoc,AVA,1999,Sauvignon Blanc,15.0,0.75,semi-sweet,medium,medium,83,27.81,"Smith, Lewis and Garcia",725
+475,WINE-00475,sparkling,Georgia,Kakheti,DOC,1996,"Tempranillo, Chardonnay",15.2,0.75,dry,low,medium,86,86.53,"Pineda, Byrd and Johnson",661
+476,WINE-00476,sparkling,Spain,Rias Baixas,AVA,2009,"Riesling, Tempranillo",14.4,0.75,dry,high,high,83,98.22,Brooks-Harvey,254
+477,WINE-00477,white,Italy,Piedmont,DOC,2005,"Chardonnay, Syrah",15.5,0.75,sweet,low,high,83,98.75,"Barker, Franco and Day",59
+478,WINE-00478,red,Italy,Sicily,AOC,2023,"Cabernet Sauvignon, Tempranillo",13.2,0.75,dry,medium,low,82,94.89,"Evans, Dean and Foster",600
+479,WINE-00479,rosé,USA,Napa,DOCG,1996,"Sauvignon Blanc, Tempranillo",13.9,1.5,dry,medium,low,97,95.82,"Simmons, Haas and Ruiz",441
+480,WINE-00480,rosé,Italy,Piedmont,AOC,2021,Merlot,11.2,0.75,sweet,high,medium,89,101.41,Reed PLC,599
+481,WINE-00481,rosé,USA,Willamette Valley,AOC,2014,"Grenache, Sauvignon Blanc",15.3,0.75,sweet,low,medium,81,52.1,"Cooper, Nichols and Garcia",104
+482,WINE-00482,sparkling,USA,Willamette Valley,AVA,2018,Merlot,13.7,0.75,dry,high,medium,99,73.97,Jones-Baker,684
+483,WINE-00483,white,France,Beaujolais,DOCG,2004,"Sauvignon Blanc, Merlot",13.8,1.5,dry,medium,medium,95,32.77,"Frederick, Fisher and Williams",580
+484,WINE-00484,red,USA,Willamette Valley,IGP,2014,"Sangiovese, Pinot Noir",14.3,0.75,dry,high,medium,99,7.59,"Williams, Ramos and Meza",328
+485,WINE-00485,red,France,Loire,DOC,2021,"Syrah, Sauvignon Blanc",12.0,1.5,semi-sweet,high,high,82,114.81,Browning Group,797
+486,WINE-00486,sparkling,France,Loire,AVA,2020,"Chardonnay, Pinot Noir",13.0,1.5,semi-sweet,medium,low,94,36.86,Sanchez-Evans,504
+487,WINE-00487,white,France,Burgundy,AOC,2005,"Sangiovese, Merlot",12.5,0.375,sweet,low,medium,95,85.89,"Decker, Mclaughlin and Johnston",594
+488,WINE-00488,white,France,Beaujolais,IGP,2023,Syrah,15.2,0.75,off-dry,low,low,86,17.13,Rogers-Jones,784
+489,WINE-00489,rosé,Italy,Sicily,DOC,2017,Chardonnay,14.1,1.5,off-dry,high,high,92,37.42,Morales-Cross,257
+490,WINE-00490,white,Georgia,Kakheti,AVA,2017,"Pinot Noir, Syrah",14.1,1.5,dry,low,medium,78,40.92,Pruitt Ltd,100
+491,WINE-00491,white,Spain,Priorat,IGP,2006,Merlot,12.8,0.375,off-dry,low,low,78,16.41,"Pratt, Parker and Williams",683
+492,WINE-00492,white,USA,Napa,DOC,2015,"Cabernet Sauvignon, Sauvignon Blanc",13.0,0.375,sweet,medium,low,85,73.0,Turner-Hess,446
+493,WINE-00493,rosé,Spain,Priorat,DOC,2008,"Merlot, Grenache",12.3,1.5,dry,low,medium,88,56.65,Owen-Martinez,192
+494,WINE-00494,sparkling,USA,Sonoma,AVA,2009,Merlot,11.3,0.75,sweet,medium,medium,86,51.04,Ward PLC,237
+495,WINE-00495,sparkling,Georgia,Kakheti,DOC,2023,Riesling,12.7,0.75,sweet,high,low,95,78.57,Carr Inc,758
+496,WINE-00496,white,France,Alsace,DOCG,2004,"Sangiovese, Pinot Noir",12.5,0.75,semi-sweet,high,medium,97,115.94,"Martin, Dennis and Lewis",142
+497,WINE-00497,red,Italy,Veneto,IGP,2022,Grenache,13.4,0.75,semi-sweet,low,medium,78,59.4,Matthews Group,420
+498,WINE-00498,red,Italy,Tuscany,DOC,2008,"Sauvignon Blanc, Syrah",12.7,1.5,sweet,high,medium,89,50.36,Simpson-Aguilar,231
+499,WINE-00499,red,France,Champagne,AVA,2013,"Sauvignon Blanc, Chardonnay",12.9,0.375,off-dry,high,high,94,67.87,Hernandez-Moore,436
+500,WINE-00500,sparkling,Spain,Rias Baixas,DOCG,2010,"Riesling, Cabernet Sauvignon",13.5,0.375,dry,low,low,89,39.98,Flores Inc,80
